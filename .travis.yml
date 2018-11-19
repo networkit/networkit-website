@@ -1,0 +1,36 @@
+language: generic
+
+matrix:
+  include:
+    - name: Website
+      os: linux
+      addons:
+        apt:
+          packages:
+            - python3-pip
+            - python3.4-venv
+
+script:
+  - python3 -m venv pyenv && . pyenv/bin/activate
+  - pip3 install --upgrade pip
+  # sphinx_bootstrap_theme is required to build the website.
+  - pip3 install sphinx sphinx_bootstrap_theme
+  - mkdir core_build && cd "$_"
+  - cmake ..
+  - make
+  - touch www/.nojekyll
+  - rm -rf www/{.buildinfo,.doctrees}
+
+#deploy:
+#  provider: pages
+#  skip-cleanup: true
+#  github-token: $SECRET_DEPLOY_GITHUB_PAGES
+#  local-dir: build/www
+#  repo: networkit/networkit.github.io
+#  target-branch: master
+#  on:
+#	branch: master
+
+notifications:
+  email: false
+
