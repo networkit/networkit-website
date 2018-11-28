@@ -41,9 +41,9 @@
 
           <div style="padding-top: 15px">Download the <a href="http://arxiv.org/pdf/1403.3005v3.pdf">Technical Report</a></div>
 
-          <div style="padding-top: 15px;"> <div style="float: left;">Mailing List</div> <div><a style="padding-left: 10px" href="https://lists.uni-koeln.de/mailman/listinfo/networkit"><img style="padding-bottom:2px" src="_static/mailinglist.png"></a> </div> </div>
+          <div style="padding-top: 15px;"> <div style="float: left;">Mailing List</div> <div><a style="padding-left: 10px" href="https://sympa.cms.hu-berlin.de/sympa/subscribe/networkit"><img style="padding-bottom:2px" src="_static/mailinglist.png"></a> </div> </div>
 
-          <div style="padding-top: 15px">View the <a href="https://lists.uni-koeln.de/pipermail/networkit/">mailing list archive</a></div>
+          <div style="padding-top: 15px">View the <a href="https://sympa.cms.hu-berlin.de/sympa/arc/networkit">mailing list archive</a></div>
 
           <div style="padding-top: 15px"><a href="http://nbviewer.ipython.org/urls/networkit.github.io/uploads/docs/NetworKit_UserGuide.ipynb">NetworKit UserGuide</a></div>
 
