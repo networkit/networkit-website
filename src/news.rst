@@ -14,6 +14,25 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+December 19, 2018: **NetworKit 5.0 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Major features:
+
+- New algorithm for approximating of the betweenness centrality of all the nodes of a graph or of the top-k nodes with highest betweenness centrality based on: "KADABRA is an ADaptive Algorithm for Betweenness via Random Approximation", M. Borassi, E. Natale. Presented at ESA 2016.
+- New Mocnik graph generator based on: "Modelling Spatial Structures", F.B. Mocnik, A. Frank. Presented at COSIT 2015.
+- New build system based on CMake.
+- Support for C++ build on Windows.
+
+Minor changes:
+
+- Parallel Erdos Reny graph generator.
+- NetworKit installation via pip: missing packages will be automatically downloaded.
+- Partition: equality between partitions can be quickly checked via hashing.
+- Closeness: generalized definition of Closeness centrality so it can be computed also on disconnected graphs.
+- Aux::PrioQueue allows read access to its elements via iterators.
+- Graph class: new reductions allow to compute the maximum (weighted) degree of a graph in parallel.
+
 June 25, 2018: **NetworKit 4.6 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Today we announce the next version of NetworKit, the open-source toolkit for large-scale network analysis.
@@ -52,7 +71,6 @@ Major:
 - Dynamic algorithm for updating the betweenness of a single node faster than updating it for all nodes (based on “Improving the betweenness centrality of a node by adding links”, E. Bergamini, P. Crescenzi, G. D’Angelo, H. Meyerhenke, L. Severini and Y. Velaj. Accepted by JEA).
 - Dynamic algorithm for keeping track of k nodes with highest closeness centrality (based on “Computing Top-k Closeness Centrality in Fully-dynamic Graphs”, P. Bisenius, E. Bergamini, E. Angriman and H. Meyerhenke. To appear at ALENEX 2018).
 
-    
 Minor:
 
 - Dynamic algorithm for updating the weakly connected components of a directed graph after edge additions or removals.
@@ -74,7 +92,7 @@ Major:
 - Dynamic algorithm for updating connected components in undirected graphs (components.DynConnectedComponents)
 - Algorithm for computing the weakly connected components in directed graphs (components.WeaklyConnectedComponents)
 - Enumeration of all simple paths between two nodes, up to a user-specified threshold (distance.AllSimplePaths)
-    
+
 Minor:
 
 - Improved documentation
