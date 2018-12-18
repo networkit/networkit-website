@@ -14,6 +14,31 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+June 25, 2018: **NetworKit 4.6 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Today we announce the next version of NetworKit, the open-source toolkit for large-scale network analysis.
+NetworKit is a Python package, with performance-critical algorithms implemented in C++/OpenMP.
+
+**Release notes**
+
+Major features:
+
+- Dynamic algorithm for keeping track of k nodes with highest closeness centrality (based on “Computing Top-k Closeness Centrality in Fully-dynamic Graphs”, P. Bisenius, E. Bergamini, E. Angriman and H. Meyerhenke. Presented at ALENEX 2018).
+- Dynamic algorithm to keep track of k nodes with highest Katz centrality (based on “Scalable Katz Ranking Computation in Large Static and Dynamic Graphs”, A. van der Grinten, E. Bergamini, O. Green, D. A. Bader and H. Meyerhenke.).
+- Curveball graph randomization algorithm based on “Parallel and I/O-efficient Randomisation of Massive Networks using Global Curveball Trades”, C. J. Carstens, M. Hamann, U. Meyer, M. Penschuck, H. Tran and D. Wagner.
+- Algorithm for finding the group of nodes with highest betweenness centrality (based  on “Scalable Betweenness Centrality Maximization via Sampling”, A. Mahmoody, C. E. Tsourakakis, E. Upfal).
+- Algorithm for finding the group of nodes with highest group degree based on the definition in “The Centrality of Groups and Classes”, M.G. Everett, S.P. Borgatti.
+- Algorithm for finding all the biconnected components of a graph based on “Algorithm 447: efficient algorithms for graph manipulation”, J. Hopcroft, R. Tarjan.
+- Support for binary graph I/O: Support for graphs exported by Thrill (see https://github.com/thrill/thrill), and Implementation of binary partition readers and writers that are potentially faster than their text-based counterparts.
+
+Minor changes:
+
+- All algorithms for finding the top-k (harmonic) closeness can also return all the nodes whose centrality is equal to the k-th highest. This behaviour can be triggered by parameter passed in the constructor of the class.
+- Faster KONECT and SNAP graph readers: roughly 2x speedup on the previous readers.
+- Greatly improved running time of NetworKit’s unit tests.
+- Size reduction of the “input” folder. In case of space constraints, we suggest to do a shallow clone of the NetworKit repository: git clone --depth=1 http://github.com/kit-parco/networkit
+
+
 December 14, 2017: **NetworKit 4.5 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -23,9 +48,9 @@ Today we announce the next version of NetworKit, the open-source toolkit for lar
 
 Major:
 
-- Algorithm for finding the group of nodes with highest closeness centrality (based on “Scaling up Group Closeness Maximization”, E. Bergamini, T. Gonser and H. Meyerhenke. To appear at ALENEX 2018)
-- Dynamic algorithm for updating the betweenness of a single node faster than updating it for all nodes (based on “Improving the betweenness centrality of a node by adding links”, E. Bergamini, P. Crescenzi, G. D’Angelo, H. Meyerhenke, L. Severini and Y. Velaj. Accepted by JEA)
-- Dynamic algorithm for keeping track of k nodes with highest closeness centrality (based on “Computing Top-k Closeness Centrality in Fully-dynamic Graphs”, P. Bisenius, E. Bergamini, E. Angriman and H. Meyerhenke. To appear at ALENEX 2018)
+- Algorithm for finding the group of nodes with highest closeness centrality (based on “Scaling up Group Closeness Maximization”, E. Bergamini, T. Gonser and H. Meyerhenke. To appear at ALENEX 2018).
+- Dynamic algorithm for updating the betweenness of a single node faster than updating it for all nodes (based on “Improving the betweenness centrality of a node by adding links”, E. Bergamini, P. Crescenzi, G. D’Angelo, H. Meyerhenke, L. Severini and Y. Velaj. Accepted by JEA).
+- Dynamic algorithm for keeping track of k nodes with highest closeness centrality (based on “Computing Top-k Closeness Centrality in Fully-dynamic Graphs”, P. Bisenius, E. Bergamini, E. Angriman and H. Meyerhenke. To appear at ALENEX 2018).
 
     
 Minor:
