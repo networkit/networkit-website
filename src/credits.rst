@@ -16,7 +16,6 @@ It was seeded by the project `Parallel analysis of dynamic networks -- Algorithm
 financial support by MWK Baden-Württemberg. In this project Henning Meyerhenke was the principal investigator and Christian L. Staudt was the main PhD student. Since NetworKit's start in 2013, it has grown well
 beyond the original MWK project and our group, with contributors and users from all over the world.
 
-
 Maintainers
 ~~~~~~~~~~~
 
@@ -49,18 +48,24 @@ Contributors
 - Daniel Hoske
 - Gerd Lindner
 - Moritz v. Looz
+- Sarah Lutteropp
 - Yassine Marrakchi
+- Marc Nemes
 - Franz-Benjamin Mocnik
 - Mustafa Özdayi
+- Manuel Penschuck
+- Marvin Pogoda
 - Marcel Radermacher
 - Klara Reichard
 - Matteo Riondato
 - Marvin Ritter
 - Aleksejs Sazonovs
 - Arie Slobbe
+- Hung Tran
 - Florian Weber
 - Michael Wegner
 - Jörg Weisbarth
+- David Weiss
 
 
 External Code
