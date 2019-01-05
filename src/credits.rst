@@ -27,6 +27,8 @@ Past Maintainers
 ~~~~~~~~~~~~~~~~
 
 - Christian L. Staudt
+- Elisabetta Bergamini
+- Kolja Esders
 - Maximilian Vogel
 
 Contributors
@@ -34,14 +36,12 @@ Contributors
 
 - Lukas Barth
 - Miriam Beddig
-- Elisabetta Bergamini
 - Stefan Bertsch
 - Pratistha Bhattarai
 - Andreas Bilke
 - Simon Bischof
 - Guido Brückner
 - Mark Erb
-- Kolja Esders
 - Patrick Flick
 - Michael Hamann
 - Lukas Hartmann
