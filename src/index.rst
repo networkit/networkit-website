@@ -12,21 +12,8 @@
 
 .. raw:: html
 
-          <p style="text-align: left; font-size:14pt; padding-top: 15px;">Latest News</p>
           <div style="float: left; display: table-cell; width: 80%; padding-right: 30px">
-
-:ref:`news-1`
-
-.. raw:: html
-
           </div>
-
-          <div style="display: table-cell; width: 20%; padding-left: 30px">
-            <p style="word-break: normal">
-              <a href="news.html">All News</a>
-            </p>
-          </div>
-
         </div>
         <div class="Downloads" style="display: table-cell; width: 33.33%; padding-left: 30px">
           <div>Clone from GitHub</div>
