@@ -49,6 +49,52 @@ Publications on Algorithms Available in NetworKit
 
   <ul>
   <li>
+  A.v.d. Grinten, E. Bergamini, O. Green, D. A. Bader, H. Meyerhenke:
+  Scalable Katz Ranking Computation in Large Static and Dynamic Graphs.
+  In <i>26th Annual European Symposium on Algorithms</i> (ESA 2018)
+  [<a href="https://arxiv.org/abs/1807.03847">arXiv</a>]
+  [<a href="http://drops.dagstuhl.de/opus/volltexte/2018/9505/">DOI: 10.4230/LIPIcs.ESA.2018.42</a>]
+  <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv">
+  </button>
+  <div id="collapseDiv" class="collapse">
+  <b>Abstract.</b>
+  Network analysis defines a number of centrality measures to identify the most central nodes in a network. Fast computation of those measures is a major challenge in algorithmic network analysis. Aside from closeness and betweenness, Katz centrality is one of the established centrality measures. In this paper, we consider the problem of computing rankings for Katz centrality. In particular, we propose upper and lower bounds on the Katz score of a given node. While previous approaches relied on numerical approximation or heuristics to compute Katz centrality rankings, we construct an algorithm that iteratively improves those upper and lower bounds until a correct Katz ranking is obtained. We extend our algorithm to dynamic graphs while maintaining its correctness guarantees. Experiments demonstrate that our static graph algorithm outperforms both numerical approaches and heuristics with speedups between 1.5 x and 3.5 x, depending on the desired quality guarantees. Our dynamic graph algorithm improves upon the static algorithm for update batches of less than 10000 edges. We provide efficient parallel CPU and GPU implementations of our algorithms that enable near real-time Katz centrality computation for graphs with hundreds of millions of nodes in fractions of seconds.
+  </div>
+  </li>
+
+  <br>
+
+  <li>
+    C. J. Carstens, M. Hamann, U. Meyer, M. Penschuck, H. Tran, D. Wagner:
+    Parallel and I/O-efficient Randomisation of Massive Networks using Global Curveball Trades.
+    In <i>26th Annual European Symposium on Algorithms</i> (ESA 2018)
+    [<a href="https://arxiv.org/abs/1804.08487">arXiv</a>]
+    [<a href="http://drops.dagstuhl.de/opus/volltexte/2018/9474/">DOI: 10.4230/LIPIcs.ESA.2018.11</a>]
+    <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv">
+    </button>
+    <div id="collapseDiv" class="collapse">
+    <b>Abstract.</b>
+    Graph randomisation is a crucial task in the analysis and synthesis of networks. It is typically implemented as an edge switching process (ESMC) repeatedly swapping the nodes of random edge pairs while maintaining the degrees involved [Mihail and Zegura, 2003]. Curveball is a novel approach that instead considers the whole neighbourhoods of randomly drawn node pairs. Its Markov chain converges to a uniform distribution, and experiments suggest that it requires less steps than the established ESMC [Carstens et al., 2016]. Since trades however are more expensive, we study Curveball's practical runtime by introducing the first efficient Curveball algorithms: the I/O-efficient EM-CB for simple undirected graphs and its internal memory pendant IM-CB. Further, we investigate global trades [Carstens et al., 2016] processing every node in a single super step, and show that undirected global trades converge to a uniform distribution and perform superior in practice. We then discuss EM-GCB and EM-PGCB for global trades and give experimental evidence that EM-PGCB achieves the quality of the state-of-the-art ESMC algorithm EM-ES [M. Hamann et al., 2017] nearly one order of magnitude faster.
+    </div>
+  </li>
+
+  <br>
+
+  <li>
+  F.B. Mocnik: The Polynomial Volume Law of Complex Networks in the Context of Local and Global Optimization.
+  In <i>Scientific Reports</i>, volume 8, Article number: 11274 (2018).
+  [<a href="https://doi.org/10.1038/s41598-018-29131-0">DOI: 10.1038/s41598-018-29131-0</a>]
+  <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv">
+  </button>
+  <div id="collapseDiv" class="collapse">
+  <b>Abstract.</b>
+  Many complex networks expose global hub structures: for some nodes, the number of incident edges far exceeds the average, leading to a small average shortest path length. Such ‘small-world properties’ are often guided by a scale-free power-law distribution of the node degrees, and self-organization inside the network has been identified as a reason driving the emergence of this structure. Small-world networks have recently raised lots of interest, because they capture the global topology of the World-Wide Web, metabolic, and social networks. While small-world networks reflect global structures, little attention is paid to the local structure of complex networks. In this article neighbourhoods are demonstrated to share a common local structure in many real complex networks, manifested by a polynomial volume law. This law can, in case of networks that are embedded in space, be explained in terms of the embedding and the properties of Euclidean space. A model of hierarchical spatial networks is introduced to examine the effect of global structures, in particular of hierarchies, on the polynomial volume law. It turns out that the law is robust against the coexistence of such global structures. The local structure of space and global optimization can both be found in transport, brain, and communication networks, which suggests the polynomial volume law, often in combination with hierarchies or other global optimization principles, to be a generic property inherent to many networks.
+  </div>
+  </li>
+
+   <br>
+
+  <li>
     P. Bisenius, E. Bergamini, E. Angriman, H. Meyerhenke: Computing Top-k Closeness Centrality in Fully-dynamic Graphs. In <i>Proc. 20th SIAM Workshop on Algorithm Engineering & Experiments</i> (ALENEX 2018)
       [<a href="https://arxiv.org/abs/1710.01143">arXiv</a>]
        [<a href="http://epubs.siam.org/doi/10.1137/1.9781611975055.3">DOI: 10.1137/1.9781611975055.3</a>]
@@ -92,7 +138,7 @@ Publications on Algorithms Available in NetworKit
   <br>
 
     <li>
-      M. von Looz, M. Özdayi, S. Laue, H. Meyerhenke:  Generating massive complex networks with hyperbolic geometry faster in practice. In Proc. <i><a href="http://ieee-hpec.org/">HPEC</a> '16</i>. IEEE, 2016. [<a href="http://arxiv.org/abs/1606.09481">arXiv</a>]  
+      M. von Looz, M. Özdayi, S. Laue, H. Meyerhenke:  Generating massive complex networks with hyperbolic geometry faster in practice. In Proc. <i><a href="http://ieee-hpec.org/">HPEC</a> '16</i>. IEEE, 2016. [<a href="http://arxiv.org/abs/1606.09481">arXiv</a>]
       <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv"></button>
       <div id="collapseDiv" class="collapse">
         <b>Abstract.</b> Generative network models play an important role in algorithm development, scaling studies, network analysis, and realistic system benchmarks for graph data sets.   The commonly used graph-based benchmark model R-MAT has some drawbacks concerning realism and the scaling behavior of network properties.
@@ -355,7 +401,7 @@ Publications Using NetworKit
       In <i>Proc. 25th European Symposium on Algorithms</i> (ESA 2017). [<a href="https://arxiv.org/abs/1706.06805">arXiv</a>]
        <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv"></button>
        <div id="collapseDiv" class="collapse">
-         <b>Abstract</b> Knowing a biomolecule's structure is inherently linked to and a prerequisite for any detailed understanding of its function. Significant effort has gone into developing technologies for structural characterization. These technologies do not directly provide 3D structures; instead they typically yield noisy and erroneous distance information between specific entities such as atoms or residues, which have to be translated into consistent 3D models. 
+         <b>Abstract</b> Knowing a biomolecule's structure is inherently linked to and a prerequisite for any detailed understanding of its function. Significant effort has gone into developing technologies for structural characterization. These technologies do not directly provide 3D structures; instead they typically yield noisy and erroneous distance information between specific entities such as atoms or residues, which have to be translated into consistent 3D models.
         <br>
         Here we present an approach for this translation process based on maxent-stress optimization. Our new approach extends the original graph drawing method for the new application's specifics by introducing additional constraints and confidence values as well as algorithmic components. Extensive experiments demonstrate that our approach infers structural models (i. e., sensible 3D coordinates for the molecule's atoms) that correspond well to the distance information, can handle noisy and error-prone data, and is considerably faster than established tools. Our results promise to allow domain scientists nearly-interactive structural modeling based on distance constraints.
        </div>
