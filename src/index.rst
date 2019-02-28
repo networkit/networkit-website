@@ -32,7 +32,7 @@
 
           <div style="padding-top: 15px">View the <a href="https://sympa.cms.hu-berlin.de/sympa/arc/networkit">mailing list archive</a></div>
 
-          <div style="padding-top: 15px"><a href="http://nbviewer.ipython.org/urls/networkit.github.io/uploads/docs/NetworKit_UserGuide.ipynb">NetworKit UserGuide</a></div>
+          <div style="padding-top: 15px"><a href="https://github.com/kit-parco/networkit/blob/Dev/notebooks/User-Guide.ipynb">NetworKit User Guide</a></div>
 
         </div>
       </div>
