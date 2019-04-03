@@ -47,7 +47,7 @@ menu bar.
 The current version of NetworKit is preinstalled and can be found in the folder linked on the desktop. Now you can continue
 to read our `Get Started <get_started.html>`_ guide to see how to build the C++ part of NetworKit if you want to develop new
 algorithms or to see how you can use NetworKit with IPython. Make sure to check out the
-`NetworKit UserGuide <http://nbviewer.ipython.org/urls/networkit.github.io/uploads/docs/NetworKit_UserGuide.ipynb>`_ to see usage
+`NetworKit UserGuide <https://github.com/kit-parco/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_ to see usage
 examples.
 
 

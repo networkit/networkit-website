@@ -212,7 +212,7 @@ centrality module
 generator module:
 
 -  generator.HyperbolicGenerator: a fast parallel generator for complex
-   netwoks based on hyperbolic geometry (Looz, Meyerhenke, Prutkin '15:
+   networks based on hyperbolic geometry (Looz, Meyerhenke, Prutkin '15:
    Random Hyperbolic Graphs in Subquadratic Time)
 
 |  
@@ -267,7 +267,7 @@ centrality module:
 May 9, 2016: **NetworKit journal paper accepted at Network Science**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Our paper describing NetworKit as a toolkit for large-scale complex network analysis has been accepted by the Cambride University Press journal Network Science. |br| |br|
+Our paper describing NetworKit as a toolkit for large-scale complex network analysis has been accepted by the Cambridge University Press journal Network Science. |br| |br|
 
 
 
@@ -295,9 +295,7 @@ Our paper on finding the top-k nodes with highest closeness centrality with Netw
 Nov 10, 2015: **NetworKit 4.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We have just released NetworKit 4.0. Apart from several improvements to algorithms and architecture, the main feature of this release is a new front end for exploratory network analysis, which is described here:
-
-http://nbviewer.ipython.org/urls/networkit.github.io/data/uploads/docs/Profiling.ipynb
+We have just released NetworKit 4.0. Apart from several improvements to algorithms and architecture, the main feature of this release is a new front end for exploratory network analysis.
 
 The new version is now available from the Python Package index. Try upgrading with
 :code:`pip3 install —upgrade networkit` |br| |br|
@@ -501,7 +499,7 @@ Version 3.1 is an incremental update to our tool suite for high-performance netw
 Mar 13, 2014: **NetworKit 3.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-NetworKit 3.0 is the next major release of our open-source tookit for high-performance network analysis. Since the last release in November, NetworKit has received several improvements under the hood as well as an extension of the feature set. What started as a testbed for parallel community detection algorithms has evolved into a diverse set of tools that make it easy to characterize complex networks. This has been successfully scaled to large data sets with up to several billions of edges.
+NetworKit 3.0 is the next major release of our open-source toolkit for high-performance network analysis. Since the last release in November, NetworKit has received several improvements under the hood as well as an extension of the feature set. What started as a testbed for parallel community detection algorithms has evolved into a diverse set of tools that make it easy to characterize complex networks. This has been successfully scaled to large data sets with up to several billions of edges.
 
 This being an open-source project, we are very interested in incorporating feedback from data analysts and algorithm engineers. Feel free to contact us with any question on how NetworKit could be applied in your field of research. |br| |br|
 
