@@ -10,8 +10,6 @@ Get Started
 
 Take a look at `Installation`_ or `Build NetworKit from Source`_ in order to install NetworKit as a Python3 package or directly build it from source.
 
-In case you would like to test networkit without any installation or are on Windows 8 and below, we recommend the download of our preconfigured `Virtual Machine`_.
-
 With NetworKit as a Python extension module, you get access to native high-performance code and can at the same time work interactively in the Python ecosystem.
 Although the standard Python interpreter works fine, we recommend `IPython <http://ipython.readthedocs.org/en/stable/>`_ as a great environment for scientific
 workflows. View the `IPython Quickstart Guide`_ for installation instructions and how to use NetworKit with IPython.
@@ -108,16 +106,7 @@ The remainder of the installation is similar to the installation process on Linu
 Windows 8 and below
 ^^^^^^^^^^^^^^^^^^^
 
-There is currently no official support for Windows 8 and below. We recommend the use of our virtual machine which comes pre-installed with NetworKit and useful tools. See `Virtual Machine`_ for more details.
-
-.. _Virtual Machine:
-
-Virtual Machine
----------------
-
-The virtual machine is based on Ubuntu 16.04 and comes pre-installed with NetworKit and other useful tools. Take a look at our `installation guide <https://networkit.github.io/networkit-vm_guide.html>`_ for further instructions on installing the virtual machine on your system.
-
-It can be downloaded `here <https://networkit.github.io/uploads/networkit-vm.zip>`_.
+There is currently no official support for Windows 8 and below.
 
 |separator|
 
