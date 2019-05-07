@@ -117,7 +117,7 @@ Build NetworKit from Source
 
 You can clone NetworKit from `GitHub <https://github.com/kit-parco/networkit>`_ with git or download the source code as a `zip file <https://github.com/kit-parco/networkit/archive/master.zip>`_.
 
-For further information, we refer to the `README file <https://github.com/kit-parco/networkit#installation-instructions>` of our GitHub repository, which contains instructions for building NetworKit from source.
+For further information, we refer to the `README file <https://github.com/kit-parco/networkit#installation-instructions>`_ of our GitHub repository, which contains instructions for building NetworKit from source.
 
 |separator|
 
