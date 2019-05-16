@@ -49,6 +49,21 @@ Publications on Algorithms Available in NetworKit
 
   <ul>
   <li>
+  A.v.d. Grinten, E. Angriman, H. Meyerhenke:
+  Parallel Adaptive Sampling with almost no Synchronization.
+  In <i>Euro-Par 2019</i>
+  [<a href="https://arxiv.org/abs/1903.09422">arXiv</a>]
+  <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv">
+  </button>
+  <div id="collapseDiv" class="collapse">
+  <b>Abstract.</b>
+  Approximation via sampling is a widespread technique whenever exact solutions are too expensive. In this paper, we present techniques for an efficient parallelization of adaptive (a. k. a. progressive) sampling algorithms on multi-threaded shared-memory machines. Our basic algorithmic technique requires no synchronization except for atomic load-acquire and store-release operations. It does, however, require O(n) memory per thread, where n is the size of the sampling state. We present variants of the algorithm that either reduce this memory consumption to O(1) or ensure that deterministic results are obtained. Using the KADABRA algorithm for betweenness centrality (a popular measure in network analysis) approximation as a case study, we demonstrate the empirical performance of our techniques. In particular, on a 32-core machine, our best algorithm is 2.9x faster than what we could achieve using a straightforward OpenMP-based parallelization and 65.3x faster than the existing implementation of KADABRA.
+
+  </div>
+  </li>
+
+  <br>
+  <li>
   A.v.d. Grinten, E. Bergamini, O. Green, D. A. Bader, H. Meyerhenke:
   Scalable Katz Ranking Computation in Large Static and Dynamic Graphs.
   In <i>26th Annual European Symposium on Algorithms</i> (ESA 2018)
