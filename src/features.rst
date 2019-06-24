@@ -42,7 +42,7 @@ Degree Distribution
 ^^^^^^^^^^^^^^^^^^^
 Empirically observed complex networks tend to show a heavy tailed degree distribution which follow a power-law with a characteristic exponent. NetworKit provides functions to analyze the
 degree distribution of a network. For details visit the
-`Degree Distribution <https://github.com/kit-parco/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_ Section of the User Guide. The algorithm runs in :math:`O(n)`.
+`Degree Distribution <https://github.com/networkit/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_ Section of the User Guide. The algorithm runs in :math:`O(n)`.
 
 (Degree) Assortativity
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -62,17 +62,17 @@ Clustering Coefficients
 
 Clustering coefficients are key figures for the amount of transitivity in networks. NetworKit provides functions for both the global clustering coefficient as well as the local clustering
 coefficient. NetworKit implements the wedge sampling approximation algorithm. It runs in essentially linear or even constant time, depending on the respective measure. For details on the
-usage visit the `Clustering Coefficient <https://github.com/kit-parco/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_
+usage visit the `Clustering Coefficient <https://github.com/networkit/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_
 Section of the User Guide.
 
 Components and Cores
 ^^^^^^^^^^^^^^^^^^^^
 
 We compute connected components in linear time using a parallel label propagation scheme in which each node adopts the maximum label in its neighborhood. Take a look at
-the `Connected Components <https://github.com/kit-parco/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_ Section in the User Guide.
+the `Connected Components <https://github.com/networkit/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_ Section in the User Guide.
 
 The core decomposition algorithm implemented in NetworKit uses a bucket data structure for managing remaining node degrees and has a running time which is linear
-in the number of edges. Visit the `Core Decomposition <https://github.com/kit-parco/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_
+in the number of edges. Visit the `Core Decomposition <https://github.com/networkit/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_
 Section of the User Guide for usage details.
 
 Centrality

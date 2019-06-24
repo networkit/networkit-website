@@ -17,7 +17,7 @@
         </div>
         <div class="Downloads" style="display: table-cell; width: 33.33%; padding-left: 30px">
           <div>Clone from GitHub</div>
-          <span style="display: block;overflow: hidden;"><input onClick="this.setSelectionRange(0, this.value.length)" style="width: 100%" type="text" value="git clone https://github.com/kit-parco/networkit.git" readonly=""/></span>
+          <span style="display: block;overflow: hidden;"><input onClick="this.setSelectionRange(0, this.value.length)" style="width: 100%" type="text" value="git clone https://github.com/networkit/networkit.git" readonly=""/></span>
 
           <div style="padding-top: 15px">Install via pip3</div>
           <span style="display: block;overflow: hidden;"><input onClick="this.setSelectionRange(0, this.value.length)" style="width: 100%" type="text" value="pip3 install networkit" readonly=""/></span>
@@ -32,7 +32,7 @@
 
           <div style="padding-top: 15px">View the <a href="https://sympa.cms.hu-berlin.de/sympa/arc/networkit">mailing list archive</a></div>
 
-          <div style="padding-top: 15px"><a href="https://github.com/kit-parco/networkit/blob/Dev/notebooks/User-Guide.ipynb">NetworKit User Guide</a></div>
+          <div style="padding-top: 15px"><a href="https://github.com/networkit/networkit/blob/Dev/notebooks/User-Guide.ipynb">NetworKit User Guide</a></div>
 
         </div>
       </div>

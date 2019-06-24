@@ -55,7 +55,7 @@ Minor changes:
 - All algorithms for finding the top-k (harmonic) closeness can also return all the nodes whose centrality is equal to the k-th highest. This behaviour can be triggered by parameter passed in the constructor of the class.
 - Faster KONECT and SNAP graph readers: roughly 2x speedup on the previous readers.
 - Greatly improved running time of NetworKit’s unit tests.
-- Size reduction of the “input” folder. In case of space constraints, we suggest to do a shallow clone of the NetworKit repository: git clone --depth=1 http://github.com/kit-parco/networkit
+- Size reduction of the “input” folder. In case of space constraints, we suggest to do a shallow clone of the NetworKit repository: git clone --depth=1 http://github.com/networkit/networkit
 
 
 December 14, 2017: **NetworKit 4.5 released**
@@ -76,7 +76,7 @@ Minor:
 - Dynamic algorithm for updating the weakly connected components of a directed graph after edge additions or removals.
 - Official support for Windows 10. Take a look at the `Get Started guide <https://networkit.github.io/get_started.html>`_ for further instructions.
 - Support for SCons3. There are no more dependencies on Python 2 if you decide to use SCons3 with Python 3.
-- Improved include of external libraries. These can now simply be specified in the build.conf file. See `Pull Request #58 <https://github.com/kit-parco/networkit/pull/58>`_ for further details.
+- Improved include of external libraries. These can now simply be specified in the build.conf file. See `Pull Request #58 <https://github.com/networkit/networkit/pull/58>`_ for further details.
 
 
 September 06, 2017: **NetworKit 4.4 released**
@@ -147,7 +147,7 @@ February 25, 2017: **Migration to GitHub**
 The NetworKit team is happy to announce that the NetworKit project has been successfully migrated to GitHub. Please join
 us on
 
-https://github.com/kit-parco/networkit
+https://github.com/networkit/networkit
 
 We believe the migration will make it easier for developers to contribute to the project and we hope to bring the advantages of efficient large-scale network analysis to even more people.
 
