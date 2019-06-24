@@ -15,7 +15,7 @@ Although the standard Python interpreter works fine, we recommend `IPython <http
 workflows. View the `IPython Quickstart Guide`_ for installation instructions and how to use NetworKit with IPython.
 
 Once you have installed NetworKit, please make sure to check out our
-`NetworKit UserGuide <https://github.com/kit-parco/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_ for an overview of the features provided
+`NetworKit UserGuide <https://github.com/networkit/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_ for an overview of the features provided
 in NetworKit.
 
 |separator|
@@ -115,9 +115,9 @@ There is currently no official support for Windows 8 and below.
 Build NetworKit from Source
 ===========================
 
-You can clone NetworKit from `GitHub <https://github.com/kit-parco/networkit>`_ with git or download the source code as a `zip file <https://github.com/kit-parco/networkit/archive/master.zip>`_.
+You can clone NetworKit from `GitHub <https://github.com/networkit/networkit>`_ with git or download the source code as a `zip file <https://github.com/networkit/networkit/archive/master.zip>`_.
 
-For further information, we refer to the `README file <https://github.com/kit-parco/networkit#installation-instructions>`_ of our GitHub repository, which contains instructions for building NetworKit from source.
+For further information, we refer to the `README file <https://github.com/networkit/networkit#installation-instructions>`_ of our GitHub repository, which contains instructions for building NetworKit from source.
 
 |separator|
 
@@ -142,7 +142,7 @@ If you want to use NetworKit in the IPython terminal, type the following command
 	from networkit import *
 
 The first line opens the IPython terminal. The second line imports the *networkit* Python module. After that, you should be able to use NetworKit interactively.
-For usage examples, refer to the `NetworKit UserGuide <https://github.com/kit-parco/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_.
+For usage examples, refer to the `NetworKit UserGuide <https://github.com/networkit/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_.
 
 IPython Notebook/Jupyter
 ------------------------
