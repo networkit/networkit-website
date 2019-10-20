@@ -49,7 +49,45 @@ Publications on Algorithms Available in NetworKit
 
   <ul>
   <li>
-  E. Angriman, A.v.d. Grinten, Aleksandar Bojchevski, Daniel Zügner, Stephan Günnemann, H. Meyerhenke:
+  E. Angriman, A. van der Grinten, H. Meyerhenke:
+  Local Search for Group Closeness Maximization on Big Graphs
+  In <i>Proc. 2019 IEEE International Conference on Big Data.</i> (BigData 2019)
+
+  <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv">
+  </button>
+  <div id="collapseDiv" class="collapse">
+  <b>Abstract.</b>
+    In network analysis and graph mining, closeness centrality is a popular measure to infer the
+    importance of a vertex. Computing closeness efficiently for individual vertices
+    received considerable attention. The NP-hard problem of <i>group closeness maximization</i>,
+    in turn, is more challenging: the objective is to find a vertex <i>group</i> that is central
+    <i>as a whole</i> and state-of-the-art heuristics for it do not scale to
+    very big graphs yet.
+
+    In this paper, we present new local search heuristics
+    for group closeness maximization.
+    By using randomized approximation techniques and dynamic data structures,
+    our algorithms are often able to perform locally optimal decisions efficiently.
+    The final result is a group with high (but not optimal) closeness centrality.
+
+    We compare our algorithms to the current state-of-the-art
+    greedy heuristic both on weighted and on unweighted real-world graphs.
+    For graphs with hundreds of millions of edges,
+    our local search algorithms take only around ten minutes, while greedy requires more than ten hours.
+    Overall, our new algorithms are between one and two orders of magnitude faster,
+    depending on the desired group size and solution quality.
+    For example, on weighted graphs and <i>k = 10</i>, our algorithms yield solutions
+    of 12.4% higher quality, while also being
+    793.6x faster.
+    For unweighted graphs and <i>k = 10</i>, we achieve solutions within
+    99.4% of the state-of-the-art quality
+    while being 127.8x faster.
+  </div>
+  </li>
+
+  <br>
+  <li>
+  E. Angriman, A. van der Grinten, Aleksandar Bojchevski, Daniel Zügner, Stephan Günnemann, H. Meyerhenke:
   Group Centrality Maximization for Large-scale Graphs
   In <i>Proc. 22nd SIAM Symposium on Algorithm Engineering & Experiments</i> (ALENEX 2020)
   [<a href="https://arxiv.org/pdf/1910.13874.pdf">arXiv</a>]
