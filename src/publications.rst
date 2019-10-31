@@ -49,6 +49,47 @@ Publications on Algorithms Available in NetworKit
 
   <ul>
   <li>
+  E. Angriman, A.v.d. Grinten, Aleksandar Bojchevski, Daniel Zügner, Stephan Günnemann, H. Meyerhenke:
+  Group Centrality Maximization for Large-scale Graphs
+  In <i>Proc. 22nd SIAM Symposium on Algorithm Engineering & Experiments</i> (ALENEX 2020)
+  [<a href="https://arxiv.org/pdf/1910.13874.pdf">arXiv</a>]
+
+  <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv">
+  </button>
+  <div id="collapseDiv" class="collapse">
+  <b>Abstract.</b>
+    The study of vertex centrality measures is a key aspect of network analysis.
+    Naturally, such centrality measures have been generalized to <i>groups</i> of vertices;
+    for popular measures it was shown that the problem of finding the most central group
+    is NP-hard.
+    As a result, approximation algorithms to maximize group centralities were introduced recently.
+    Despite a nearly-linear running time, approximation algorithms for group betweenness
+    and (to a lesser extent) group closeness are rather slow on large networks due to
+    high constant overheads.
+
+    That is why we introduce GED-Walk centrality,
+    a new submodular group centrality measure inspired by Katz centrality.
+    In contrast to closeness and betweenness, it considers walks of any
+    length rather than shortest paths,
+    with shorter walks having a higher contribution.
+    We define algorithms that (i) efficiently approximate the GED-Walk
+    score of a given group and (ii) efficiently approximate the
+    (proved to be $\mathcal{NP}$-hard) problem of finding a group with highest GED-Walk score.
+
+    Experiments on several real-world datasets show that scores obtained by GED-Walk improve performance on common graph mining tasks such as collective classification and graph-level classification.
+    An evaluation of empirical running times demonstrates that
+    maximizing GED-Walk (in approximation) is two orders of magnitude
+    faster compared to group betweenness approximation
+    and for group sizes ≤ 100 one to two orders faster than group closeness approximation.
+    For graphs with tens of millions of
+    edges, GED-Walk maximization typically needs less than one minute.
+    Furthermore, our experiments suggest that the maximization algorithms scale
+    linearly with the size of the input graph and the size of the group.
+  </div>
+  </li>
+
+  <br>
+  <li>
   A.v.d. Grinten, E. Angriman, H. Meyerhenke:
   Parallel Adaptive Sampling with almost no Synchronization.
   In <i>Euro-Par 2019</i>

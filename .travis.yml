@@ -11,7 +11,7 @@ matrix:
         apt:
           packages:
             - python3-pip
-            - python3.4-venv
+            - python3.5-venv
 
 script:
   - python3 -m venv pyenv && . pyenv/bin/activate
