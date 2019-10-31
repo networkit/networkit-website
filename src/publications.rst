@@ -92,8 +92,9 @@ Publications on Algorithms Available in NetworKit
   <li>
   A.v.d. Grinten, E. Angriman, H. Meyerhenke:
   Parallel Adaptive Sampling with almost no Synchronization.
-  In <i>Euro-Par 2019</i>
+  In <i>Proceedings of the 25th International Conference on Parallel and Distributed Computing</i> (Euro-Par 2019)
   [<a href="https://arxiv.org/abs/1903.09422">arXiv</a>]
+  [<a href="https://doi.org/10.1007/978-3-030-29400-7_31">DOI: 10.1007/978-3-030-29400-7_31</a>]
   <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv">
   </button>
   <div id="collapseDiv" class="collapse">
