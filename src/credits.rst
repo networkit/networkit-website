@@ -73,14 +73,11 @@ External Code
 
 The program source includes:
 
-- the *[The Lean Mean C++ Option Parser][optparse]* by Matthias S. Benkmann
-- the *[TTMath]* bignum library by Tomasz Sowa
-
-[mitlicense]: http://opensource.org/licenses/MIT
-[optparse]: http://optionparser.sourceforge.net/
-[ttmath]: http://www.ttmath.org/
+- the `The Lean Mean C++ Option Parser <http://optionparser.sourceforge.net>`_ by Matthias S. Benkmann
+- the `TTMath <http://optionparser.sourceforge.net>`_ bignum library by Tomasz Sowa
 
 License
 ~~~~~~~
 
-The source code of this program is released under the [MIT License][mitlicense].  We ask you to cite us if you use this code in your project (c.f. the publications section below and especially the [technical report](https://arxiv.org/abs/1403.3005)). Feedback is also welcome.
+The source code of this program is released under the `MIT License <http://opensource.org/licenses/MIT>`_.  We ask you to cite us if you use this code in your project (c.f. the publications section below and especially the `technical report <https://arxiv.org/abs/1403.3005>`_). Feedback is also welcome.
+
