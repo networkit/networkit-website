@@ -53,7 +53,6 @@ November 29, 2019: **NetworKit 6.0 released**
 - The deprecated FrutchermanReingold, and MultilevelLayouter algorithms have been removed.
 - The deprecated MaxClique algorithm has been removed.
 - The deprecated SSSP::getStack() method has been removed.
-- The algorithms Luby and IndepdentSetFinder have been un-deprecated -- they still work as expected and there is no reason to remove them.
 - The following deprecated methods in Graph have been removed: addNode(float, float), setCoordinate, getCoordinate, minCoordinate, maxCoordinate, initCoordinate
 
 |
