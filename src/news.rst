@@ -24,12 +24,14 @@ November 29, 2019: **NetworKit 6.0 released**
 :underline:`New features`
 
 - NetworKit binary graphs: new binary graph format that is both smaller usually smaller than text-based formats and also faster to read. The format allows for parallel reading. It supports (un-)directed as well as (un-)weighted graphs and deleted nodes.
-- KadabraBetweenness: Implementation of a new parallel algorithm for betweenness approximation. This is based on the definition from "Parallel Adaptive Sampling with almost no Synchronization", A. van der Grinten, E. Angriman, H. Meyerhenke
+- KadabraBetweenness: implementation of a new parallel algorithm for betweenness approximation. This is based on the definition from "Parallel Adaptive Sampling with almost no Synchronization", A. van der Grinten, E. Angriman, H. Meyerhenke
 - New method in ConnetedComponents to extract the largest connected component of a given graph.
 - BidirectionalBFS and BidirectionalDijkstra: new algorithms for faster graph exploration when the target vertex is known.
 - New method in Graph to remove all duplicate edges (i.e. additional edges with same source and same target as another edge).
 - New notebooks with tutorials for Centrality, Community detection, Components, Distance, Generators, Graph, Graph read/write, Randomization.
 - Removal of deprecated features (see list below for more informations)
+- New release cycle and version numbering: NetworKit now releases a major release every half a year, and an optional minor release every quarter. See you in summer 2020 for NetworKit 7.0 then.
+- Package Manager support: conda, spack, brew and more packages will be created starting with 6.0. They will follow the github/PyPI-release in the coming weeks.
 
 
 :underline:`New features for developers`
