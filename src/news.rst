@@ -5,6 +5,10 @@
 .. role:: hidden
    :class: hidden
 
+.. role:: underline
+   :class: underline
+
+
 ====
 News
 ====
@@ -13,6 +17,48 @@ News
 
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
+
+November 29, 2019: **NetworKit 6.0 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:underline:`New features`
+
+- NetworKit binary graphs: new binary graph format that is both smaller usually smaller than text-based formats and also faster to read. The format allows for parallel reading. It supports (un-)directed as well as (un-)weighted graphs and deleted nodes.
+- KadabraBetweenness: implementation of a new parallel algorithm for betweenness approximation. This is based on the definition from "Parallel Adaptive Sampling with almost no Synchronization", A. van der Grinten, E. Angriman, H. Meyerhenke
+- New method in ConnetedComponents to extract the largest connected component of a given graph.
+- BidirectionalBFS and BidirectionalDijkstra: new algorithms for faster graph exploration when the target vertex is known.
+- New method in Graph to remove all duplicate edges (i.e. additional edges with same source and same target as another edge).
+- New notebooks with tutorials for Centrality, Community detection, Components, Distance, Generators, Graph, Graph read/write, Randomization.
+- Removal of deprecated features (see list below for more informations)
+- New release cycle and version numbering: NetworKit now releases a major release every half a year, and an optional minor release every quarter. See you in summer 2020 for NetworKit 7.0 then.
+- Package Manager support: conda, spack, brew and more packages will be created starting with 6.0. They will follow the github/PyPI-release in the coming weeks.
+
+
+:underline:`New features for developers`
+
+- Clang format: new .clang-format configuration file to format NetworKit C++ files.
+- Header files: all C++ header files have been moved to the include/ directory.
+
+:underline:`Notable bugfixes`
+
+- "make install" and "ninja install" now correctly install the NetworKIt C++ library together with its header files. The pkg-config utility is supported to link against the library.
+- NetworKit now always logs to stderr instead of stdout (regardless of the log level). This change makes life easier for programs that link against NetworKit as a library but also need to adhere to a specific output format on stdout.
+- ApproxGroupCBetweenness now uses much less memory and can scale to larger graphs.
+
+:underline:`Deprecated features`
+
+- The following Graph methods have been deprecated: getId, typ, setName, getName, toString, nodes, edges, neighbors, time, timeStep.
+- The following Graph methods have been deprecated and moved to GraphTools: copyNodes, subgraphFromNodes, transpose, BFSfrom, DFSfrom. toUnweighted, toUndirected, append, merge, volume
+- A deprecated constructor of the KONECTGraphReader class has been removed.
+- The deprecated FrutchermanReingold, and MultilevelLayouter algorithms have been removed.
+- The deprecated MaxClique algorithm has been removed.
+- The deprecated SSSP::getStack() method has been removed.
+- The algorithms Luby and IndepdentSetFinder have been un-deprecated -- they still work as expected and there is no reason to remove them.
+- The following deprecated methods in Graph have been removed: addNode(float, float), setCoordinate, getCoordinate, minCoordinate, maxCoordinate, initCoordinate
+
+|
+|
+
 
 November 2019: new accepted papers using NetworKit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -24,6 +70,9 @@ November 2019: new accepted papers using NetworKit
 - "Parallel and I/O-efficient Randomisation of Massive Networks using Global Curveball Trades" accepted for `Esa 2018 <http://algo2018.hiit.fi/esa/>`_.
 - "The Polynomial Volume Law of Complex Networks in the Context of Local and Global Optimization" in `Scientific Reports <https://www.nature.com/articles/s41598-018-29131-0>`_.
 - "Computing Top-k Closeness Centrality in Fully-dynamic Graphs" accepted for `ALENEX 2018 <https://archive.siam.org/meetings/alenex18/>`_.
+
+|
+|
 
 December 19, 2018: **NetworKit 5.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,6 +92,9 @@ Minor changes:
 - Closeness: generalized definition of Closeness centrality so it can be computed also on disconnected graphs.
 - Aux::PrioQueue allows read access to its elements via iterators.
 - Graph class: new reductions allow to compute the maximum (weighted) degree of a graph in parallel.
+
+|
+|
 
 June 25, 2018: **NetworKit 4.6 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -68,6 +120,8 @@ Minor changes:
 - Greatly improved running time of NetworKit’s unit tests.
 - Size reduction of the “input” folder. In case of space constraints, we suggest to do a shallow clone of the NetworKit repository: git clone --depth=1 http://github.com/networkit/networkit
 
+|
+|
 
 December 14, 2017: **NetworKit 4.5 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -89,6 +143,8 @@ Minor:
 - Support for SCons3. There are no more dependencies on Python 2 if you decide to use SCons3 with Python 3.
 - Improved include of external libraries. These can now simply be specified in the build.conf file. See `Pull Request #58 <https://github.com/networkit/networkit/pull/58>`_ for further details.
 
+|
+|
 
 September 06, 2017: **NetworKit 4.4 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -113,12 +169,16 @@ Minor:
 - Expose restoreNode method to Python
 - Added shared library option to SCons
 
+|
+|
 
 July 19, 2017: **NetworKit Day** on September 12, 2017
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The first NetworKit Day will be held on September 12, 2017 at the Karlsruhe Institute of Technology, Karlsruhe, Germany. For further information, visit the webpage https://networkit.github.io/networkit-day.html
 
+|
+|
 
 June 07, 2017: **NetworKit 4.3 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -147,10 +207,16 @@ Minor:
 
 NOTE: The classes marked as deprecated will be permanently deleted with the next release. Please contact us if there are reasons why some of the classes should be kept.
 
+|
+|
+
 March 29, 2017: **Publication accepted at SEA 2017**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our paper on computing betweenness centrality in dynamic networks using NetworKit (authors: Bergamini, Meyerhenke, Ortmann, Slobbe) has been accepted for publication at the 16th International Symposium on Experimental Algorithms (SEA17).
+
+|
+|
 
 February 25, 2017: **Migration to GitHub**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -161,6 +227,9 @@ us on
 https://github.com/networkit/networkit
 
 We believe the migration will make it easier for developers to contribute to the project and we hope to bring the advantages of efficient large-scale network analysis to even more people.
+
+|
+|
 
 December 13, 2016: **NetworKit 4.2 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -182,11 +251,16 @@ Minor:
 - Refactoring of the approximation algorithms in the distance group. ApproxNAME -> NAMEApproximation.
 - Simplified installation procedure: Install required dependencies automatically
 
+|
+|
+
 July 06, 2016: **Publication accepted at CSC 2016**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our paper on approximating current-flow closeness centrality using NetworKit (authors: Bergamini, Wegner, Lukarski, Meyerhenke) has been accepted for publication at the 7th SIAM Workshop on Combinatorial Scientific Computing (CSC16). |br| |br|
 
+|
+|
 
 July 05, 2016: **NetworKit 4.1.1 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -195,6 +269,8 @@ This is a more of a maintenance release, that fixes the pip package and building
 
 Note: You can control which C++ compiler the setup.py of the networkit package is supposed to use with e.g. :code:`CXX=clang++ pip install networkit`. This may be helpful when the setup fails to detect the compiler.
 
+|
+|
 
 June 23, 2016: **NetworKit 4.1 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -271,37 +347,39 @@ centrality module:
    Scale", Cohen et al.
 
 |
-
-
-
+|
 
 May 9, 2016: **NetworKit journal paper accepted at Network Science**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our paper describing NetworKit as a toolkit for large-scale complex network analysis has been accepted by the Cambridge University Press journal Network Science. |br| |br|
 
-
+|
+|
 
 Apr 12, 2016: **Publication accepted at SNAM**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our paper on sparsification methods for social networks with NetworKit (authors: Linder, Staudt, Hamann, Meyerhenke, Wagner) has been accepted for publication in Social Network Analysis and Mining. |br| |br|
 
-
+|
+|
 
 Apr 12, 2016: **Publication accepted at Internet Mathematics**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our paper on approximating betweenness centrality in dynamic networks with NetworKit (authors: Bergamini, Meyerhenke) has been accepted for publication in Internet Mathematics. |br| |br|
 
-
+|
+|
 
 Nov 16, 2016: **Publication accepted at ALENEX16**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our paper on finding the top-k nodes with highest closeness centrality with NetworKit (authors: Bergamini, Borassi, Crescenzi, Marino, Meyerhenke) has been accepted at the 18th Meeting on Algorithm Engineering and Experiments, ALENEX 2016. |br| |br|
 
-
+|
+|
 
 Nov 10, 2015: **NetworKit 4.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -311,6 +389,8 @@ We have just released NetworKit 4.0. Apart from several improvements to algorith
 The new version is now available from the Python Package index. Try upgrading with
 :code:`pip3 install —upgrade networkit` |br| |br|
 
+|
+|
 
 Aug 19, 2015: **NetworKit 3.6 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -338,12 +418,16 @@ Further Updates:
 - EdgeListReader now reads edge list with arbitrary node ids (e.g.strings) when continuous=False; getNodeMap() returns a mapping from file node ids to graph node ids
 - EdgeListReader/Writer now add weights when reading files/writing graphs to file. |br| |br|
 
+|
+|
 
 Jun 16, 2015: **Publication accepted at ESA15**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our paper on the approximation of betweenness centrality in fully-dynamic networks with NetworKit (authors: Bergamini, Meyerhenke) has been accepted at the 23rd European Symposium on Algorithms, ESA 2015. |br| |br|
 
+|
+|
 
 Jun 9, 2015: **NetworKit 3.5 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -365,6 +449,8 @@ This release focused on bugfixes, under-the-hood improvements and refactoring.
 - The GIL (Global Interpreter Lock) is released for many algorithms in order to make it possible to execute multiple computations in parallel in a single Python process.
 - Improved support for directed graphs in many algorithms |br| |br|
 
+|
+|
 
 Dec 4, 2014: **NetworKit 3.4 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -423,28 +509,32 @@ Build and Installation
 * pip installation does no longer require Cython
 * pip installation does no longer require SCons, minimal build system as fallback if SCons is missing |br| |br|
 
-
+|
+|
 
 Oct 21, 2014: **Publication accepted at ALENEX15**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our paper on approximating betweenness centrality in dynamic networks with NetworKit (authors: Bergamini, Meyerhenke, Staudt) has been accepted at the 17th Meeting on Algorithm Engineering and Experiments, ALENEX 2015. |br| |br|
 
-
+|
+|
 
 Sep 28, 2014: **NetworKit presented at summer school tutorial on network analysis**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In a joint tutorial on Algorithmic methods for network analysis with Dorothea Wagner for the summer school of the DFG priority programme Algorithm Engineering, Henning Meyerhenke introduced NetworKit to the participants. The PhD students from Germany and other European countries successfully solved various network analysis tasks with NetworKit during the tutorial. |br| |br|
 
-
+|
+|
 
 Sep 28, 2014: **Publication accepted**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our paper on selective community detection with NetworKit (authors: Staudt, Marrakchi, Meyerhenke) has been accepted at the First International Workshop on High Performance Big Graph Data Management, Analysis, and Mining (in Conjunction with IEEE BigData'14). |br| |br|
 
-
+|
+|
 
 Aug 22, 2014: **NetworKit 3.3 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -467,7 +557,8 @@ NetworKit 3.3 has been released, including the following improvements to our net
 - support for reading and writing Covers
 - performance improvements in Gephi streaming interface |br| |br|
 
-
+|
+|
 
 Jul 1, 2014: **NetworKit 3.2 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -484,28 +575,32 @@ NetworKit 3.2 has been released, including major improvements to our network ana
 - improved portability (Windows)
 - overhaul of graph file input |br| |br|
 
-
+|
+|
 
 May 15, 2014: **New website online**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 NetworKit, our tool suite for high-performance network analysis, has its own website now! |br| |br|
 
-
+|
+|
 
 Apr 25, 2014: **Introductory talk**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Christian Staudt gave an introductory talk about the current release of NetworKit. The slides and a video of the talk are available on the Documentation page. |br| |br|
 
-
+|
+|
 
 Apr 15, 2014: **NetworKit 3.1 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Version 3.1 is an incremental update to our tool suite for high-performance network analysis. Improvements and new features include Eigenvector centrality, PageRank, Betweenness centrality approximation, R-MAT graph generator, BFS/DFS iterators, improved BFS and Dijkstra classes, and improved memory footprint when using large objects on the Python level. More detailed information can be found in the accompanying publication. |br| |br|
 
-
+|
+|
 
 Mar 13, 2014: **NetworKit 3.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -514,14 +609,16 @@ NetworKit 3.0 is the next major release of our open-source toolkit for high-perf
 
 This being an open-source project, we are very interested in incorporating feedback from data analysts and algorithm engineers. Feel free to contact us with any question on how NetworKit could be applied in your field of research. |br| |br|
 
-
+|
+|
 
 Nov 11, 2013: **NetworKit 2.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Second major release of NetworKit. The toolkit has been improved by adding several graph algorithms and an interactive shell based on Python/Cython. We begin a more frequent release cycle. |br| |br|
 
-
+|
+|
 
 Mar 17, 2013: **NetworKit 1.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

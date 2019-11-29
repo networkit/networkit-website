@@ -171,10 +171,9 @@ text-decoration: none;
 
 }
 
-
-
-
-
+.underline {
+    text-decoration: underline;
+}
 
 article {
     margin-bottom: 3rem;
