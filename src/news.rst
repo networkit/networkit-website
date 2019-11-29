@@ -14,6 +14,17 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+November 2019: new accepted papers using NetworKit
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- "Local Search for Group Closeness Maximization on Big Graphs", accepted for `IEEE BigData 2019 <http://bigdataieee.org/BigData2019/>`_.
+- "Group Centrality Maximization for Large-scale Graphs" accepted for `ALENEX 2020 <https://www.siam.org/conferences/cm/conference/alenex20>`_.
+- "Guidelines for Experimental Algorithmics: A Case Study in Network Analysis" was accepted and published by the open-access journal *Algorithms*. It is part of the Special Issue: "Algorithm Engineering: Towards Practically Efficient Solutions to Combinatorial" edited by Daniele Frigioni and Mattia D'Emidio. More information can be found here: https://www.mdpi.com/1999-4893/12/7/127.
+- "Parallel Adaptive Sampling with almost no Synchronization" accepted for `Euro-Par 2019 <https://2019.euro-par.org/>`_.
+- "Scalable Katz Ranking Computation in Large Static and Dynamic Graphs" accepted for `Esa 2018 <http://algo2018.hiit.fi/esa/>`_.
+- "Parallel and I/O-efficient Randomisation of Massive Networks using Global Curveball Trades" accepted for `Esa 2018 <http://algo2018.hiit.fi/esa/>`_.
+- "The Polynomial Volume Law of Complex Networks in the Context of Local and Global Optimization" in `Scientific Reports <https://www.nature.com/articles/s41598-018-29131-0>`_.
+- "Computing Top-k Closeness Centrality in Fully-dynamic Graphs" accepted for `ALENEX 2018 <https://archive.siam.org/meetings/alenex18/>`_.
+
 December 19, 2018: **NetworKit 5.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
