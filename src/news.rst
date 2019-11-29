@@ -43,7 +43,7 @@ November 29, 2019: **NetworKit 6.0 released**
 
 - "make install" and "ninja install" now correctly install the NetworKIt C++ library together with its header files. The pkg-config utility is supported to link against the library.
 - NetworKit now always logs to stderr instead of stdout (regardless of the log level). This change makes life easier for programs that link against NetworKit as a library but also need to adhere to a specific output format on stdout.
-- ApproxGroupCBetweenness now uses much less memory and can scale to larger graphs.
+- ApproxGroupBetweenness now uses much less memory and can scale to larger graphs.
 
 :underline:`Deprecated features`
 
