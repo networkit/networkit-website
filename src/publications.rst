@@ -52,6 +52,7 @@ Publications on Algorithms Available in NetworKit
   E. Angriman, A. van der Grinten, H. Meyerhenke:
   Local Search for Group Closeness Maximization on Big Graphs
   In <i>Proc. 2019 IEEE International Conference on Big Data.</i> (BigData 2019)
+  [<a href="https://arxiv.org/abs/1911.03360">arXiv</a>]
 
   <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv">
   </button>
