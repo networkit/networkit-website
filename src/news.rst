@@ -18,6 +18,18 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+February 24, 2019: **NetworKit 6.0.1 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:underline:`Patch notes`
+
+- Added an option to cmake (-DNETWORKIT_EXT_TLX), which enables to link against an externally built tlx-library
+- Updated travis-configuration in order to remove deprecated options
+- Fixed a `bug <https://github.com/networkit/networkit/issues/491>`_, which prevented the headers from external dependency ttmath to be installed correctly
+
+|
+|
+
 November 29, 2019: **NetworKit 6.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
