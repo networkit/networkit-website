@@ -18,6 +18,32 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+March 01, 2019: **NetworKit 6.1.0 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In the following you see an overview about the contributions, which went into NetworKit 6.1.0. Note that this version is fully compatible with release 6.0.0. 
+
+:underline:`New features`
+
+- Introducing new iterators for nodes and edges to have a coherent, idiomatic and fast way to repeate tasks for different elements of a graph. Syntax-wise the iterators can be called similarly in Python and C++. In Python iterating can be invoked by :code:`for x in graph.iterNodes()`, whereas the counter-part for C++ works with :code:`for(node x: graph.nodeRange())`. Internally, all functions in NetworKit already use the new iterators.
+- cmake adds more options to support variants of clang-compilers with OpenMP for macOS and Linux. This includes conda, homebrew and MacPort-environments.
+
+
+:underline:`Bugfixes`
+
+- Generating a graph with the Watts-Strogatz algorithm does not lead anymore to infinite loops, when passing a number of neighbors per node, which is equal to the total number of nodes in the graph. (See issue `#505 <https://github.com/networkit/networkit/issues/505>`_) 
+- Fixed error in function inNeighbors, including not all parameters in call to underlying library. (See issue `#469 <https://github.com/networkit/networkit/issues/469>`_)
+- The z-coordinate is now correctly scaled when writing a graph to GML. (See issue `#500 <https://github.com/networkit/networkit/issues/500>`_)
+- ConnectedComponents::extractLargestConnectedComponent now returns a compacted graph if called with appropriate parameters.
+
+
+:underline:`Deprecated features`
+
+- Nested-parallelism-feature is now marked as deprecated.
+
+|
+|
+
 February 24, 2019: **NetworKit 6.0.1 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
