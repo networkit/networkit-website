@@ -54,8 +54,7 @@ Publications on Algorithms Available in NetworKit
   In <i>Proc. 2020 - 18th Symposium on Experimental Algorithms.</i> (SEA 2020)
   [<a href="https://arxiv.org/abs/1910.11039">arXiv</a>]
 
-  <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv">
-  </button>
+  <button type="button" class="btn-link collapsed"></button>
   <div id="collapseDiv" class="collapse">
   <b>Abstract.</b>
     Betweenness centrality is one of the most popular vertex centrality measures in network analysis. Hence, many (sequential and parallel) algorithms to compute or approximate betweenness have been devised. Recent algorithmic advances have made it possible to approximate betweenness very efficiently on shared-memory architectures. Yet, the best shared-memory algorithms can still take hours of running time for large graphs, especially for graphs with a high diameter or when a small relative error is required.
@@ -70,8 +69,7 @@ Publications on Algorithms Available in NetworKit
   In <i>Proc. 2019 IEEE International Conference on Big Data.</i> (BigData 2019)
   [<a href="https://arxiv.org/abs/1911.03360">arXiv</a>]
 
-  <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv">
-  </button>
+  <button type="button" class="btn-link collapsed"></button>
   <div id="collapseDiv" class="collapse">
   <b>Abstract.</b>
     In network analysis and graph mining, closeness centrality is a popular measure to infer the
