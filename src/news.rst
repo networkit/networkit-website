@@ -18,7 +18,16 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
-March 01, 2019: **NetworKit 6.1.0 released**
+
+March 2020: **new accepted papers using NetworKit**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- "Scaling up Network Centrality Computations - a Brief Overview" was accepted for publishing in the journal `it - Information Technology <https://www.degruyter.com/view/journals/itit/62/1/itit.62.issue-1.xml>`_.
+- "Scaling Betweenness Approximation to Billions of Edges by MPI-based Adaptive Sampling" accepted for `IPDPS 2020 <http://www.ipdps.org>`_.
+|
+|
+
+March 01, 2020: **NetworKit 6.1.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In the following you see an overview about the contributions, which went into NetworKit 6.1.0. Note that this version is fully compatible with release 6.0.0. 
@@ -44,7 +53,7 @@ In the following you see an overview about the contributions, which went into Ne
 |
 |
 
-February 24, 2019: **NetworKit 6.0.1 released**
+February 24, 2020: **NetworKit 6.0.1 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :underline:`Patch notes`
