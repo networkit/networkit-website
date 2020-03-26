@@ -49,6 +49,22 @@ Publications on Algorithms Available in NetworKit
 
   <ul>
   <li>
+  A. van der Grinten, H. Meyerhenke:
+  Scaling Betweenness Approximation to Billions of Edges by MPI-based Adaptive Sampling
+  In <i>Proc. 2020 - 18th Symposium on Experimental Algorithms.</i> (SEA 2020)
+  [<a href="https://arxiv.org/abs/1910.11039">arXiv</a>]
+
+  <button type="button" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseDiv">
+  </button>
+  <div id="collapseDiv" class="collapse">
+  <b>Abstract.</b>
+    Betweenness centrality is one of the most popular vertex centrality measures in network analysis. Hence, many (sequential and parallel) algorithms to compute or approximate betweenness have been devised. Recent algorithmic advances have made it possible to approximate betweenness very efficiently on shared-memory architectures. Yet, the best shared-memory algorithms can still take hours of running time for large graphs, especially for graphs with a high diameter or when a small relative error is required.
+    In this work, we present an MPI-based generalization of the state-of-the-art shared-memory algorithm for betweenness approximation. This algorithm is based on adaptive sampling; our parallelization strategy can be applied in the same manner to adaptive sampling algorithms for other problems. In experiments on a 16-node cluster, our MPI-based implementation is by a factor of 16.1x faster than the state-of-the-art shared-memory implementation when considering our parallelization focus -- the adaptive sampling phase -- only. For the complete algorithm, we obtain an average (geom. mean) speedup factor of 7.4x over the state of the art. For some previously very challenging inputs, this speedup is much higher. As a result, our algorithm is the first to approximate betweenness centrality on graphs with several billion edges in less than ten minutes with high accuracy. 
+  </div>
+  </li>
+
+  <br>
+  <li>
   E. Angriman, A. van der Grinten, H. Meyerhenke:
   Local Search for Group Closeness Maximization on Big Graphs
   In <i>Proc. 2019 IEEE International Conference on Big Data.</i> (BigData 2019)
@@ -471,13 +487,23 @@ Publications on Algorithms Available in NetworKit
 
 |separator|
 
-
 Publications Using NetworKit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
   <ul>
+    <li>
+      J. Kreutel, S. Martus, E. Thomalla and D. Zimmer:  Die Germanistik der Germanistik.
+      Published in <i>Internationales Archiv für Sozialgeschichte der deutschen Literatur</i> issue 44, vol. 2, 2019. [<a href="https://www.degruyter.com/view/journals/iasl/44/2/article-p302.xml">De Gruyter</a>]
+        <button type="button" class="btn-link collapsed"></button>
+        <div class="collapse">
+         <b>Abstract</b> The article examines the history and structure of the international bibliographical journal (internationales Referatenorgan) Germanistik from 1960 to 2009. By combining qualitative archival research and quantitative data analysis, it seeks to explore how the journal simultaneously took into account political, economic, and academic expectations; how it stimulated scholarly working practices; and how it contributed to the formation of networks within the heterogeneous field of German Studies.
+       </div>
+    </li>
+
+    <br>
+
     <li>
       R. Glantz, H. Meyerhenke:  Many-to-many Correspondences between Partitions: Introducing a Cut-based Approach.
       To appear in <i>Proc. 18th SIAM Intl. Conf. on Data Mining</i> (SDM 2018). [<a href="https://arxiv.org/abs/1603.04788">arXiv</a>]
