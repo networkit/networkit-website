@@ -18,6 +18,42 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+May 29, 2020: **NetworKit 7.0 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:underline:`Bugfixes`
+
+:underline:`New features`
+
+- New algorithms for GedWalk centrality based on the paper `Group Centrality Maximization for Large-scale Graphs <https://arxiv.org/abs/1910.13874>`_ (ALENEX 2020).
+- New parallel implementation of the `Hayashi et al. algorithm <https://www.ijcai.org/Proceedings/16/Papers/525.pdf>`_ for spanning edge centrality approximation.
+- PageRank: possibility to choose between the L1 and the L2 norms as stopping criterion of the algorithm, and to set a maximum number of iterations.
+- GlobalThresholdFilter: support for weighted and directed graphs.
+
+
+:underline:`Notable bugfixes`
+
+- CommuteTimeDistance now returns the correct distance between two nodes for computation with and without preprocessing
+- Fix of an error in the :code:`exportGraph`-function of GephiStreaming
+- Fix of an error in APSP that returned wrong distances in disconnected graphs
+
+
+:underline:`Further improvements`
+
+- Support for newer Python-version: 3.8
+- Support for newer compiler: gcc 10.1, AppleClang 11.03
+- Reduce memory footprint of several functions/classes: BFS, Dijkstra, SSSP, TopCloseness
+- Reduce time-complexity of several functions/classes: GephiStreamer, StaticDegreeSequenceGenerator, TopCloseness, WattsStrogatzGenerator
+- Added more notebook as examples
+
+
+:underline:`Additional notes for contributors developers`
+
+- Development will be done on the master branch, the Dev branch will not be used anymore.
+
+|
+|
+
 
 March 2020: **new accepted papers using NetworKit**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
