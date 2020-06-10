@@ -22,9 +22,7 @@
           <div style="padding-top: 15px">Install via pip3</div>
           <span style="display: block;overflow: hidden;"><input onClick="this.setSelectionRange(0, this.value.length)" style="width: 100%" type="text" value="pip3 install networkit" readonly=""/></span>
 
-          <div style="padding-top: 15px">Download as <a href="https://networkit.github.io/uploads/networkit.zip">zip file</a></div>
-
-          <div style="padding-top: 15px">Download the <a href="https://networkit.github.io/uploads/networkit-documentation.zip">Class Documentation</a></div>
+          <div style="padding-top: 15px">Download as <a href="https://github.com/networkit/networkit/archive/7.0.zip">zip file (from GitHub)</a></div>
 
           <div style="padding-top: 15px">Download the <a href="http://arxiv.org/pdf/1403.3005v3.pdf">Technical Report</a></div>
 
