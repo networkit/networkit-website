@@ -18,12 +18,29 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+September 08, 2020: **NetworKit 7.1 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:underline:`New features for Contributors / Developers`
+
+- We restructured the Cython-Interface (responsible for the connection between Python and C++ core-libraries) in order to make development and maintenance more approachable. As a result the previous monolithic file :code:`_NetworKit.pyx` is now split into modules, resembling the structure of the C++ code. New modules can be added easily by providing appropriate Cython-files in sub-folder `networkit <https://github.com/networkit/networkit/tree/master/networkit>`_.
+
+:underline:`Further Improvements`
+
+- Refactored the `EdgeListReader`, leading to a speed-up when reading in edge-list based graph files.
+
+:underline:`Additional Notes`
+
+- Beginning with release :code:`7.1` (:code:`7.0` also available) NetworKit is now also distributed via package managers conda, spack and brew. All channels provide different packages for the C++ headers/library and the complete Python/C++ software. Head over to `github <https://github.com/networkit/networkit>`_ for installation instructions.
+
+|
+|
+
+
 May 29, 2020: **NetworKit 7.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:underline:`Bugfixes`
-
-:underline:`New features`
+:underline:`New Features`
 
 - New algorithms for GedWalk centrality based on the paper `Group Centrality Maximization for Large-scale Graphs <https://arxiv.org/abs/1910.13874>`_ (ALENEX 2020).
 - New parallel implementation of the `Hayashi et al. algorithm <https://www.ijcai.org/Proceedings/16/Papers/525.pdf>`_ for spanning edge centrality approximation.
@@ -31,14 +48,14 @@ May 29, 2020: **NetworKit 7.0 released**
 - GlobalThresholdFilter: support for weighted and directed graphs.
 
 
-:underline:`Notable bugfixes`
+:underline:`Notable Bugfixes`
 
 - CommuteTimeDistance now returns the correct distance between two nodes for computation with and without preprocessing
 - Fix of an error in the :code:`exportGraph`-function of GephiStreaming
 - Fix of an error in APSP that returned wrong distances in disconnected graphs
 
 
-:underline:`Further improvements`
+:underline:`Further Improvements`
 
 - Support for newer Python-version: 3.8
 - Support for newer compiler: gcc 10.1, AppleClang 11.03
@@ -47,7 +64,7 @@ May 29, 2020: **NetworKit 7.0 released**
 - Added more notebook as examples
 
 
-:underline:`Additional notes for contributors developers`
+:underline:`Additional Notes for Contributors Developers`
 
 - Development will be done on the master branch, the Dev branch will not be used anymore.
 
