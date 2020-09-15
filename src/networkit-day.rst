@@ -14,26 +14,31 @@ NetworKit Day
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
-September 12, 2017
-~~~~~~~~~~~~~~~~~~
+-----------------
+October 15, 2020
+-----------------
 
-We are happy to announce the first **NetworKit Day**, which will be held on **September 12, 2017** at the **Karlsruhe Institute of Technology (KIT)**, Karlsruhe, Germany.
-The goal of this day is to both present NetworKit to people who don’t know it yet and to update more seasoned users and developers about the current features, which have grown quite a bit over the last years. Also, in this meeting we wish to discuss future development directions and receive feedback on the current status of NetworKit. If you would like to attend or receive further information, feel free to send an e-mail to `Elisabetta Bergamini <elisabetta.bergamini@kit.edu>`_.
-
-The meeting will take place in **Room 301, Building 50.34** (Computer Science Department), Am Fasanengarten 5, 76131 Karlsruhe.
-`Here <https://www.kit.edu/downloads/Campus-Sued.pdf>`_ you can find a map of the campus.
-
+We are happy to announce that **NetworKit Day** will be held on **October 15,
+2020** via zoom (todo: link).
+The goal of this day is to both present NetworKit to people who don’t know it
+yet and to update more seasoned users and developers about the new
+features, which have grown quite a bit over the last years. Also, in this
+meeting we wish to discuss future development directions and receive feedback
+on the current status of NetworKit. If you would like to attend or receive
+further information, feel free to send an e-mail to (someone).
 
 **Preliminary program**:
 
-- 10:30am : Welcome and opening remarks
-- 10:40am : NetworKit overview talk
-- 11:00am : Tutorial + Demo
-- 12:15pm : Lunch
-- 1:30pm  : Scientific talk 1 (by Michael Hamann)
-- 1:50pm  : Scientific talk 2 (by Oskar Taubert)
-- 2:10pm  : What's new in NetworKit?
-- 2:50pm  : Coffee break
-- 3:15pm  : Discussion of future directions for NetworKit
-- 4:15pm  : Concluding remarks
-- 4:30pm  : End 
+- 11:30am - 11:45am : Welcome and opening remarks
+- 11:45am - 12:15pm : Tutorial: "New" users
+- 12:15pm - 12:45pm: Scientific Talk I: Jörn Kreutel
+
+LUNCH BREAK
+
+- 1:30pm - 2:00pm : Scientific Talk II: Mattia D'Emidio
+- 2:00pm - 2:25pm : Overview Talk I: New in NetworKit (under the hood)
+- 2:25pm - 2:40pm : COFFEE BREAK
+
+- 2:40pm - 3:10pm : Overview Talk II: New in NetworKit (algorithms)
+- 3:10pm - 3:50pm : Discussion (requests, ideas, ...)
+- 3:50pm - 4:00pm : Wrap-up, pointers to more info
