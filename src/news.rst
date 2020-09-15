@@ -73,7 +73,7 @@ May 29, 2020: **NetworKit 7.0 released**
 
 
 March 2020: **new accepted papers using NetworKit**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - "Scaling up Network Centrality Computations - a Brief Overview" was accepted for publishing in the journal `it - Information Technology <https://www.degruyter.com/view/journals/itit/62/1/itit.62.issue-1.xml>`_.
 - "Scaling Betweenness Approximation to Billions of Edges by MPI-based Adaptive Sampling" accepted for `IPDPS 2020 <http://www.ipdps.org>`_.
@@ -160,7 +160,7 @@ November 29, 2019: **NetworKit 6.0 released**
 
 
 November 2019: new accepted papers using NetworKit
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - "Local Search for Group Closeness Maximization on Big Graphs", accepted for `IEEE BigData 2019 <http://bigdataieee.org/BigData2019/>`_.
 - "Group Centrality Maximization for Large-scale Graphs" accepted for `ALENEX 2020 <https://www.siam.org/conferences/cm/conference/alenex20>`_.
 - "Guidelines for Experimental Algorithmics: A Case Study in Network Analysis" was accepted and published by the open-access journal *Algorithms*. It is part of the Special Issue: "Algorithm Engineering: Towards Practically Efficient Solutions to Combinatorial" edited by Daniele Frigioni and Mattia D'Emidio. More information can be found here: https://www.mdpi.com/1999-4893/12/7/127.
