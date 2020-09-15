@@ -48,6 +48,46 @@ Publications on Algorithms Available in NetworKit
 .. raw:: html
 
   <ul>
+
+  <li>
+  E. Angriman, A. van der Grinten, M. Predari and H. Meyerhenke:
+  Approximation of the Diagonal of a Laplacian's Pseudoinverse for Complex Network Analysis
+  In <i>Proc. 2020 - 28th Annual European Symposium on Algorithms.</i> (ESA 2020)
+  [<a href="https://arxiv.org/abs/2006.13679">arXiv</a>]
+
+  <button type="button" class="btn-link collapsed"></button>
+  <div id="collapseDiv" class="collapse">
+  <b>Abstract.</b>
+
+  The ubiquity of massive graph data sets in numerous applications requires
+  fast algorithms for extracting knowledge from these data. We are motivated
+  here by three electrical measures for the analysis of large small-world
+  graphs G=(V,E) -- i.e., graphs with diameter in O(log|V|), which are abundant
+  in complex network analysis. From a computational point of view, the three
+  measures have in common that their crucial component is the diagonal of the
+  graph Laplacian's pseudoinverse, L'. Computing diag(L') exactly by
+  pseudoinversion, however, is as expensive as dense matrix multiplication --
+  and the standard tools in practice even require cubic time. Moreover, the
+  pseudoinverse requires quadratic space -- hardly feasible for large graphs.
+  Resorting to approximation by, e.g., using the Johnson-Lindenstrauss
+  transform, requires the solution of O(log|V|/eps^2) Laplacian linear systems to
+  guarantee a relative error, which is still very expensive for large inputs.
+  In this paper, we present a novel approximation algorithm that requires the
+  solution of only one Laplacian linear system. The remaining parts are purely
+  combinatorial -- mainly sampling uniform spanning trees, which we relate to
+  diag(L') via effective resistances. For small-world networks, our algorithm
+  obtains a ±eps-approximation with high probability, in a time that is
+  nearly-linear in |E| and quadratic in 1/eps. Another positive aspect of our
+  algorithm is its parallel nature due to independent sampling. We thus provide
+  two parallel implementations of our algorithm: one using OpenMP, one MPI +
+  OpenMP. In our experiments against the state of the art, our algorithm (i)
+  yields more accurate results, (ii) is much faster and more memory-efficient,
+  and (iii) obtains good parallel speedups, in particular in the distributed
+  setting.
+  </div>
+  </li>
+
+  <br>
   <li>
   A. van der Grinten, H. Meyerhenke:
   Scaling Betweenness Approximation to Billions of Edges by MPI-based Adaptive Sampling
@@ -58,7 +98,7 @@ Publications on Algorithms Available in NetworKit
   <div id="collapseDiv" class="collapse">
   <b>Abstract.</b>
     Betweenness centrality is one of the most popular vertex centrality measures in network analysis. Hence, many (sequential and parallel) algorithms to compute or approximate betweenness have been devised. Recent algorithmic advances have made it possible to approximate betweenness very efficiently on shared-memory architectures. Yet, the best shared-memory algorithms can still take hours of running time for large graphs, especially for graphs with a high diameter or when a small relative error is required.
-    In this work, we present an MPI-based generalization of the state-of-the-art shared-memory algorithm for betweenness approximation. This algorithm is based on adaptive sampling; our parallelization strategy can be applied in the same manner to adaptive sampling algorithms for other problems. In experiments on a 16-node cluster, our MPI-based implementation is by a factor of 16.1x faster than the state-of-the-art shared-memory implementation when considering our parallelization focus -- the adaptive sampling phase -- only. For the complete algorithm, we obtain an average (geom. mean) speedup factor of 7.4x over the state of the art. For some previously very challenging inputs, this speedup is much higher. As a result, our algorithm is the first to approximate betweenness centrality on graphs with several billion edges in less than ten minutes with high accuracy. 
+    In this work, we present an MPI-based generalization of the state-of-the-art shared-memory algorithm for betweenness approximation. This algorithm is based on adaptive sampling; our parallelization strategy can be applied in the same manner to adaptive sampling algorithms for other problems. In experiments on a 16-node cluster, our MPI-based implementation is by a factor of 16.1x faster than the state-of-the-art shared-memory implementation when considering our parallelization focus -- the adaptive sampling phase -- only. For the complete algorithm, we obtain an average (geom. mean) speedup factor of 7.4x over the state of the art. For some previously very challenging inputs, this speedup is much higher. As a result, our algorithm is the first to approximate betweenness centrality on graphs with several billion edges in less than ten minutes with high accuracy.
   </div>
   </li>
 
