@@ -159,7 +159,7 @@ Architecture
 ------------
 
 With the hybrid approach, we are able to combine the performance of C++ with the easy and interactive environment of Python and Jupyter Notebook. We provide a Python package
-that can be installed easily via pip (see :ref:`Pip install`). This makes it very easy to start working with NetworKit interactively. However, the code can also be used as a
+that can be installed easily via pip. This makes it very easy to start working with NetworKit interactively. However, the code can also be used as a
 library for application programming, either at the Python or the C++ level. Throughout the project we use object-oriented and functional concepts. On the C++ level, we make
 extensive use of closures, using the lambda syntax introduced with C++11. Shared-memory parallelism is realized with OpenMP, providing loop parallelization and synchronization
 constructs while abstracting away the details of thread creation and handling.
