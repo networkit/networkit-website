@@ -35,7 +35,7 @@ further information, feel free to send an e-mail to (someone).
 
 LUNCH BREAK
 
-- 1:30pm - 2:00pm : Scientific Talk: Title TBA (Mattia D'Emidio, Univ. of L’Aquila, Italy)
+- 1:30pm - 2:00pm : Scientific Talk: Title TBA (Mattia D'Emidio, University of L’Aquila, Italy)
 - 2:00pm - 2:25pm : Overview Talk: New in NetworKit under the hood (Fabian Brandt-Tumescheit, HU Berlin)
 - 2:25pm - 2:40pm : COFFEE BREAK
 
