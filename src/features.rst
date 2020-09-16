@@ -37,7 +37,7 @@ A good (albeit in some parts slightly outdated) introduction to NetworKit and it
 Network Analytics
 -----------------
 
-NetworKit provides a rich set of network analysis methods. For details on the supported measures take a look at the `Technical Report <http://arxiv.org/pdf/1403.3005v1.pdf>`_.
+NetworKit provides a rich set of network analysis methods. For details on the supported measures take a look at the `Technical Report <https://arxiv.org/pdf/1403.3005.pdf>`_.
 
 Degree Distribution
 ^^^^^^^^^^^^^^^^^^^
