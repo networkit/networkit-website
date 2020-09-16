@@ -15,7 +15,8 @@ More details and an illustration are provided in the `Architecture`_ Section bel
 NetworKit is distributed as a Python package, ready to use interactively from a Python shell, which is the main usage scenario we envision for domain experts.
 If you want to know more about our design goals, then take a look at our `Design Goals and Principles`_ Section below.
 
-The best way to get an overall picture of a network is to use the *Profiling* module. Take a look at the `Network Profiling`_ Section below. If you are only interested in a
+The best way to get an overall picture of a network is to use the *Profiling* module.
+If you are only interested in a
 small subset of network analysis measures, it might be more convenient to compute them separately instead of using the *Profiling* module. Check out the `Network Analytics`_
 Section to get an overview of the most important measures NetworKit supports.
 
