@@ -31,13 +31,16 @@ further information, feel free to send an e-mail to (someone).
 
 - 11:30am - 11:45am : Welcome and introduction (Henning Meyerhenke, HU Berlin)
 - 11:45am - 12:15pm : Tutorial for new users (Eugenio Angriman, HU Berlin)
-- 12:15pm - 12:45pm : Scientific Talk: Title TBA (Jörn Kreutel, Beuth Hochschule für Technik Berlin)
+- 12:15pm - 12:45pm : Scientific Talk: "Integrating NetworKit into a web-based
+  Environment for Network Analysis and Exploration" (Jörn Kreutel, Beuth
+  Hochschule für Technik Berlin)
 
 LUNCH BREAK
 
 - 1:30pm - 2:00pm : Scientific Talk: Title TBA (Mattia D'Emidio, University of L’Aquila, Italy)
 - 2:00pm - 2:25pm : Overview Talk: New in NetworKit under the hood (Fabian Brandt-Tumescheit, HU Berlin)
-- 2:25pm - 2:40pm : COFFEE BREAK
+
+COFFEE BREAK
 
 - 2:40pm - 3:10pm : Overview Talk: New algorithms in NetworKit (Alexander van der Grinten, HU Berlin)
 - 3:10pm - 3:50pm : Discussion (moderated by Henning Meyerhenke)
