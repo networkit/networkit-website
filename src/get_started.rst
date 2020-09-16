@@ -227,4 +227,4 @@ Contributions
 =============
 
 We would like to encourage contributions to the NetworKit source code. See the `NetworKit Development Guide <https://networkit.github.io/dev-docs/DevGuide.html#devGuide>`_ for instructions. For support
-please contact the `mailing list <https://lists.uni-koeln.de/mailman/listinfo/networkit>`_.
+please contact the `mailing list <https://sympa.cms.hu-berlin.de/sympa/subscribe/networkit>`_.
