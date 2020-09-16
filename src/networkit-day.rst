@@ -30,6 +30,10 @@ features, which have grown quite a bit over the last years. Also, in this
 meeting we wish to discuss future development directions and receive feedback
 on the current status of NetworKit.
 
+Registration is mandatory to attend, so do not forget to
+`register (free or charge)
+<https://www.eventbrite.de/e/networkit-day-2020-nd20-registration-121199776795>`_.
+
 **Preliminary program**:
 
 - 11:30am - 11:45am : Welcome and introduction (Henning Meyerhenke, HU Berlin)
