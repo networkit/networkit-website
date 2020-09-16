@@ -14,9 +14,9 @@ NetworKit Day
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
------------------
-October 15, 2020
------------------
+---------------------------------------------------------------------------------------------------------------
+October 15, 2020 - `Register <https://www.eventbrite.de/e/networkit-day-2020-nd20-registration-121199776795>`_
+---------------------------------------------------------------------------------------------------------------
 
 We are happy to announce that **NetworKit Day** will be held on **October 15,
 2020** via zoom (todo: link).
@@ -29,16 +29,16 @@ further information, feel free to send an e-mail to (someone).
 
 **Preliminary program**:
 
-- 11:30am - 11:45am : Welcome and opening remarks
-- 11:45am - 12:15pm : Tutorial: "New" users
-- 12:15pm - 12:45pm: Scientific Talk I: Jörn Kreutel
+- 11:30am - 11:45am : Welcome and introduction (Henning Meyerhenke, HU Berlin)
+- 11:45am - 12:15pm : Tutorial for new users (Eugenio Angriman, HU Berlin)
+- 12:15pm - 12:45pm : Scientific Talk: Title TBA (Jörn Kreutel, Beuth Hochschule für Technik Berlin)
 
 LUNCH BREAK
 
-- 1:30pm - 2:00pm : Scientific Talk II: Mattia D'Emidio
-- 2:00pm - 2:25pm : Overview Talk I: New in NetworKit (under the hood)
+- 1:30pm - 2:00pm : Scientific Talk: Title TBA (Mattia D'Emidio, Univ. of L’Aquila, Italy)
+- 2:00pm - 2:25pm : Overview Talk: New in NetworKit under the hood (Fabian Brandt-Tumescheit, HU Berlin)
 - 2:25pm - 2:40pm : COFFEE BREAK
 
-- 2:40pm - 3:10pm : Overview Talk II: New in NetworKit (algorithms)
-- 3:10pm - 3:50pm : Discussion (requests, ideas, ...)
-- 3:50pm - 4:00pm : Wrap-up, pointers to more info
+- 2:40pm - 3:10pm : Overview Talk: New algorithms in NetworKit (Alexander van der Grinten, HU Berlin)
+- 3:10pm - 3:50pm : Discussion (moderated by Henning Meyerhenke)
+- 3:50pm - 4:00pm : Wrap-up (Henning Meyerhenke)
