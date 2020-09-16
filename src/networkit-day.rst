@@ -19,13 +19,12 @@ October 15, 2020 - `Register <https://www.eventbrite.de/e/networkit-day-2020-nd2
 ---------------------------------------------------------------------------------------------------------------
 
 We are happy to announce that **NetworKit Day** will be held on **October 15,
-2020** via zoom (todo: link).
+2020** via zoom.
 The goal of this day is to both present NetworKit to people who don’t know it
 yet and to update more seasoned users and developers about the new
 features, which have grown quite a bit over the last years. Also, in this
 meeting we wish to discuss future development directions and receive feedback
-on the current status of NetworKit. If you would like to attend or receive
-further information, feel free to send an e-mail to (someone).
+on the current status of NetworKit.
 
 **Preliminary program**:
 
