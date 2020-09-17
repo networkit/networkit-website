@@ -19,7 +19,7 @@ NetworKit Day
 ----------------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------
-October 15, 2020 
+October 15, 2020
 ---------------------------------------------------------------------------------------------------------------
 
 We are happy to announce that **NetworKit Day** will be held on **October 15,
@@ -44,7 +44,8 @@ Registration is mandatory to attend, so do not forget to
 
 LUNCH BREAK
 
-- 1:30pm - 2:00pm : Scientific Talk: Title TBA (Mattia D'Emidio, University of L’Aquila, Italy)
+- 1:30pm - 2:00pm : Scientific Talk: "On Mining Distances out of Massive Time-Evolving Graphs"
+  (Mattia D'Emidio, University of L’Aquila, Italy)
 - 2:00pm - 2:25pm : Overview Talk: New in NetworKit under the hood (Fabian Brandt-Tumescheit, HU Berlin)
 
 COFFEE BREAK
