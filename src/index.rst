@@ -7,7 +7,7 @@
         <div class="Introduction_Text" style="border-right: 1px solid #d4d7d9; display: table-cell; width: 66.66%; padding-right: 30px; text-align: justify">
 
 **NetworKit Day -- October 15th** -- `Program <networkit-day.html>`_ --
-`Register <https://www.eventbrite.de/e/networkit-day-2020-nd20-registration-121199776795>`_.
+`Register here by October 13th <https://www.eventbrite.de/e/networkit-day-2020-nd20-registration-121199776795>`_.
 Registration is free.
 
 **NetworKit** is a growing open-source toolkit for large-scale network analysis. Its aim is to provide tools for the analysis of large networks in the size range from thousands to billions of edges. For this purpose, it implements efficient graph algorithms, many of them parallel to utilize multicore architectures. These are meant to compute standard measures of network analysis, such as degree sequences, clustering coefficients, and centrality measures. In this respect, NetworKit is comparable to packages such as NetworkX, albeit with a focus on parallelism and scalability. NetworKit is also a testbed for algorithm engineering and contains novel algorithms from recently published research (see list of :ref:`publications`).

@@ -14,9 +14,9 @@ NetworKit Day
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
-----------------------------------------------------------------------------------------------------------------------
-`Registration here (free of charge) <https://www.eventbrite.de/e/networkit-day-2020-nd20-registration-121199776795>`_
-----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+`Registration here (free of charge) -- Open until October 13th <https://www.eventbrite.de/e/networkit-day-2020-nd20-registration-121199776795>`_
+-------------------------------------------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------
 October 15, 2020
@@ -31,7 +31,7 @@ meeting we wish to discuss future development directions and receive feedback
 on the current status of NetworKit.
 
 Registration is mandatory to attend, so do not forget to
-`register (free of charge)
+`register (free of charge) by October 13th
 <https://www.eventbrite.de/e/networkit-day-2020-nd20-registration-121199776795>`_.
 
 **Preliminary program**:
