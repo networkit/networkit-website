@@ -33,8 +33,12 @@ Requirements
 You will need the following software to install NetworKit as a python package:
 
 - A modern C++ compiler, e.g.: `g++ <https://gcc.gnu.org>`_ (>= 4.8) or `clang++ <http://clang.llvm.org>`_ (>= 3.7)
-- Python 3 (>= 3.4 is recommended, 3.3 supported)
-- `pip3 <https://pypi.python.org/pypi/pip>`_
+- OpenMP for parallelism (usually ships with the compiler)
+- Python3 (3.5 or higher is supported)
+- `Pip <https://pypi.python.org/pypi/pip>`_
+- `CMake <https://cmake.org/>`_ version 3.5 or higher (e.g., pip3 install cmake)
+- Build System: `Make <https://www.gnu.org/software/make/>`_ or `Ninja <https://ninja-build.org/>`_
+- Cython version 0.29 or higher (e.g., pip3 install cython)
 - `tkinter <https://docs.python.org/3/library/tkinter.html>`_ (e.g. sudo apt-get install python3-tk on Ubuntu)
 
 .. _Linux:
