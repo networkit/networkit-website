@@ -35,27 +35,38 @@ You will need the following software to install NetworKit as a python package:
 - A modern C++ compiler, e.g.: `g++ <https://gcc.gnu.org>`_ (>= 4.8) or `clang++ <http://clang.llvm.org>`_ (>= 3.7)
 - OpenMP for parallelism (usually ships with the compiler)
 - Python3 (3.5 or higher is supported)
+  
+  - Development libraries for Python3. The package name depends on your distribution. Examples:
+  
+    - Debian/Ubuntu: :code:`apt-get install python3-dev`
+    - RHEL/CentOS: :code:`dnf install python3-devel`
 - `Pip <https://pypi.python.org/pypi/pip>`_
-- `CMake <https://cmake.org/>`_ version 3.5 or higher (e.g., pip3 install cmake)
+- `CMake <https://cmake.org/>`_ version 3.5 or higher (e.g., :code:`pip3 install cmake`)
 - Build System: `Make <https://www.gnu.org/software/make/>`_ or `Ninja <https://ninja-build.org/>`_
-- Cython version 0.29 or higher (e.g., pip3 install cython)
-- `tkinter <https://docs.python.org/3/library/tkinter.html>`_ (e.g. sudo apt-get install python3-tk on Ubuntu)
+- Cython version 0.29 or higher (e.g., :code:`pip3 install cython`)
 
 .. _Linux:
 
 Linux
 -----
 
-Make sure Python3 and pip3, the python package manager, are installed on your system. You'll need the tkinter dependency for python3. Afterwards, pip3 can be used to install networkit.
+There are several ways to install NetworKit. Besides using :code:`pip3` (the common Python module way), it is also possible to get it via package manager channels like :code:`conda`, :code:`spack` and :code:`brew`. The complete list of possibilities is available on `Github <https://github.com/networkit/networkit>`_ .
+The following example uses :code:`pip3` for installation on a recent Debian/Ubuntu-based distribution. Asume you have a clean minimal system, you will first have to install all requirements: 
 
 .. code-block:: bash
 
   # On Ubuntu or equivalent, python3 is pre-installed.
 
-  # Install pip3 (if needed) and tkinter dependency
-  sudo apt-get install python3-pip python3-tk
+  # Install compilation tools (includes compiler, OpenMP)
+  sudo apt install build-essential
 
-  # Install networkit
+  # Install Python3, pip3
+  sudo apt install python3-dev python3-pip
+
+  # Install cmake, cython
+  pip3 install cmake cython
+
+  # And finally ... install NetworKit
   pip3 install networkit
 
 .. _macOS:
@@ -63,18 +74,19 @@ Make sure Python3 and pip3, the python package manager, are installed on your sy
 macOS
 -----
 
-Use Homebrew to install Python3 if you haven't done so before. Afterwards, pip3 can be used to install networkit.
+For macOS you can follow similar steps as shown for :code:`pip3` under Linux. However we recommend using :code:`brew` for managing NetworKit installations.
+Apart from the compilation environment all other dependencies are handled the brew formula.
 
 .. code-block:: bash
+
+  # Install xcode command line tools
+  xcode-select --install
 
   # Install Homebrew (if needed)
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-  # Install python3 and pip3 with Homebrew (if needed)
+  # Install NetworKit via brew
   brew install python3
-
-  # Install networkit
-  pip3 install networkit
 
 .. _Windows:
 
@@ -98,8 +110,8 @@ The remainder of the installation is similar to the installation process on Linu
 
 .. code-block:: bash
 
-  # Install pip3, tkinter & dev dependencies
-  sudo apt-get install python3-pip python3-tk python3-dev
+  # Install pip3 & dev dependencies
+  sudo apt-get install python3-pip python3-dev
 
   # Install networkit
   pip3 install networkit
@@ -166,7 +178,7 @@ To show plots within the notebooks, place the following two lines at the beginni
 .. code-block:: python
 
 	%matplotlib inline
-	matplotlib.pyplot as plt
+	import matplotlib.pyplot as plt
 
 **Note:** Instead of running jupyter, it may still be possible to run :code:`ipython3 notebook`. However, the notebook functionality of the ipython package is deprecated and has been moved to jupyter, which we strongly recommend.
 
