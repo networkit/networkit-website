@@ -5,6 +5,9 @@
 .. role:: hidden
    :class: hidden
 
+.. role:: underline
+    :class: underline
+
 =============
 NetworKit Day
 =============
@@ -34,13 +37,15 @@ Registration is mandatory to attend, so do not forget to
 `register (free of charge) by October 13th
 <https://www.eventbrite.de/e/networkit-day-2020-nd20-registration-121199776795>`_.
 
-**Preliminary program**:
+**Preliminary program (all times in CEST)**:
 
 - 11:30am - 11:45am : Welcome and introduction (Henning Meyerhenke, HU Berlin)
 - 11:45am - 12:15pm : Tutorial for new users (Eugenio Angriman, HU Berlin)
 - 12:15pm - 12:45pm : Scientific Talk: "Integrating NetworKit into a web-based
   Environment for Network Analysis and Exploration" (Jörn Kreutel, Beuth
   Hochschule für Technik Berlin)
+
+  - :underline:`Abstract:` The talk will present a web based platform for network analysis in the digital humanities that is being developed as a work in progress and uses NetworKit as its core analysis engine. The architecture of the platform will be outlined, and we will demonstrate some exploration functions that enhance networks with additional data related to its constituting entities.
 
 LUNCH BREAK
 
