@@ -46,7 +46,7 @@ nav .hidden {
 }
 
 .navbar {
-  background-color: #104870;
+  background-color: transparent;
   border-radius: 0px;
   font-size: 16px;
 }
@@ -105,8 +105,11 @@ text-decoration: none;
 }
 
 .customButton {
+  background-color: #104870;
   box-sizing: border-box;
   margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
   text-decoration: none;
   transition: all 0.5s ease;
   cursor: pointer;
@@ -115,7 +118,6 @@ text-decoration: none;
   outline: none;
   padding: 6.25px 10px 5.5px 10px;
   display: inline-block;
-  background: transparent;
   border: 1px solid #fff;
   color: #fff;
   -webkit-appearance: none;
@@ -127,6 +129,8 @@ text-decoration: none;
 .customButton:hover {
   box-sizing: border-box;
   margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
   text-decoration: none;
   transition: all 0.5s ease;
   cursor: pointer;
@@ -246,7 +250,7 @@ input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
 #fancy-particles {
   position: absolute;
   top: 0;
-  z-index: -1;
+  z-index: 0;
   height: 400px;
   width: 100%;
   background-color: #104870;
@@ -256,4 +260,24 @@ input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
 
 #fancy-particles canvas {
   background-color: #104870;
+}
+
+#fancy-particles-small {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #104870;
+  background-size: cover;
+  background-position: center center;
+}
+
+.logo-index {
+  max-width: 28%;
+}
+
+.welcome-index {
+  z-index: 1;
+  position: relative;
 }
