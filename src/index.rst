@@ -136,6 +136,7 @@ Registration is free.
   plt.xlabel("community id")
   plt.yscale("log")
   plt.ylabel("size")
+  plt.plot(sizes)
   plt.show()
 
 .. raw:: html

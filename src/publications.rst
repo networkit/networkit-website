@@ -2,11 +2,18 @@
 
 .. |br| raw:: html
 
-   <br />
+  <br />
 
 .. |separator| raw:: html
 
   <div style="padding-top: 25px; border-bottom: 1px solid #d4d7d9;"></div>
+
+.. raw:: html
+
+  <script type="text/javascript" src="_static/mathjax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+.. role:: raw-latex(raw)
+  :format: latex html
 
 .. _publications:
 
@@ -20,7 +27,7 @@ Also, we would appreciate it if you pointed us to your publications in which you
 Journal Paper on NetworKit as a Software Toolkit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. raw:: html
+.. raw:: latex html
 
   <ul>
     <li>
@@ -45,7 +52,7 @@ Journal Paper on NetworKit as a Software Toolkit
 Publications on Algorithms Available in NetworKit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. raw:: html
+.. raw:: latex html
 
   <ul>
 
@@ -62,22 +69,22 @@ Publications on Algorithms Available in NetworKit
   The ubiquity of massive graph data sets in numerous applications requires
   fast algorithms for extracting knowledge from these data. We are motivated
   here by three electrical measures for the analysis of large small-world
-  graphs G=(V,E) -- i.e., graphs with diameter in O(log|V|), which are abundant
+  graphs \(G=(V,E)\) -- i.e., graphs with diameter in \(O(log|V|)\), which are abundant
   in complex network analysis. From a computational point of view, the three
   measures have in common that their crucial component is the diagonal of the
-  graph Laplacian's pseudoinverse, L'. Computing diag(L') exactly by
+  graph Laplacian's pseudoinverse, L'. Computing \(diag(L')\) exactly by
   pseudoinversion, however, is as expensive as dense matrix multiplication --
   and the standard tools in practice even require cubic time. Moreover, the
   pseudoinverse requires quadratic space -- hardly feasible for large graphs.
   Resorting to approximation by, e.g., using the Johnson-Lindenstrauss
-  transform, requires the solution of O(log|V|/eps^2) Laplacian linear systems to
+  transform, requires the solution of \(O(log|V|/eps^2)\) Laplacian linear systems to
   guarantee a relative error, which is still very expensive for large inputs.
   In this paper, we present a novel approximation algorithm that requires the
   solution of only one Laplacian linear system. The remaining parts are purely
   combinatorial -- mainly sampling uniform spanning trees, which we relate to
-  diag(L') via effective resistances. For small-world networks, our algorithm
+  \(diag(L')\) via effective resistances. For small-world networks, our algorithm
   obtains a ±eps-approximation with high probability, in a time that is
-  nearly-linear in |E| and quadratic in 1/eps. Another positive aspect of our
+  nearly-linear in \(|E|\) and quadratic in \(1/eps\). Another positive aspect of our
   algorithm is its parallel nature due to independent sampling. We thus provide
   two parallel implementations of our algorithm: one using OpenMP, one MPI +
   OpenMP. In our experiments against the state of the art, our algorithm (i)
@@ -131,10 +138,10 @@ Publications on Algorithms Available in NetworKit
     our local search algorithms take only around ten minutes, while greedy requires more than ten hours.
     Overall, our new algorithms are between one and two orders of magnitude faster,
     depending on the desired group size and solution quality.
-    For example, on weighted graphs and <i>k = 10</i>, our algorithms yield solutions
+    For example, on weighted graphs and \(k = 10\), our algorithms yield solutions
     of 12.4% higher quality, while also being
     793.6x faster.
-    For unweighted graphs and <i>k = 10</i>, we achieve solutions within
+    For unweighted graphs and \(k = 10\), we achieve solutions within
     99.4% of the state-of-the-art quality
     while being 127.8x faster.
   </div>
@@ -246,7 +253,7 @@ Publications on Algorithms Available in NetworKit
     <button type="button" class="btn-link collapsed"></button>
     <div class="collapse">
     <b>Abstract.</b>
-    Closeness is a widely-studied centrality measure. Since it requires all pairwise distances, computing closeness for all nodes is infeasible for large real-world networks. However, for many applications, it is only necessary to find the k most central nodes and not all closeness values. Prior work has shown that computing the top-k nodes with highest closeness can be done much faster than computing closeness for all nodes in real-world networks. However, for networks that evolve over time, no dynamic top-k closeness algorithm exists that improves on static recomputation. In this paper, we present several techniques that allow us to efficiently compute the k nodes with highest (harmonic) closeness after an edge insertion or an edge deletion. Our algorithms use information obtained during earlier computations to omit unnecessary work. However, they do not require asymptotically more memory than the static algorithms (i. e., linear in the number of nodes). We propose separate algorithms for complex networks (which exhibit the small-world property) and networks with large diameter such as street networks, and we compare them against static recomputation on a variety of real-world networks. On many instances, our dynamic algorithms are two orders of magnitude faster than recomputation; on some large graphs, we even reach average speedups between 10^3 and 10^4.
+    Closeness is a widely-studied centrality measure. Since it requires all pairwise distances, computing closeness for all nodes is infeasible for large real-world networks. However, for many applications, it is only necessary to find the k most central nodes and not all closeness values. Prior work has shown that computing the top-k nodes with highest closeness can be done much faster than computing closeness for all nodes in real-world networks. However, for networks that evolve over time, no dynamic top-k closeness algorithm exists that improves on static recomputation. In this paper, we present several techniques that allow us to efficiently compute the k nodes with highest (harmonic) closeness after an edge insertion or an edge deletion. Our algorithms use information obtained during earlier computations to omit unnecessary work. However, they do not require asymptotically more memory than the static algorithms (i. e., linear in the number of nodes). We propose separate algorithms for complex networks (which exhibit the small-world property) and networks with large diameter such as street networks, and we compare them against static recomputation on a variety of real-world networks. On many instances, our dynamic algorithms are two orders of magnitude faster than recomputation; on some large graphs, we even reach average speedups between \(10^3\) and \(10^4\).
     </div>
   </li>
 
@@ -306,7 +313,7 @@ Publications on Algorithms Available in NetworKit
       Generative network models play an important role in algorithm development, scaling studies, network analysis, and realistic system benchmarks for graph data sets.   The commonly used graph-based benchmark model R-MAT has some drawbacks concerning realism and the scaling behavior of network properties.
         A complex network model gaining considerable popularity builds random hyperbolic graphs, generated by distributing points within a disk in the hyperbolic plane and then adding edges between points whose hyperbolic distance is below a threshold.
         We present in this paper a fast generation algorithm for such graphs.
-        Our experiments show that our new generator achieves speedup factors of 3-60 over the best previous implementation.
+        Our experiments show that our new generator achieves speedup factors of x3-60 over the best previous implementation.
         One billion edges can now be generated in under one minute on a shared-memory workstation.
         Furthermore, we present a dynamic extension to model gradual network change, while preserving at each step the point position probabilities.
       </div>
@@ -538,7 +545,7 @@ Publications on Algorithms Available in NetworKit
 
 |separator|
 
-Publications Using NetworKit
+Publications Using NetworKit (notable examples)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -664,7 +671,7 @@ Publications Using NetworKit
 Projects Using NetworKit
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Further projects using NetworKit can be found `here <projects.html>`_.
+Further projects using NetworKit can be found on our projects `page <projects.html>`_ and on Google Scholar (`here <https://scholar.google.com/scholar?cites=4830058894162088419&as_sdt=2005&sciodt=0,5>`_ and `there <https://scholar.google.com/scholar?cites=2526066274193235127&as_sdt=2005&sciodt=0,5>`_).
 
 
 |separator|

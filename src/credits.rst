@@ -34,24 +34,33 @@ Past Maintainers
 Contributors
 ~~~~~~~~~~~~
 
+- Roman Bange
 - Lukas Barth
 - Miriam Beddig
 - Stefan Bertsch
 - Pratistha Bhattarai
 - Andreas Bilke
 - Simon Bischof
+- Fabian Brandt-Tumescheit
 - Guido Brückner
 - Mark Erb
+- Philipp Fischbeck
 - Patrick Flick
+- Jeff Green
 - Michael Hamann
 - Lukas Hartmann
+- Ali Haydari
 - Daniel Hoske
+- Yani Kolev
+- Marten Lienen
 - Gerd Lindner
 - Moritz v. Looz
 - Sarah Lutteropp
 - Yassine Marrakchi
 - Marc Nemes
 - Franz-Benjamin Mocnik
+- Charmaine Nyambura Ndolo
+- Chien-Chun Ni
 - Mustafa Özdayi
 - Manuel Penschuck
 - Marvin Pogoda
@@ -61,8 +70,10 @@ Contributors
 - Marvin Ritter
 - Aleksejs Sazonovs
 - Arie Slobbe
+- Jonathan Striebel 
 - Hung Tran
 - Florian Weber
+- Deklan Webster
 - Michael Wegner
 - Jörg Weisbarth
 - David Weiss
