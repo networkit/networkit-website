@@ -120,8 +120,8 @@ html_theme_options = {
                       ("Features", "features"),
                       ("News", "news"),
                       ("Publications", "publications"),
-                      ("Data sets", "datasets"),
-                      ("Credits", "credits")],
+                      ("NetworKit Day", "networkit-day"),
+                      ("Credits & References", "credits")],
 
     }
 

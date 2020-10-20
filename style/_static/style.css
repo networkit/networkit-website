@@ -81,7 +81,6 @@ button.btn-link.collapsed:before
     display:block;
 }
 
-
 .btn-link, .btn-link:hover {
   color: #0C54A6;
   text-shadow: none;
@@ -92,7 +91,7 @@ button.btn-link.collapsed:before
 
 /* Adjust Menu colors - Hover */
 .navbar .nav > li > a:hover, .navbar .nav > li > a:hover:first-letter, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover {
-color:          white;
+transition: all 0.5s ease;
 text-shadow:    none;
 text-decoration: none;
 }
@@ -280,4 +279,13 @@ input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
 .welcome-index {
   z-index: 1;
   position: relative;
+}
+
+#main-nav {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-right {
+  margin-right: -100px;
 }
