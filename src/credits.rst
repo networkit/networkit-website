@@ -1,9 +1,9 @@
 .. role:: hidden
    :class: hidden
 
-=======
-Credits
-=======
+=====================
+Credits & References
+=====================
 
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
@@ -78,6 +78,10 @@ Contributors
 - Jörg Weisbarth
 - David Weiss
 
+License
+~~~~~~~
+
+The source code of this program is released under the `MIT License <http://opensource.org/licenses/MIT>`_.  We ask you to cite us if you use this code in your project (c.f. the publications section below and especially the `technical report <https://arxiv.org/abs/1403.3005>`_). Feedback is also welcome.
 
 External Code
 ~~~~~~~~~~~~~
@@ -87,8 +91,13 @@ The program source includes:
 - the `The Lean Mean C++ Option Parser <http://optionparser.sourceforge.net>`_ by Matthias S. Benkmann
 - the `TTMath <http://optionparser.sourceforge.net>`_ bignum library by Tomasz Sowa
 
-License
-~~~~~~~
+Data sets
+~~~~~~~~~
 
-The source code of this program is released under the `MIT License <http://opensource.org/licenses/MIT>`_.  We ask you to cite us if you use this code in your project (c.f. the publications section below and especially the `technical report <https://arxiv.org/abs/1403.3005>`_). Feedback is also welcome.
+Here are some data sets, which are often used for benchmarking algorithms in NetworKit.
 
+- `10th DIMACS Implementation Challenge (2010-2012) <http://www.cc.gatech.edu/dimacs10/downloads.shtml>`_
+
+- `Stanford Network Analysis Project <http://snap.stanford.edu/>`_
+
+- `The Koblenz Network Collection <http://konect.uni-koblenz.de/>`_

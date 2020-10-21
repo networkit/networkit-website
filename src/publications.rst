@@ -546,7 +546,7 @@ Publications on Algorithms Available in NetworKit
 |separator|
 
 Publications Using NetworKit (notable examples)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 

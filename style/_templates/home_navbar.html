@@ -23,7 +23,7 @@
 
 
 
-        <div class="collapse navbar-collapse nav-collapse" style="float:right">
+        <div id="main-nav" class="collapse navbar-collapse nav-collapse">
           <ul class="nav navbar-nav">
             {% if theme_navbar_links %}
               {%- for link in theme_navbar_links %}
@@ -53,7 +53,7 @@
         </div>
     </div>
 
-    <div class="welcome-index" style="text-align: center; padding-top: 100px; padding-bottom: 10px;">
+    <div class="welcome-index" style="text-align: center; padding-top: 30px; padding-bottom: 10px;">
       <img class="logo-index" src="_static/logo_bw_inv.png"><br><p style="margin: 10px"></p>
       <a class="customButton" href="{{ pathto('get_started') }}">Get Started</a>
       <a class="customButton" href="https://github.com/networkit/networkit/blob/Dev/notebooks/User-Guide.ipynb">User Guide</a>
