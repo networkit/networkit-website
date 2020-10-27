@@ -35,6 +35,7 @@ In the following you can get information about future and past NetworKit Day Eve
       </ul>
       <li>12:15pm - 12:45pm : Scientific Talk: "Integrating NetworKit into a web-based Environment for Network Analysis and Exploration" (Jörn Kreutel, Beuth Hochschule für Technik Berlin)</li>
       <ul>
+          <li><a href="_static/jkreutel_networkit_day_2020.pdf">Presentation Slides</a></li>
           <li><u>Abstract:</u> The talk will present a web based platform for network analysis in the digital humanities that is being developed as a work in progress and uses NetworKit as its core analysis engine. The architecture of the platform will be outlined, and we will demonstrate some exploration functions that enhance networks with additional data related to its constituting entities.</li>
       </ul>
     </ul>
