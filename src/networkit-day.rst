@@ -32,6 +32,7 @@ In the following you can get information about future and past NetworKit Day Eve
       <li>11:45am - 12:15pm : Tutorial for new users (Eugenio Angriman, HU Berlin)</li>
       <ul>
         <li><a href="_static/nd20-talk-tutorial.pdf">Presentation Slides</a></li>
+        <li><a href="_static/nd20-notebooks.zip">Notebooks + Resources</a></li>
       </ul>
       <li>12:15pm - 12:45pm : Scientific Talk: "Integrating NetworKit into a web-based Environment for Network Analysis and Exploration" (Jörn Kreutel, Beuth Hochschule für Technik Berlin)</li>
       <ul>
