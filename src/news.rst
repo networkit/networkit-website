@@ -18,6 +18,29 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+December 18, 2020: **NetworKit 8.0 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:underline:`New features`
+
+- Possibility to specify edge directions for Katz centrality
+- New algorithm to approximate Electrical Closeness, based on `Approximation of the Diagonal of a Laplacian's Pseudoinverse for Complex Network Analysis <https://drops.dagstuhl.de/opus/volltexte/2020/12872/pdf/LIPIcs-ESA-2020-6.pdf>`_ by E. Angriman, A. van der Grinten, M. Predari and H. Meyerhenke
+- New algorithm: SPSP (Some Pairs Shortest Paths), as APSP but with user-specified source vertices
+
+:underline:`New features for Contributors / Developers`
+
+- We moved our continious integration testing from Travis-CI to Github Actions. While the test-coverage stays the same, testing time is significantly reduced. This results in faster feedback for your pull requests.
+- Based on our rule to support compilers which are 5 years old, the minimum support for gcc was raised to version 5.
+- NetworKit now support C++14 features.
+
+:underline:`Further Improvements`
+
+- The documentation is improved and includes rendering-fixes, when dealing with certain elements like formulas.
+- Refactored :code:`Betweenness` and :code:`ApproxBetweenness`, leading to improved parallel performance.
+
+|
+|
+
 September 08, 2020: **NetworKit 7.1 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
