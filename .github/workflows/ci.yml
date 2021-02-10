@@ -1,0 +1,36 @@
+name: build
+
+on: [push, pull_request]
+
+jobs:  
+  documentation-build:
+    name: "Website build"
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Prepare environment and run checks
+        run:  |
+          python3 -m venv pyenv && . pyenv/bin/activate
+          pip3 install --upgrade pip
+          pip3 install sphinx sphinx_bootstrap_theme
+          mkdir build && cd "$_"
+          cmake ..
+          make
+        shell: bash
+      - name: Post Build
+        run:  |
+          cd ${{ github.workspace }}/build
+          touch www/.nojekyll
+          rm -rf www/{.buildinfo,.doctrees}
+      - name: Deploy networkit.github.io 🚀
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.SECRET_DEPLOY_GITHUB_PAGES }}
+          external_repository: networkit/networkit.github.io
+          publish_branch:  master
+          publish_dir: ./build/www
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
