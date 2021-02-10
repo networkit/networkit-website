@@ -18,6 +18,14 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+January 15, 2021: **New paper using NetworKit**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The paper "New Approximation Algorithms for Forest Closeness Centrality - for Individual Vertices and Vertex Groups" (authors: van der Grinten, Angriman, Predari, Meyerhenke) was selected for publication by `SIAM Data Mining 2021 <https://www.siam.org/conferences/cm/conference/sdm21>`_. In the paper NetworKit is used for computing the experimental data. We also plan to include the new Forest Closeness Centrality algorithms in future releases.
+
+|
+|
+
 December 18, 2020: **NetworKit 8.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
