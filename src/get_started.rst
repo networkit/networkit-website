@@ -32,7 +32,7 @@ Requirements
 
 You will need the following software to install NetworKit as a python package:
 
-- A modern C++ compiler, e.g.: `g++ <https://gcc.gnu.org>`_ (>= 4.8) or `clang++ <http://clang.llvm.org>`_ (>= 3.7)
+- A modern C++ compiler, e.g.: `g++ <https://gcc.gnu.org>`_ (>= 5.3) or `clang++ <http://clang.llvm.org>`_ (>= 3.9)
 - OpenMP for parallelism (usually ships with the compiler)
 - Python3 (3.5 or higher is supported)
   
