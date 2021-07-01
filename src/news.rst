@@ -18,6 +18,31 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+February 23, 2021: **NetworKit 8.1 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:underline:`New features`
+
+- New embedding module that implements the node2vec algorithm based on "node2vec: Scalable feature learning for networks" by Grover and Leskovec (KDD 2016). The embedding module is available for both C++ and Python.
+- New csbridge Python module that allows to draw colored graphs inline in a jupyter notebook via ipycytoscape.
+- Better implementation of :code:`ClusterRandomGraphGenerator`: now it takes linear time and supports parallelism.
+- Added support for Binder. Newer branches from NetworKit can now be accessed directly from Binder. Currently supported are master (newest stable) and 8.1 (release version).
+
+:underline:`For developers`
+
+- We raised the minimum required clang version from 3.8 to 3.9.
+- It is now possible to create the Python package against an external pre-build tlx-library. To use it, add :code:`--external-tlx=<TLX_PATH>` to :code:`setup.py build_ext-phase`.
+- All clang-tidy warnings have been resolved and will be treated as errors by our CI pipeline. Some of the clang-tidy checks also involve possible performance enhancements and/or lowering of the memory footprint by avoiding unnecessary copies. The exact benefit depends on the use-case.
+- Several warning and documentation fixes.
+
+:underline:`Notable bugfixes`
+
+- When using custom compilers on macOS (for example homebrew gcc compiler) and NetworKit was built from source with an external core, this created a NetworKit installation with incompatible core and cython-extension libraries.
+- In :code:`KatzCentrality`, the parameter alpha was set to 0 by default. This caused the edges to be ignored and every node got the same centrality.
+
+|
+|
+
 January 15, 2021: **New paper using NetworKit**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -115,7 +140,7 @@ March 2020: **new accepted papers using NetworKit**
 March 1, 2020: **NetworKit 6.1.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In the following you see an overview about the contributions, which went into NetworKit 6.1.0. Note that this version is fully compatible with release 6.0.0. 
+In the following you see an overview about the contributions, which went into NetworKit 6.1.0. Note that this version is fully compatible with release 6.0.0.
 
 :underline:`New features`
 
@@ -125,7 +150,7 @@ In the following you see an overview about the contributions, which went into Ne
 
 :underline:`Bugfixes`
 
-- Generating a graph with the Watts-Strogatz algorithm does not lead anymore to infinite loops, when passing a number of neighbors per node, which is equal to the total number of nodes in the graph. (See issue `#505 <https://github.com/networkit/networkit/issues/505>`_) 
+- Generating a graph with the Watts-Strogatz algorithm does not lead anymore to infinite loops, when passing a number of neighbors per node, which is equal to the total number of nodes in the graph. (See issue `#505 <https://github.com/networkit/networkit/issues/505>`_)
 - Fixed error in function inNeighbors, including not all parameters in call to underlying library. (See issue `#469 <https://github.com/networkit/networkit/issues/469>`_)
 - The z-coordinate is now correctly scaled when writing a graph to GML. (See issue `#500 <https://github.com/networkit/networkit/issues/500>`_)
 - ConnectedComponents::extractLargestConnectedComponent now returns a compacted graph if called with appropriate parameters.
