@@ -95,7 +95,7 @@ Windows
 
 With the release of NetworKit 9.0 we have an experimental support for Windows installations. While installation is also possible via :code:`pip`, requirements include the official `Python package <https://www.python.org/downloads/windows/>`_ and at least the free Community-Edition of `Visual Studio <https://visualstudio.microsoft.com/de/downloads/>`_.
 
-Also you have to make sure, that MSVC-compiler (:code:`cl.exe`) can be found during installation. One possible way to achieve this, is to call :code:`pip` from within "Native Tools Command Prompt" provided by Visual Studio.
+You also have to make sure that MSVC-compiler (:code:`cl.exe`) can be found during installation. One possible way to achieve this is to call :code:`pip` from within the "Native Tools Command Prompt" provided by Visual Studio.
 
 .. code-block:: bash
 
