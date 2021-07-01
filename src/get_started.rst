@@ -93,36 +93,29 @@ Apart from the compilation environment all other dependencies are handled the br
 Windows
 -------
 
+With the release of NetworKit 9.0 we have an experimental support for Windows installations. While installation is also possible via :code:`pip`, requirements include the official `Python package <https://www.python.org/downloads/windows/>`_ and at least the free Community-Edition of `Visual Studio <https://visualstudio.microsoft.com/de/downloads/>`_.
+
+Also you have to make sure, that MSVC-compiler (:code:`cl.exe`) can be found during installation. One possible way to achieve this, is to call :code:`pip` from within "Native Tools Command Prompt" provided by Visual Studio.
+
+.. code-block:: bash
+
+  # Requirements: Official Python release is installed and cl.exe can be found. 
+  # If "Native Tools Command Prompt" is used, cmake and ninja are already installed.
+
+  # Install cython
+  pip3 install cython
+
+  # And finally ... install NetworKit
+  pip3 install networkit
+
 .. _Windows 10:
 
 Windows 10
 ^^^^^^^^^^
 
-With the introduction of Windows 10, Microsoft offers native support for Linux binaries through a compatibility layer called `Linux Subsystem for Windows <https://docs.microsoft.com/en-us/windows/wsl/about>`_. Please see the `installation instructions <https://docs.microsoft.com/en-us/windows/wsl/install-win10>`_ on how to install the Linux Subsystem on your machine.
+For Windows 10, it is also possible to use the `Windows Subsystem for Linux <https://docs.microsoft.com/en-us/windows/wsl/install-win10>`_ See the official documentation on how to activate the Linux Subsystem. 
 
-The Linux Subsystem is fully compatible with NetworKit. After a successful installation, simply **open a new command line** and start a new bash shell.
-
-.. code-block:: bash
-
-  bash
-
-The remainder of the installation is similar to the installation process on Linux except for the addition of the `python3-dev` package.
-
-.. code-block:: bash
-
-  # Install pip3 & dev dependencies
-  sudo apt-get install python3-pip python3-dev
-
-  # Install networkit
-  pip3 install networkit
-
-
-.. _Windows 8 and below:
-
-Windows 8 and below
-^^^^^^^^^^^^^^^^^^^
-
-There is currently no official support for Windows 8 and below.
+The Linux Subsystem is fully compatible with NetworKit. After a successful installation, simply **open a new command line** and start a new bash shell. From there you can follow the instructions for Linux.
 
 |separator|
 
