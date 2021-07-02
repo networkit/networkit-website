@@ -18,6 +18,47 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+July 1, 2021: **NetworKit 9.0 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:underline:`New feature`
+    - Windows 7, 8.1 and 10: possibility to install NetworKit via pip. Currently we have no pre-built wheel-package available so you have to make sure that the MSVC-compiler (cl.exe) can be found when installing NetworKit via pip. A possible solution is to call "pip" from within "Native Tools Command Prompt" provided by Visual Studio. This feature will be further improved in the future.
+
+
+:underline:`New algorithms`
+
+Centrality:
+    - Greedy algorithm for group harmonic closeness based on "Group-Harmonic and Group-Closeness Maximization - Approximation and Engineering", E. Angriman, R. Becker, G. D'Angelo, H. Gilbert, A. van der Grinten, H. Meyerhenke, ALENEX 2021. This algorithm is available in :code:`networkit.centrality.GroupHarmonicCloseness`.
+    - Local search approximation algorithm for group closeness based on the aforementioned ALENEX 2021 paper. This algorithm is available in :code:`networkit.centrality.GroupClosenessLocalSearch`.
+    - Heuristic algorithm for group closeness (LS-Restrict) based on "Local Search for Group Closeness Maximization on Big Graphs", E.Angriman, A. van der Grinten, H. Meyerhenke, IEEE BigData 2019. This algorithm is available in :code:`networkit.centrality.GroupClosenessLocalSwaps`.
+    - New algorithm for Normalized PageRank based on "Comparing Apples and Oranges: Normalized PageRank for Evolving Graphs", K. Berberich, S. Bedathur, G. Weikum, M. Vazirgiannis, WWW 2007. The algorithm is available in :code:`networkit.centrality.PageRank`.
+
+Community Detection:
+    - Based on Map Equation, available via :code:`networkit.community.LouvainMapEquation`. For further information about the algorithm, see "The map equation", M. Rosvall, D. Axelsson, C. T. Bergstrom, EPJ ST 2009.
+    -  Based on Overlapping Normalized Mutual Information, from the paper  "Normalized Mutual Information to Evaluate Overlapping", A. McDaid, D. Greene, N. Hurley, Physics and Society 2011. This algorithm is available in :code:`networkit.community.OverlappingNMIDistance`.
+
+Matching:
+    - Suitor matcher, based on "New Effective Multithreaded Matching Algorithms", F. Manne and M. Halappanavar, IPDPS 2014. This algorithm is available in :code:`networkit.matching.SuitorMatcher`.
+
+GraphTools:
+    - New function :code:`subgraphFromNodes`: returns an induced subgraph based on an input graph
+    - The previous :code:`subgraphFromNodes` has been renamed to :code:`subgraphAndNeighborsFromNodes` in order to better reflect its functionality
+
+
+:underline:`Further changes and improvements`
+    - Template implementation of CSRMatrix
+    - Clang-analyzer warnings are fixed and treated as errors
+    - Improved performance of graph writers
+    - Possibility to try-out NetworKit without installation: binder support + cloud instances
+    - Optimized memory usage in LAMG and ConjugateGradient
+    - Improved runtime of (parallel) coarsening implementation for clusterings
+    - Improved runtime of isProper() for matching
+    - Support for clang-12 and gcc-11 compilers
+    - AVX2 support for Windows
+
+|
+|
+
 February 23, 2021: **NetworKit 8.1 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
