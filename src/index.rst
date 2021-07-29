@@ -30,7 +30,7 @@
 
           <div style="padding-top: 15px">View the <a href="https://sympa.cms.hu-berlin.de/sympa/arc/networkit">mailing list archive</a></div>
 
-          <div style="padding-top: 15px"><a href="https://github.com/networkit/networkit/blob/Dev/notebooks/User-Guide.ipynb">NetworKit User Guide</a></div>
+          <div style="padding-top: 15px"><a href="https://github.com/networkit/networkit/blob/master/notebooks/User-Guide.ipynb">NetworKit User Guide</a></div>
 
         </div>
       </div>
