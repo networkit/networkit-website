@@ -15,7 +15,7 @@ Although the standard Python interpreter works fine, we recommend `IPython <http
 workflows. View the `IPython Quickstart Guide`_ for installation instructions and how to use NetworKit with IPython.
 
 Once you have installed NetworKit, please make sure to check out our
-`NetworKit UserGuide <https://github.com/networkit/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_ for an overview of the features provided
+`NetworKit UserGuide <https://github.com/networkit/networkit/blob/master/notebooks/User-Guide.ipynb>`_ for an overview of the features provided
 in NetworKit.
 
 |separator|
@@ -151,7 +151,7 @@ If you want to use NetworKit in the IPython terminal, type the following command
 	from networkit import *
 
 The first line opens the IPython terminal. The second line imports the *networkit* Python module. After that, you should be able to use NetworKit interactively.
-For usage examples, refer to the `NetworKit UserGuide <https://github.com/networkit/networkit/blob/Dev/notebooks/User-Guide.ipynb>`_.
+For usage examples, refer to the `NetworKit UserGuide <https://github.com/networkit/networkit/blob/master/notebooks/User-Guide.ipynb>`_.
 
 IPython Notebook/Jupyter
 ------------------------
