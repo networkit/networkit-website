@@ -75,7 +75,7 @@ macOS
 -----
 
 For macOS you can follow similar steps as shown for :code:`pip3` under Linux. However we recommend using :code:`brew` for managing NetworKit installations.
-Apart from the compilation environment all other dependencies are handled the brew formula.
+Apart from the compilation environment all other dependencies are handled by the brew formula.
 
 .. code-block:: bash
 
@@ -87,6 +87,23 @@ Apart from the compilation environment all other dependencies are handled the br
 
   # Install NetworKit via brew
   brew install python3
+
+Apple Silicon M1 hardware
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+With the recently introduced :code:`macos/arm64` platform, it is possible to create native NetworKit builds for M1 hardware. Since there are no ready to use :code:`arm64`-packages available, currently it is necessary to build the package from source. The recommended and only well-functioning way is using conda environments (e.g. miniforge). Follow the steps below:
+
+- Download and install miniforge for macOS arm64: https://github.com/conda-forge/miniforge
+- Create and activate environment:
+
+.. code-block:: bash
+
+  conda create -n nwk python scipy numpy cython compilers llvm-openmp
+  conda activate nwk
+
+- Clone Networkit repository and follow `installation instructions <https://github.com/networkit/networkit#installation-instructions>`_
+
+Note that it is also possible to run available `x86_64`-packages of NetworKit via Rosetta2. However this will likely incur some performance overhead.
 
 .. _Windows:
 
