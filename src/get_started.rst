@@ -86,22 +86,54 @@ Apart from the compilation environment all other dependencies are handled by the
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
   # Install NetworKit via brew
-  brew install python3
+  brew install libomp
 
 Apple Silicon M1 hardware
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-With the recently introduced :code:`macos/arm64` platform, it is possible to create native NetworKit builds for M1 hardware. Since there are no ready to use :code:`arm64`-packages available, currently it is necessary to build the package from source. The recommended and only well-functioning way is using conda environments (e.g. miniforge). Follow the steps below:
-
-- Download and install miniforge for macOS arm64: https://github.com/conda-forge/miniforge
-- Create and activate environment:
+With the recently introduced :code:`macos/arm64` platform, it is possible to create native NetworKit builds for M1 hardware. 
+Our current release 9.0 does not support installing via :code:`pip` directly. Until the next release you have to do the following 
+to install on :code:`arm64`-based macOS: 
 
 .. code-block:: bash
 
-  conda create -n nwk python scipy numpy cython compilers llvm-openmp
-  conda activate nwk
+  # Install xcode command line tools
+  xcode-select --install
 
-- Clone Networkit repository and follow `installation instructions <https://github.com/networkit/networkit#installation-instructions>`_
+  # Install Homebrew (if needed)
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+  # Install NetworKit and dependencies
+  git clone https://github.com/networkit/networkit
+  cd networkit
+
+  # This is a current workaround, since SciPy stable releases are not supported by arm64-macOS: https://github.com/scipy/scipy/issues/13409
+  # Once SciPy-wheels are released, this command can be omitted
+  pip install --pre -i https://pypi.anaconda.org/scipy-wheels-nightly/simple scipy
+  pip install -e .
+
+As an alternative you can use conda environments (e.g. miniforge) to install pre-compiled package. Follow the steps below:
+
+- Download and install miniforge for macOS arm64: https://github.com/conda-forge/miniforge
+- Install the :code:`arm64` conda-package:
+
+.. code-block:: bash
+
+  conda create -n nwk
+  conda activate nwk
+  conda install networkit
+  
+  ...
+  The following NEW packages will be INSTALLED:
+
+  ...
+  libnetworkit       conda-forge/osx-arm64::libnetworkit-9.0-hc8223b0_1
+  libopenblas        conda-forge/osx-arm64::libopenblas-0.3.18-openmp_h5dd58f0_0
+  llvm-openmp        conda-forge/osx-arm64::llvm-openmp-12.0.1-hf3c4609_1
+  networkit          conda-forge/osx-arm64::networkit-9.0-py39h7f752ed_1
+  numpy              conda-forge/osx-arm64::numpy-1.21.3-py39h1f3b974_1
+  scipy              conda-forge/osx-arm64::scipy-1.7.1-py39h5060c3b_0  
+  ...
 
 Note that it is also possible to run available `x86_64`-packages of NetworKit via Rosetta2. However this will likely incur some performance overhead.
 
