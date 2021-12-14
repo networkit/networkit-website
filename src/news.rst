@@ -18,6 +18,36 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+December 14, 2021: **NetworKit 9.1.1 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:underline:`New features`
+    - Wheels: NetworKit is now available as pre-built wheel-packages for nearly all supported platforms via pip. In case you prefer to build the C++ core and extensions, use :code:`pip install --no-binary networkit`.
+    - M1 macOS: support for install NetworKit as a native package via pip. 
+
+:underline:`New algorithms`
+
+Community:
+    - New overlapping community detection algorithm LFM (Local Fitness Method), available in :code:`centrality.LFM`. This is contribution from J. Gelhausen (KIT Karlsruhe)
+    - New parallel version of Leiden-based community detection algorithm, available in :code:`community.ParallelLeiden`. This is a contribution from F. Nguyen (KIT Karlsruhe).
+ 
+GraphTools:
+    - New function topologicalSort: returns a list of nodes sorted by a valid topological ordering, available in :code:`graphtools.topologicalSort`.
+    
+:underline:`Further changes and improvements`
+    - :code:`NetworkBinaryReader/Writer`: support for reading/writing edge indices and pickling graphs.
+    - Improved performance for :code:`CSRMatrix` functions sort() and diagonal().
+    - Improved performance for Vector function :code:`mean()`.
+    - Improved performance for :code:`Graphbuilder` (only available in C++).
+    - Improvements to the documentation, available at https://networkit.github.io/dev-docs/index.html
+    - Support for clang-13.
+
+:underline:`Notable Bug-Fixes`
+    - Fixed a rare bug in :code:`centrality.GroupClosenessLocalSearch`, which could lead to worse solutions.
+    - Fixed :code:`coloring.SpectralColoring()` by adjusting scipy-imports.
+    - Fixed a problem for the experimental Windows support, where the wrong Python-libs are linked when multiple Python-versions are installed.
+
+
 July 1, 2021: **NetworKit 9.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
