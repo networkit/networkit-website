@@ -18,6 +18,13 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+December 20, 2021: **Save the Date: NetworKit Day 2022**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We are happy to announce a new NetworKit Day. The event will take place on March, 3rd 2022 - starting at 1 p.m. and ending at 6 p.m CET. Details concerning the program schedule will be shared at a later date.
+
+Wish you all a good holiday season!
+
 December 14, 2021: **NetworKit 9.1.1 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
