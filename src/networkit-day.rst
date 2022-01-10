@@ -17,8 +17,17 @@ In the following you can get information about future and past NetworKit Day Eve
 .. raw:: latex html
 
   <br><br>
+  <h1>NetworKit Day 2022</h1>
+  <p><strong>NetworKit Day 2022</strong> is planned to take place on <strong>March 3rd, 2022</strong>. Details </p>
+
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse1">Event Details</button><br><div id="collapse1" class="collapse in">
+    <h2>Overview</h2>
+    <p>NetworKit Day will start at 1 p.m. and ending at 6 p.m CET. Details concerning the program schedule will be listed here at a later date.</p>
+  </div>
+
+  <br><br>
   <h1>NetworKit Day 2020</h1>
-  <p><strong>NetworKit Day 2020</strong> was held on <strong>October 15, 2020</strong> via zoom.</p>
+  <p><strong>NetworKit Day 2020</strong> was held on <strong>October 15th, 2020</strong> via zoom.</p>
 
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse1">Event Details</button><br><div id="collapse1" class="collapse in">
     <h2>Overview</h2>
@@ -67,7 +76,7 @@ In the following you can get information about future and past NetworKit Day Eve
   <br><br>
 
   <h1>NetworKit Day 2017</h1>
-  <p><strong>NetworKit Day 2017</strong> was held on <strong>September 12, 2017</strong> at Karlsruhe Institute of Technology (KIT).</p>
+  <p><strong>NetworKit Day 2017</strong> was held on <strong>September 12th, 2017</strong> at Karlsruhe Institute of Technology (KIT).</p>
 
     <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse2">Event Details</button><br><div id="collapse2" class="collapse">
     <h2>Overview</h2>
