@@ -18,18 +18,53 @@ In the following you can get information about future and past NetworKit Day Eve
 
   <br><br>
   <h1>NetworKit Day 2022</h1>
-  <p><strong>NetworKit Day 2022</strong> is planned to take place on <strong>March 3rd, 2022</strong>. Details </p>
+  <p><strong>NetworKit Day 2022</strong> is taking place on <strong>March 3rd, 2022</strong> online via Zoom.</p>
 
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse1">Event Details</button><br><div id="collapse1" class="collapse in">
-    <h2>Overview</h2>
-    <p>NetworKit Day will start at 1 p.m. and ending at 6 p.m CET. Details concerning the program schedule will be listed here at a later date.</p>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse3">Event Details</button><br><div id="collapse3" class="collapse in">
+      <p><br>This event is about interacting with the community. We share our latest updates, 
+      give insights for new users and also offer two workshops: one for beginners and one for advanced users. 
+      If you want to attend one or more workshops, better be prepared with a notebook and a modern webbrowser 
+      (although it is only for convenience, not a requirement). We also intend to discuss future development 
+      directions and receive feedback on the current status of NetworKit.</p>
+    <h2>Preliminary program (all times in CET)</h2><br>
+    <ul>
+      <li>1:00pm - 1:20pm : Welcome and introduction (Henning Meyerhenke, HU Berlin)</li>
+      <li>1:20pm - 1:30pm : History and Numbers (Fabian Brandt-Tumescheit, HU Berlin)</li>
+      <li>1:30pm - 2:10pm : Scientific Talk: "Robustness of Complex Networks" (Rob Kooij, Tu Delft)</li>
+      <ul>
+        <li><u>Abstract:</u> Network Science aims to understand the graph structure of networks and the dynamic 
+        processes that take place on networks. Examples of processes on networks are transport of items 
+        (IP packets with digitalized information, cars, containers) and diffusion (epidemics, electric current,
+        water flows, human emotions). The Network Architectures and Services Section at the Delft University of 
+        Technology contributes to the fundaments of Network Science: we investigate amongst others geometric 
+        representations of networks, epidemic spread on networks, spectra of graphs and network algorithms. In addition, 
+        we apply our mathematical knowledge to the design, management and control of critical infrastructures, such 
+        as telecom networks and power grids, in order to make these networks robust, resilient, efficient and reliable. 
+        In this talk we will give two examples of our results in the field of robustness of complex networks, namely 
+        robustness of network controllability and cascading failures in power grids.</li>
+      </ul>
+    </ul>
+    <h3>COFFEE BREAK</h3>
+    <ul>
+      <li>2:30pm - 2:40pm : What is new in NetworKit? (Fabian Brandt-Tumescheit, HU Berlin)</li>
+      <li>2:40pm - 3:40pm : Parallel Workshop-Sessions (Eugenio Angriman + Alexander van der Grinten, HU Berlin)</li>
+      <ul>
+        <li>Workshop I: Introduction for Beginner</li>
+        <li>Workshop II: Advanced Users</li>
+      </ul>
+    </ul>
+    <h3>COFFEE BREAK</h3>
+    <ul>
+      <li>4:00pm - 4:50pm : Community Panel - Discussion and Outlook (moderated by Henning Meyerhenke)</li>
+      <li>3:50pm - 4:00pm : Wrap Up (Henning Meyerhenke)</li>
+    </ul>
   </div>
 
   <br><br>
   <h1>NetworKit Day 2020</h1>
   <p><strong>NetworKit Day 2020</strong> was held on <strong>October 15th, 2020</strong> via zoom.</p>
 
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse1">Event Details</button><br><div id="collapse1" class="collapse in">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse2">Event Details</button><br><div id="collapse2" class="collapse">
     <h2>Overview</h2>
     <p>The goal of this day is to both present NetworKit to people who don’t know it yet and to update 
     more seasoned users and developers about the new features, which have grown quite a bit over the
@@ -78,7 +113,7 @@ In the following you can get information about future and past NetworKit Day Eve
   <h1>NetworKit Day 2017</h1>
   <p><strong>NetworKit Day 2017</strong> was held on <strong>September 12th, 2017</strong> at Karlsruhe Institute of Technology (KIT).</p>
 
-    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse2">Event Details</button><br><div id="collapse2" class="collapse">
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse1">Event Details</button><br><div id="collapse1" class="collapse">
     <h2>Overview</h2>
     <p>We are happy to announce the first <strong>NetworKit Day</strong>, which will be held on <strong>September 12, 2017</strong> at the <strong>Karlsruhe Institute of Technology (KIT)</strong>, Karlsruhe, Germany.
       The goal of this day is to both present NetworKit to people who don’t know it yet and to update more seasoned users and developers about the current features, which have grown quite a bit over the last years. Also, in this meeting we wish to discuss future development directions and receive feedback on the current status of NetworKit. If you would like to attend or receive further information, feel free to send an e-mail to Elisabetta Bergamini.
