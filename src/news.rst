@@ -18,6 +18,20 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+February 8, 2022: **NetworKit Day 2022 - March 3rd**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Dear (prospective and current) NetworKit users and developers,
+
+as already announced at a previous date - we are looking forward to a new NetworKit Day in 2022, taking place on March 3rd from 1 p.m. to 5 p.m. (CET) online via Zoom. Registration is mandatory, but free of charge.
+This event is - as the previous ones - about interacting with the community. We share our latest updates, give insights for new users and also offer two workshops: one for beginners and one for advanced users. If you want to attend one or more workshops, better be prepared with a notebook and a modern webbrowser (although it is only for convenience, not a requirement). We also intend to discuss future development directions and receive feedback on the current status of NetworKit. NetworKit Day will also feature one scientific talk by Rob Kooij from TU Delft (Netherlands) about "Robustness of Complex Networks".
+
+The program of the event can be found on our NetworKit Day subpage.
+
+:underline:`Link for registration:` https://www.eventbrite.de/e/networkit-day-2022-nd22-registration-261084148717
+
+Looking forward to seeing you on March 3rd!
+
 December 20, 2021: **Save the Date: NetworKit Day 2022**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
