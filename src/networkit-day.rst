@@ -56,7 +56,7 @@ In the following you can get information about future and past NetworKit Day Eve
     <h3>COFFEE BREAK</h3>
     <ul>
       <li>4:00pm - 4:50pm : Community Panel - Discussion and Outlook (moderated by Henning Meyerhenke)</li>
-      <li>3:50pm - 4:00pm : Wrap Up (Henning Meyerhenke)</li>
+      <li>4:50pm - 5:00pm : Wrap Up (Henning Meyerhenke)</li>
     </ul>
   </div>
 
