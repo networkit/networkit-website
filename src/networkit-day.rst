@@ -49,7 +49,7 @@ In the following you can get information about future and past NetworKit Day Eve
       <li>2:30pm - 2:40pm : What is new in NetworKit? (Fabian Brandt-Tumescheit, HU Berlin)</li>
       <li>2:40pm - 3:40pm : Parallel Workshop-Sessions (Eugenio Angriman + Alexander van der Grinten, HU Berlin)</li>
       <ul>
-        <li>Workshop I: Introduction for Beginner</li>
+        <li>Workshop I: Introduction for Beginners</li>
         <li>Workshop II: Advanced Users</li>
       </ul>
     </ul>
