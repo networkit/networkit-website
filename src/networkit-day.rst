@@ -47,11 +47,8 @@ In the following you can get information about future and past NetworKit Day Eve
     <h3>COFFEE BREAK</h3>
     <ul>
       <li>2:30pm - 2:40pm : What is new in NetworKit? (Fabian Brandt-Tumescheit, HU Berlin)</li>
-      <li>2:40pm - 3:40pm : Parallel Workshop-Sessions (Eugenio Angriman + Alexander van der Grinten, HU Berlin)</li>
-      <ul>
-        <li>Workshop I: Introduction for Beginners</li>
-        <li>Workshop II: Advanced Users</li>
-      </ul>
+      <li>2:40pm - 3:10pm : Workshop I: Introduction for Beginners (Eugenio Angriman, HU Berlin)</li>
+      <li>3:10pm - 3:40pm : Workshop II: Advanced Users (Alexander van der Grinten, HU Berlin)</li>
     </ul>
     <h3>COFFEE BREAK</h3>
     <ul>
