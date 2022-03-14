@@ -18,6 +18,17 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+March 14, 2022: **New paper using NetworKit**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The paper `Interactive Visualization of Protein RINs using NetworKit in the Cloud <https://arxiv.org/abs/2203.01263>`_ (authors: E. Angriman, F. Brandt-Tumescheit, L. Franke, A. van der Grinten and H. Meyerhenke) 
+has been accepted for IPDPS workshop on Graphs, Architectures, Programming, and Learning (`GrAPL 2022 <https://hpc.pnl.gov/grapl/>`_). In the paper NetworKit is used for near realtime 
+manipulation and visualization of protein networks. A basic version of the visualization tool using `Plotly <https://plotly.com>`_ for generating 2D and 3D visualizations of networks 
+will be integrated in future releases.
+
+|
+|
+
 February 8, 2022: **NetworKit Day 2022 - March 3rd**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -32,12 +43,18 @@ The program of the event can be found on our NetworKit Day subpage.
 
 Looking forward to seeing you on March 3rd!
 
+|
+|
+
 December 20, 2021: **Save the Date: NetworKit Day 2022**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We are happy to announce a new NetworKit Day. The event will take place on March, 3rd 2022 - starting at 1 p.m. and ending at 6 p.m CET. Details concerning the program schedule will be shared at a later date.
 
 Wish you all a good holiday season!
+
+|
+|
 
 December 14, 2021: **NetworKit 9.1.1 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -68,6 +85,8 @@ GraphTools:
     - Fixed :code:`coloring.SpectralColoring()` by adjusting scipy-imports.
     - Fixed a problem for the experimental Windows support, where the wrong Python-libs are linked when multiple Python-versions are installed.
 
+|
+|
 
 July 1, 2021: **NetworKit 9.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
