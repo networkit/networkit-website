@@ -37,7 +37,7 @@ May 18, 2021: **NetworKit 10.0 released**
 - Dynamics module: possibility to compare graph events via binary operators, available both in C++ and Python.
 - Generators module: removal of the quadratic version of the Barabasi Albert Generator. See https://github.com/networkit/networkit/issues/787 for details.
 - Graph class: the algorithm to compute Kruskal Minimum Spanning Forest now uses the SpanningForest algorithm for undirected graphs. This leads to a general performance improvement.
-- Deprecation of several Python modules: :code:`csbridge`, :code:`exceptions`, :code:`GEXFIO`, :code:`GraphMLIO`, :code:`sampling`, :code:`stopwatch`, :code:`viztasks`, :code:`workflows`. Note that some functionalities are moved to other modules. See documentation of further details.
+- Deprecation of several Python modules: :code:`csbridge`, :code:`exceptions`, :code:`GEXFIO`, :code:`GraphMLIO`, :code:`partitioning`, :code:`sampling`, :code:`stopwatch`, :code:`viztasks`, :code:`workflows`. Note that some functionalities are moved to other modules. See documentation of further details.
 - Improvement of the Python documentation. Doc-strings now report input parameters, return values, and inheritance relationship.
 - Python APIs for the Maxent-Stress layout algorithm now support 3D coordinates.
 
