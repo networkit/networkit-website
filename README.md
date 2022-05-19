@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/networkit/networkit-website.svg?branch=master)](https://travis-ci.org/networkit/networkit-website)
+![Build Status](https://github.com/networkit/networkit-website/actions/workflows/ci.yml/badge.svg)
