@@ -21,15 +21,15 @@ News
 May 18, 2021: **NetworKit 10.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:underline:`New features``:
+:underline:`New features`:
 - Native support for node attributes. In C++ the attributes can be of any type. Python does not support generic data types; thus, NetworKit node attributes in Python are restriced to type :code:`int`, :code:`float`, and :code:`str`, and may be subject to changes in the future. See https://networkit.github.io/dev-docs/python_api/graph.html#networkit.graph.Graph.attachNodeAttribute for details. The attribute API is still considered experimental and may change in the future.
 - New Python module :code:`vizbridges`: provides functions for 2D and 3D graph visualization (via Cytoscape/Plotly) within Jupyter Notebooks. See the documentation and our example notebooks for more details. Module :code:`csbridge` is deprecated in favor of vizbridges and respective functionality is moved there. An application built on top of vizbridges is described in "Interactive Visualization of Protein RINs using NetworKit in the Cloud" (E. Angriman, F. Brandt-Tumescheit, L. Franke, A. van der Grinten, H. Meyerhenke).
 
-:underline:`New algorithms (centrality)``:
+:underline:`New algorithms (centrality)`:
   - New algorithm for computing the Local Clustering Coefficient based on squares. This is a contribution from Till Hoffmann (@tillahoffmann) from Harvard T.H. Chan School of Public Health.
   - New algorithm for Forest Closeness Centrality based on "New Approximation Algorithms for Forest Closeness Centrality - for Individual Vertices and Vertex Groups", A. van der Grinten, E. Angriman, M. Predari, H. Meyerhenke, SDM21.
 
-:underline:`Further changes and improvements``:
+:underline:`Further changes and improvements`:
 - C++ standard updated to version 17, oldest supported compilers are Clang 5.0, GCC 7 (and equivalent MSVC, AppleClang).
 - APSP: support for graphs with non-existing nodes.
 - SPSP: support for a list of target nodes; the algorithm stops once all target nodes have been visited.
@@ -41,7 +41,7 @@ May 18, 2021: **NetworKit 10.0 released**
 - Improvement of the Python documentation. Doc-strings now report input parameters, return values, and inheritance relationship.
 - Python APIs for the Maxent-Stress layout algorithm now support 3D coordinates.
 
-:underline:`Notable Bug-Fixes``:
+:underline:`Notable Bug-Fixes`:
 - Fixed bug in the dynamic Dijkstra implementation (after an edge update, some distances were not updated correctly).
 
 |
