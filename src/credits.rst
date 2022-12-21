@@ -20,20 +20,22 @@ Maintainers
 ~~~~~~~~~~~
 
 - Eugenio Angriman
-- Alexander van der Grinten
+- Fabian Brandt-Tumescheit
 - Henning Meyerhenke
 
 Past Maintainers
 ~~~~~~~~~~~~~~~~
 
-- Christian L. Staudt
+- Alexander van der Grinten
 - Elisabetta Bergamini
 - Kolja Esders
+- Christian L. Staudt
 - Maximilian Vogel
 
 Contributors
 ~~~~~~~~~~~~
 
+- Klaus Ahrens
 - Roman Bange
 - Lukas Barth
 - Miriam Beddig
@@ -41,15 +43,19 @@ Contributors
 - Pratistha Bhattarai
 - Andreas Bilke
 - Simon Bischof
-- Fabian Brandt-Tumescheit
 - Guido Brückner
+- Daniel Darabos 
 - Mark Erb
 - Philipp Fischbeck
 - Patrick Flick
+- John Gelhausen
+- Lars Gottesbüren 
 - Jeff Green
+- David Grinberg
 - Michael Hamann
 - Lukas Hartmann
 - Ali Haydari
+- Till Hoffmann
 - Daniel Hoske
 - Yani Kolev
 - Marten Lienen
@@ -61,8 +67,10 @@ Contributors
 - Franz-Benjamin Mocnik
 - Charmaine Nyambura Ndolo
 - Chien-Chun Ni
+- F. Nguyen
 - Mustafa Özdayi
 - Manuel Penschuck
+- Lucas Archimedes Gregorio Henr Petersen
 - Marvin Pogoda
 - Marcel Radermacher
 - Klara Reichard
@@ -70,6 +78,7 @@ Contributors
 - Marvin Ritter
 - Aleksejs Sazonovs
 - Arie Slobbe
+- Jonas Spinner
 - Jonathan Striebel 
 - Hung Tran
 - Florian Weber
