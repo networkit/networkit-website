@@ -18,7 +18,41 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
-May 18, 2021: **NetworKit 10.0 released**
+Mar 23, 2023: **NetworKit 10.1 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:underline:`New features`:
+    - :code:`TopCloseness` and :code:`TopHarmonicCloseness` now support restriction of the top-k calculation to certain nodes (while the truth is given by the complete graph). This can lead to significant speed-up in running time.
+    - It is now possible to let :code:`Graph.addEdge()` check for multi-edges when adding new edges. This is disabled by default, since it has an impact on the running time of :code:`addEdge()`. The return type changed to indicate whether the edge was added or not.
+    - :code:`Node2Vec` now also supports directed graphs. This was a contribution from Klaus Ahrens (@fidus58).
+    - Edge weights in a graph can now be randomized by calling :code:`GraphTools::randomizeWeights()` (C++) or :code:`networkit.graphtools.randomizeWeights()`. The C++ API also supports adding a custom distribution.
+
+:underline:`New algorithms (distance)`:
+    - New algorithm: Pruned Landmark Labeling based on T. Akiba, Y. Iwata, Y. Yoshida, SIGMOD '13. The algorithm computes distance labels which are used to answer shortest-path distance queries.
+
+:underline:`Further changes and improvements`:
+    - Python 3.11 is now fully supported. With release 10.1 onward, a wheel for Linux, macOS and Windows will be available via all distribution channels.
+    - Supported compiler now include GCC 12.0 and Clang 15.0. Note that compiler older than five years are not officially supported anymore. This now includes Clang :code:`<6.0` and GCC :code:`<8.1` (with the exception of :code:`7.4`).
+    - Calling names for enums in both Python and C++ is now unified. Before the change, different enums were written with different naming schemes (for example: ClosenessVariant::standard, ClosenessType::OUTBOUND). Also naming scheme between Python and C++ differed in various cases. The new convention is: :code:`CamelCase` for identifiers and :code:`SCREAMING_SNAKE_CASE` for members. For backwards compatibility all previous calling conventions still work (for two releases).
+    - In addition all enums in Python are now callable as member of their module. For example: :code:`networkit.centrality.ClosenessType.OUTBOUND`.
+    - Previously non-existing edge ids were returned as 0 which could be misleading. Now they return as :code:`none` to be clear that the edge id doesn't exist. See https://github.com/networkit/networkit/issues/747 for details.
+    - For :code:`SpanningEdgeCentrality`, it is now mandatory to index the edges before running the algorithm. See https://github.com/networkit/networkit/issues/967 for details.
+    - Improved :code:`MatrixMarketReader` now supports :code:`%`-comments and warns for potential data loss for edge weights bigger than :code:`4.5*10^15`.
+
+
+:underline:`Notable Bug-Fixes`:
+    - Fixed bug in :code:`ParallelConnectedComponents`, which lead to occasional segmentation faults in the member function `getComponents()`.
+    - :code:`Graph` constructor now supports creation of graphs with indexed edges by passing :code:`edgesIndexed=True`. Before the fix doing so led to segmentation faults.
+    - Fixed bug for source-target shortest path algorithms (:code:`MultiTargetBFS`, :code:`MultiTargetDijkstra`), which caused segmentation faults when passing unreachable targets.
+    - Fixed inconsistent weights for graphs created by :code:`GraphTools::toUndirected()`/:code:`graphtools.toUndirected()`. Error occured when converting bidirectional edges. Fixed behavior per default creates an undirected edge with the summed up weight of both edges.
+    - Fix a potential bug in PLP. A variable was updated non-atomically in a parallel loop, which can lead to a possible race condition.
+    - Fixed :code:`NetworkBinaryWriter` error, which led to errornous graph files when writing graphs with deleted nodes (e.g. by calling :code:`G::removeNode(u)`).
+    - Fix EdmondsKarp :code:`getMaxFlow()` (for directed graphs) and :code:`getSourceSet()` (for directed/undirected graphs). This is a contribution from Jonas Charfreitag (@CharJon).
+
+|
+|
+
+May 18, 2022: **NetworKit 10.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :underline:`New features`:
