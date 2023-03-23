@@ -26,9 +26,9 @@ Maintainers
 Past Maintainers
 ~~~~~~~~~~~~~~~~
 
-- Alexander van der Grinten
 - Elisabetta Bergamini
 - Kolja Esders
+- Alexander van der Grinten
 - Christian L. Staudt
 - Maximilian Vogel
 
@@ -36,6 +36,7 @@ Contributors
 ~~~~~~~~~~~~
 
 - Klaus Ahrens
+- Thijs Baaijen
 - Roman Bange
 - Lukas Barth
 - Miriam Beddig
@@ -44,7 +45,9 @@ Contributors
 - Andreas Bilke
 - Simon Bischof
 - Guido Brückner
-- Daniel Darabos 
+- Johann Charfreitag
+- Daniel Darabos
+- Stephan Druskat
 - Mark Erb
 - Philipp Fischbeck
 - Patrick Flick
@@ -58,6 +61,7 @@ Contributors
 - Till Hoffmann
 - Daniel Hoske
 - Yani Kolev
+- Alexander Leonhardt
 - Marten Lienen
 - Gerd Lindner
 - Moritz v. Looz

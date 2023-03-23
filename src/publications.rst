@@ -30,6 +30,19 @@ Journal Paper on NetworKit as a Software Toolkit
 .. raw:: latex html
 
   <ul>
+      <li>
+        E. Angriman, A. van der Grinten, M. Hamann, H. Meyerhenke and M. Penschuck: Algorithms for Large-Scale Network Analysis and the NetworKit Toolkit. Algorithms for Big Data: DFG Priority Program 1736. Springer Nature Switzerland, 2023. pp. 3-20.
+        [<a href="https://link.springer.com/chapter/10.1007/978-3-031-21534-6_1">arXiv</a>]
+        <button type="button" class="btn-link collapsed"></button>
+        <div class="collapse">
+          <b>Abstract.</b> The abundance of massive network data in a plethora of applications makes scalable analysis algorithms and software tools necessary to generate 
+          knowledge from such data in reasonable time. Addressing scalability as well as other requirements such as good usability and a rich feature set, the open-source 
+          software NetworKit has established itself as a popular tool for large-scale network analysis. This chapter provides a brief overview of the contributions to NetworKit 
+          made by the SPP 1736. Algorithmic contributions in the areas of centrality computations, community detection, and sparsification are in the focus, but we also mention 
+          several other aspects – such as current software engineering principles of the project and ways to visualize network data within a NetworKit-based workflow.
+        </div>
+    </li>
+    <br>
     <li>
         C. Staudt, A. Sazonovs and H. Meyerhenke: NetworKit: A Tool Suite for Large-scale Complex Network Analysis. Network Science 4(4), pp. 508-530, December 2016. Cambridge University Press.
         [<a href="http://arxiv.org/abs/1403.3005">arXiv</a>]
@@ -56,6 +69,73 @@ Publications on Algorithms Available in NetworKit
 
   <ul>
 
+  <li>
+  E. Angriman, A. Grinten, M. Predari, H. Meyerhenke:
+  New Approximation Algorithms for Forest Closeness Centrality - for Individual Vertices and Vertex Groups
+  In <i>Proceedings of the 2021 SIAM International Conference on Data Mining</i> (SDM 2021)
+  [<a href="https://arxiv.org/abs/2010.15435">arXiv</a>]
+
+  <button type="button" class="btn-link collapsed"></button>
+  <div id="collapseDiv" class="collapse">
+  <b>Abstract.</b>
+
+  The emergence of massive graph data sets requires fast mining algorithms. Centrality measures to 
+  identify important vertices belong to the most popular analysis methods in graph mining. 
+  A measure that is gaining attention is forest closeness centrality; it is closely related to electrical 
+  measures using current flow but can also handle disconnected graphs. Recently, [Jin et al., ICDM'19] 
+  proposed an algorithm to approximate this measure probabilistically. Their algorithm processes small 
+  inputs quickly, but does not scale well beyond hundreds of thousands of vertices.
+  In this paper, we first propose a different approximation algorithm; it is up to two orders of magnitude 
+  faster and more accurate in practice. Our method exploits the strong connection between uniform spanning 
+  trees and forest distances by adapting and extending recent approximation algorithms for related single-vertex 
+  problems. This results in a nearly-linear time algorithm with an absolute probabilistic error guarantee. 
+  In addition, we are the first to consider the problem of finding an optimal group of vertices w.r.t. forest 
+  closeness. We prove that this latter problem is NP-hard; to approximate it, we adapt a greedy algorithm 
+  by [Li et al., WWW'19], which is based on (partial) matrix inversion. Moreover, our experiments show that 
+  on disconnected graphs, group forest closeness outperforms existing centrality measures in the context of 
+  semi-supervised vertex classification. 
+  </div>
+  </li>
+
+  <br>
+  <li>
+  E. Angriman, R. Becker, G. D'Angelo, H. Gilbert, A. van der Grinten, H. Meyerhenke:
+  Group-Harmonic and Group-Closeness Maximization -- Approximation and Engineering
+  In <i>Proceedings of the Symposium on Algorithm Engineering and Experiments</i> (ALENEX 2021)
+  [<a href="https://arxiv.org/abs/2010.15435">arXiv</a>]
+
+  <button type="button" class="btn-link collapsed"></button>
+  <div id="collapseDiv" class="collapse">
+  <b>Abstract.</b>
+
+  Centrality measures characterize important nodes in networks. Efficiently 
+  computing such nodes has received a lot of attention. When considering the 
+  generalization of computing central groups of nodes, challenging optimization 
+  problems occur. In this work, we study two such problems, group-harmonic 
+  maximization and group-closeness maximization both from a theoretical and from 
+  an algorithm engineering perspective.
+  On the theoretical side, we obtain the following results. For group-harmonic 
+  maximization, unless P=NP, there is no polynomial-time algorithm that achieves 
+  an approximation factor better than \(1−1/e\) (directed) and \(1−1/(4e)\) (undirected), 
+  even for unweighted graphs. On the positive side, we show that a greedy algorithm 
+  achieves an approximation factor of \(\lambda(1−2/e)\) (directed) and \(\lambda(1−1/e)/2\) (undirected), 
+  where \(\lambda\) is the ratio of minimal and maximal edge weights. For group-closeness maximization, 
+  the undirected case is NP-hard to be approximated to within a factor better than 
+  \(1−1/(e+1)\) and a constant approximation factor is achieved by a local-search algorithm. 
+  For the directed case, however, we show that, for any \(\epsilon<1/2\), the problem is 
+  NP-hard to be approximated within a factor of \(4|V|^{−\epsilon}\).
+  From the algorithm engineering perspective, we provide efficient implementations 
+  of the above greedy and local search algorithms. In our experimental study we 
+  show that, on small instances where an optimum solution can be computed in reasonable 
+  time, the quality of both the greedy and the local search algorithms come very close 
+  to the optimum. On larger instances, our local search algorithms yield results with 
+  superior quality compared to existing greedy and local search solutions, at the cost 
+  of additional running time. We thus advocate local search for scenarios where solution 
+  quality is of highest concern. 
+  </div>
+  </li>
+
+  <br>
   <li>
   E. Angriman, A. van der Grinten, M. Predari and H. Meyerhenke:
   Approximation of the Diagonal of a Laplacian's Pseudoinverse for Complex Network Analysis
@@ -551,6 +631,51 @@ Publications Using NetworKit (notable examples)
 .. raw:: html
 
   <ul>
+    <li>
+       Z. Su, J. Kurths and H. Meyerhenke: . Cham: 
+      Published in <i>Algorithms for Big Data: DFG Priority Program 1736</i> issue 2023, 134-151. [<a href="https://link.springer.com/chapter/10.1007/978-3-031-21534-6_7">Springer Nature</a>]
+        <button type="button" class="btn-link collapsed"></button>
+        <div class="collapse">
+         <b>Abstract</b> We consider the problem of transforming a given graph into a quasi-threshold graph using a minimum number of edge additions and deletions. Building on the previously proposed heuristic Quasi-Threshold Mover (QTM), we present improvements both in terms of running time and quality. We propose a novel, linear-time algorithm that solves the inclusion-minimal variant of this problem, i.e., a set of edge edits such that no subset of them also transforms the given graph into a quasi-threshold graph. In an extensive experimental evaluation, we apply these algorithms to a large set of graphs from different applications and find that they lead QTM to find solutions with fewer edits. Although the inclusion-minimal algorithm needs significantly more edits on its own, it outperforms the initialization heuristic previously proposed for QTM. 
+       </div>
+    </li>
+
+    <br>
+
+    <li>
+       U. Brandes, M. Hamann, L. Häuser and D. Wagner: Skeleton-Based Clustering by Quasi-Threshold
+      Published in <i>Proceedings of ASONAM 2022</i>. [<a href="https://arxiv.org/abs/2301.03032">Link</a>] to arXiv pre-print.
+        <button type="button" class="btn-link collapsed"></button>
+        <div class="collapse">
+         <b>Abstract</b> Network (or graph) sparsification compresses a graph by removing inessential edges. By reducing the data volume, it accelerates or even facilitates many downstream analyses. Still, the accuracy of many sparsification methods, with filtering-based edge sampling being the most typical one, heavily relies on an appropriate definition of edge importance. Instead, we propose a different perspective with a generalized local-property-based sampling method, which preserves (scaled) local node characteristics. Apart from degrees, these local node characteristics we use are the expected (scaled) number of wedges and triangles a node belongs to. Through such a preservation, main complex structural properties are preserved implicitly. We adapt a game-theoretic framework from uncertain graph sampling by including a threshold for faster convergence (at least 4 times faster empirically) to approximate solutions. Extensive experimental studies on functional climate networks show the effectiveness of this method in preserving macroscopic to mesoscopic and microscopic network structural properties. 
+       </div>
+    </li>
+
+    <br>
+
+    <li>
+       E. Angriman, F. Brandt-Tumescheit, L. Franke, A. van der Grinten and H. Meyerhenke: Interactive Visualization of Protein RINs using NetworKit in the Cloud
+      Published in <i>Proceedings of IPDPSW 2022</i>. [<a href="https://ieeexplore.ieee.org/document/9835218">IEEE</a>]
+        <button type="button" class="btn-link collapsed"></button>
+        <div class="collapse">
+         <b>Abstract</b> Network analysis has been applied in diverse application domains. We consider an application from protein dynamics, specifically residue interaction networks (RINs). While numerous RIN visualization tools exist, there are no solutions that are both easily programmable and as fast as optimized network analysis toolkits. In this work, we use NetworKit - an established package for network analysis - to build a cloud-based environment that enables domain scientists to run their visualization and analysis workflows on large compute servers, without requiring extensive programming and/or system administration knowledge. To demonstrate the versatility of this approach, we use it to build a custom Jupyter-based widget for RIN visualization. In contrast to existing RIN visualization approaches, our widget can easily be customized through simple modifications of Python code, while both supporting a comprehensive feature set and providing near real-time speed. Due to its integration into Jupyter notebooks, our widget can easily interact with other popular packages of the Python ecosystem to build custom analysis pipelines (e.g., pipelines that feed RIN data into downstream machine learning tasks).
+       </div>
+    </li>
+
+    <br>
+
+
+    <li>
+       S. Valentini, F. Gandolfi, M. Carolo, D. Dalfovo, L. Pozza and A. Romanel:  Polympact: exploring functional relations among common human genetic variants.
+      Published in <i>Nucleic Acids Research</i> vol 50, Issue 3, 22 February 2022, Pages 1335–1350. [<a href="https://academic.oup.com/nar/article/50/3/1335/6513575">Oxford Academic</a>]
+        <button type="button" class="btn-link collapsed"></button>
+        <div class="collapse">
+         <b>Abstract</b> In the last years, many studies were able to identify associations between common genetic variants and complex diseases. However, the mechanistic biological links explaining these associations are still mostly unknown. Common variants are usually associated with a relatively small effect size, suggesting that interactions among multiple variants might be a major genetic component of complex diseases. Hence, elucidating the presence of functional relations among variants may be fundamental to identify putative variants interactions. To this aim, we developed Polympact, a web-based resource that allows to explore functional relations among human common variants by exploiting variants functional element landscape, their impact on transcription factor binding motifs, and their effect on transcript levels of protein-coding genes. Polympact characterizes over 18 million common variants and allows to explore putative relations by combining clustering analysis and innovative similarity and interaction network models. The properties of the network models were studied and the utility of Polympact was demonstrated by analysing the rich sets of Breast Cancer and Alzheimer's GWAS variants. We identified relations among multiple variants, suggesting putative interactions. Polympact is freely available at bcglab.cibio.unitn.it/polympact.
+       </div>
+    </li>
+
+    <br>
+
     <li>
       J. Kreutel, S. Martus, E. Thomalla and D. Zimmer:  Die Germanistik der Germanistik.
       Published in <i>Internationales Archiv für Sozialgeschichte der deutschen Literatur</i> issue 44, vol. 2, 2019. [<a href="https://www.degruyter.com/view/journals/iasl/44/2/article-p302.xml">De Gruyter</a>]
