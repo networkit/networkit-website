@@ -31,6 +31,7 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.ifconfig',
               'sphinx.ext.mathjax',
               'sphinx.ext.autosummary',
+              'sphinxcontrib.jquery'
               ]
 
 # Generate the API documentation when building
