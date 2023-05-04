@@ -24,14 +24,17 @@ Publications
 The following is a list of publications on the basis of NetworKit. We ask you to **cite** the appropriate ones if you found NetworKit useful for your own research.
 Also, we would appreciate it if you pointed us to your publications in which you used NetworKit and allowed us to reference them on this page.
 
-Journal Paper on NetworKit as a Software Toolkit
+Papers on NetworKit as a Software Toolkit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: latex html
 
+  <h5><b>Note</b>: If you use NetworKit for your publication and want to cite it, best use the most recent publication (first one listed on this page).</h5>
+  <br>
+
   <ul>
       <li>
-        E. Angriman, A. van der Grinten, M. Hamann, H. Meyerhenke and M. Penschuck: Algorithms for Large-Scale Network Analysis and the NetworKit Toolkit. Algorithms for Big Data: DFG Priority Program 1736. Springer Nature Switzerland, 2023. pp. 3-20.
+        E. Angriman, A. van der Grinten, M. Hamann, H. Meyerhenke and M. Penschuck: <b>Algorithms for Large-Scale Network Analysis and the NetworKit Toolkit</b>. Algorithms for Big Data: DFG Priority Program 1736. Springer Nature Switzerland, 2023. pp. 3-20.
         [<a href="https://link.springer.com/chapter/10.1007/978-3-031-21534-6_1">arXiv</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
@@ -44,7 +47,7 @@ Journal Paper on NetworKit as a Software Toolkit
     </li>
     <br>
     <li>
-        C. Staudt, A. Sazonovs and H. Meyerhenke: NetworKit: A Tool Suite for Large-scale Complex Network Analysis. Network Science 4(4), pp. 508-530, December 2016. Cambridge University Press.
+        C. Staudt, A. Sazonovs and H. Meyerhenke: <b>NetworKit: A Tool Suite for Large-scale Complex Network Analysis</b>. Network Science 4(4), pp. 508-530, December 2016. Cambridge University Press.
         [<a href="http://arxiv.org/abs/1403.3005">arXiv</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
@@ -71,7 +74,7 @@ Publications on Algorithms Available in NetworKit
 
   <li>
   E. Angriman, A. Grinten, M. Predari, H. Meyerhenke:
-  New Approximation Algorithms for Forest Closeness Centrality - for Individual Vertices and Vertex Groups
+  <b>New Approximation Algorithms for Forest Closeness Centrality - for Individual Vertices and Vertex Groups</b>. 
   In <i>Proceedings of the 2021 SIAM International Conference on Data Mining</i> (SDM 2021)
   [<a href="https://arxiv.org/abs/2010.15435">arXiv</a>]
 
@@ -100,7 +103,7 @@ Publications on Algorithms Available in NetworKit
   <br>
   <li>
   E. Angriman, R. Becker, G. D'Angelo, H. Gilbert, A. van der Grinten, H. Meyerhenke:
-  Group-Harmonic and Group-Closeness Maximization -- Approximation and Engineering
+  <b>Group-Harmonic and Group-Closeness Maximization -- Approximation and Engineering</b>. 
   In <i>Proceedings of the Symposium on Algorithm Engineering and Experiments</i> (ALENEX 2021)
   [<a href="https://arxiv.org/abs/2010.15435">arXiv</a>]
 
@@ -138,7 +141,7 @@ Publications on Algorithms Available in NetworKit
   <br>
   <li>
   E. Angriman, A. van der Grinten, M. Predari and H. Meyerhenke:
-  Approximation of the Diagonal of a Laplacian's Pseudoinverse for Complex Network Analysis
+  <b>Approximation of the Diagonal of a Laplacian's Pseudoinverse for Complex Network Analysis</b>. 
   In <i>Proc. 2020 - 28th Annual European Symposium on Algorithms.</i> (ESA 2020)
   [<a href="https://arxiv.org/abs/2006.13679">arXiv</a>]
 
@@ -177,7 +180,7 @@ Publications on Algorithms Available in NetworKit
   <br>
   <li>
   A. van der Grinten, H. Meyerhenke:
-  Scaling Betweenness Approximation to Billions of Edges by MPI-based Adaptive Sampling
+  <b>Scaling Betweenness Approximation to Billions of Edges by MPI-based Adaptive Sampling</b>. 
   In <i>Proc. 2020 - 34th International Parallel and Distributed Processing Symposium.</i> (IPDPS 2020)
   [<a href="https://arxiv.org/abs/1910.11039">arXiv</a>]
 
@@ -192,7 +195,7 @@ Publications on Algorithms Available in NetworKit
   <br>
   <li>
   E. Angriman, A. van der Grinten, H. Meyerhenke:
-  Local Search for Group Closeness Maximization on Big Graphs
+  <b>Local Search for Group Closeness Maximization on Big Graphs</b>. 
   In <i>Proc. 2019 IEEE International Conference on Big Data.</i> (BigData 2019)
   [<a href="https://arxiv.org/abs/1911.03360">arXiv</a>]
 
@@ -230,7 +233,7 @@ Publications on Algorithms Available in NetworKit
   <br>
   <li>
   E. Angriman, A. van der Grinten, Aleksandar Bojchevski, Daniel Zügner, Stephan Günnemann, H. Meyerhenke:
-  Group Centrality Maximization for Large-scale Graphs
+  <b>Group Centrality Maximization for Large-scale Graphs</b>. 
   In <i>Proc. 22nd SIAM Symposium on Algorithm Engineering & Experiments</i> (ALENEX 2020)
   [<a href="https://arxiv.org/pdf/1910.13874.pdf">arXiv</a>]
 
@@ -270,7 +273,7 @@ Publications on Algorithms Available in NetworKit
   <br>
   <li>
   A.v.d. Grinten, E. Angriman, H. Meyerhenke:
-  Parallel Adaptive Sampling with almost no Synchronization.
+  <b>Parallel Adaptive Sampling with almost no Synchronization</b>. 
   In <i>Proceedings of the 25th International Conference on Parallel and Distributed Computing</i> (Euro-Par 2019)
   [<a href="https://arxiv.org/abs/1903.09422">arXiv</a>]
   [<a href="https://doi.org/10.1007/978-3-030-29400-7_31">DOI: 10.1007/978-3-030-29400-7_31</a>]
@@ -285,7 +288,7 @@ Publications on Algorithms Available in NetworKit
   <br>
   <li>
   A.v.d. Grinten, E. Bergamini, O. Green, D. A. Bader, H. Meyerhenke:
-  Scalable Katz Ranking Computation in Large Static and Dynamic Graphs.
+  <b>Scalable Katz Ranking Computation in Large Static and Dynamic Graphs</b>. 
   In <i>26th Annual European Symposium on Algorithms</i> (ESA 2018)
   [<a href="https://arxiv.org/abs/1807.03847">arXiv</a>]
   [<a href="http://drops.dagstuhl.de/opus/volltexte/2018/9505/">DOI: 10.4230/LIPIcs.ESA.2018.42</a>]
@@ -300,7 +303,7 @@ Publications on Algorithms Available in NetworKit
 
   <li>
     C. J. Carstens, M. Hamann, U. Meyer, M. Penschuck, H. Tran, D. Wagner:
-    Parallel and I/O-efficient Randomisation of Massive Networks using Global Curveball Trades.
+    <b>Parallel and I/O-efficient Randomisation of Massive Networks using Global Curveball Trades</b>. 
     In <i>26th Annual European Symposium on Algorithms</i> (ESA 2018)
     [<a href="https://arxiv.org/abs/1804.08487">arXiv</a>]
     [<a href="http://drops.dagstuhl.de/opus/volltexte/2018/9474/">DOI: 10.4230/LIPIcs.ESA.2018.11</a>]
@@ -314,7 +317,8 @@ Publications on Algorithms Available in NetworKit
   <br>
 
   <li>
-  F.B. Mocnik: The Polynomial Volume Law of Complex Networks in the Context of Local and Global Optimization.
+  F.B. Mocnik: 
+  <b>The Polynomial Volume Law of Complex Networks in the Context of Local and Global Optimization</b>. 
   In <i>Scientific Reports</i>, volume 8, Article number: 11274 (2018).
   [<a href="https://doi.org/10.1038/s41598-018-29131-0">DOI: 10.1038/s41598-018-29131-0</a>]
   <button type="button" class="btn-link collapsed"></button>
@@ -327,7 +331,9 @@ Publications on Algorithms Available in NetworKit
    <br>
 
   <li>
-    P. Bisenius, E. Bergamini, E. Angriman, H. Meyerhenke: Computing Top-k Closeness Centrality in Fully-dynamic Graphs. In <i>Proc. 20th SIAM Workshop on Algorithm Engineering & Experiments</i> (ALENEX 2018)
+    P. Bisenius, E. Bergamini, E. Angriman, H. Meyerhenke: 
+    <b>Computing Top-k Closeness Centrality in Fully-dynamic Graphs</b>. 
+    In <i>Proc. 20th SIAM Workshop on Algorithm Engineering & Experiments</i> (ALENEX 2018)
       [<a href="https://arxiv.org/abs/1710.01143">arXiv</a>]
        [<a href="http://epubs.siam.org/doi/10.1137/1.9781611975055.3">DOI: 10.1137/1.9781611975055.3</a>]
     <button type="button" class="btn-link collapsed"></button>
@@ -340,7 +346,9 @@ Publications on Algorithms Available in NetworKit
   <br>
 
   <li>
-    E. Bergamini, T. Gonser, H. Meyerhenke: Scaling up Group Closeness Maximization. In <i>Proc. 20th SIAM Workshop on Algorithm Engineering & Experiments</i> (ALENEX 2018)
+    E. Bergamini, T. Gonser, H. Meyerhenke: 
+    <b>Scaling up Group Closeness Maximization</b>. 
+    In <i>Proc. 20th SIAM Workshop on Algorithm Engineering & Experiments</i> (ALENEX 2018)
       [<a href="https://arxiv.org/abs/1710.01144">arXiv</a>]
        [<a href="http://epubs.siam.org/doi/10.1137/1.9781611975055.18">DOI: 10.1137/1.9781611975055.18</a>]
     <button type="button" class="btn-link collapsed"></button>
@@ -353,7 +361,9 @@ Publications on Algorithms Available in NetworKit
   <br>
 
   <li>
-    C. L. Staudt, M. Hamann, A. Gutfraind, I. Safro, H. Meyerhenke:  Generating realistic scaled complex networks. In Journal of Applied Network Science, Volume 2, 2017.
+    C. L. Staudt, M. Hamann, A. Gutfraind, I. Safro, H. Meyerhenke: 
+    <b>Generating realistic scaled complex networks</b>. 
+    In Journal of Applied Network Science, Volume 2, 2017.
       [<a href="https://arxiv.org/abs/1609.02121">arXiv</a>]
        [<a href="https://doi.org/10.1007/s41109-017-0054-z">DOI:  10.1007/s41109-017-0054-z</a>]
     <button type="button" class="btn-link collapsed"></button>
@@ -366,7 +376,9 @@ Publications on Algorithms Available in NetworKit
   <br>
 
   <li>
-    E. Bergamini, M. Wegner, D. Lukarski, H. Meyerhenke:  Estimating Current-Flow Closeness Centrality with a Multigrid Laplacian Solver. In Proc. <i><a href="http://www.eecs.wsu.edu/~assefaw/CSC16/csc16.html">CSC</a> '16</i>. SIAM, 2016.
+    E. Bergamini, M. Wegner, D. Lukarski, H. Meyerhenke: 
+    <b>Estimating Current-Flow Closeness Centrality with a Multigrid Laplacian Solver</b>. 
+    In Proc. <i><a href="http://www.eecs.wsu.edu/~assefaw/CSC16/csc16.html">CSC</a> '16</i>. SIAM, 2016.
       [<a href="https://arxiv.org/abs/1607.02955">arXiv</a>]
        [<a href="http://epubs.siam.org/doi/abs/10.1137/1.9781611974690.ch1">DOI:  10.1137/1.9781611974690.ch1</a>]
     <button type="button" class="btn-link collapsed"></button>
@@ -386,7 +398,9 @@ Publications on Algorithms Available in NetworKit
   <br>
 
     <li>
-      M. von Looz, M. Özdayi, S. Laue, H. Meyerhenke:  Generating massive complex networks with hyperbolic geometry faster in practice. In Proc. <i><a href="http://ieee-hpec.org/">HPEC</a> '16</i>. IEEE, 2016. [<a href="http://arxiv.org/abs/1606.09481">arXiv</a>]
+      M. von Looz, M. Özdayi, S. Laue, H. Meyerhenke: 
+      <b>Generating massive complex networks with hyperbolic geometry faster in practice</b>. 
+      In Proc. <i><a href="http://ieee-hpec.org/">HPEC</a> '16</i>. IEEE, 2016. [<a href="http://arxiv.org/abs/1606.09481">arXiv</a>]
       <button type="button" class="btn-link collapsed"></button>
       <div class="collapse">
       <b>Abstract.</b>
@@ -402,7 +416,9 @@ Publications on Algorithms Available in NetworKit
     <br>
 
     <li>
-      M. von Looz, H. Meyerhenke: Querying Probabilistic Neighborhoods in Spatial Data Sets Efficiently. In Proc. <i><a href="http://iwoca2016.cs.helsinki.fi/">IWOCA 2016</a></i>, Springer, 2016. [<a href="http://arxiv.org/abs/1509.01990">arXiv</a>]
+      M. von Looz, H. Meyerhenke: 
+      <b>Querying Probabilistic Neighborhoods in Spatial Data Sets Efficiently</b>. 
+      In Proc. <i><a href="http://iwoca2016.cs.helsinki.fi/">IWOCA 2016</a></i>, Springer, 2016. [<a href="http://arxiv.org/abs/1509.01990">arXiv</a>]
       <button type="button" class="btn-link collapsed"></button>
       <div class="collapse">
       <b>Abstract.</b>
@@ -422,7 +438,9 @@ Publications on Algorithms Available in NetworKit
     <br>
 
     <li>
-      E. Bergamini, H. Meyerhenke: Approximating Betweenness Centrality in Fully-dynamic Networks. In <i>Internet Mathematics</i>, Volume 12, Issue 5, 2016.
+      E. Bergamini, H. Meyerhenke: 
+      <b>Approximating Betweenness Centrality in Fully-dynamic Networks</b>. 
+      In <i>Internet Mathematics</i>, Volume 12, Issue 5, 2016.
       [<a href="https://arxiv.org/abs/1510.07971">arXiv</a>]
        [<a href="https://doi.org/10.1080/15427951.2016.1177802">DOI:  10.1080/15427951.2016.1177802</a>]
         <button type="button" class="btn-link collapsed"></button>
@@ -444,7 +462,9 @@ Publications on Algorithms Available in NetworKit
     <br>
 
     <li>
-      G. Lindner, C. L. Staudt, M. Hamann, H. Meyerhenke, D. Wagner: Structure-Preserving Sparsification Methods for Social Networks. To appear in <i>Social Network Analysis
+      G. Lindner, C. L. Staudt, M. Hamann, H. Meyerhenke, D. Wagner: 
+      <b>Structure-Preserving Sparsification Methods for Social Networks</b>. 
+      To appear in <i>Social Network Analysis
       and Mining</i>.
       <button type="button" class="btn-link collapsed"></button>
       <div class="collapse">
@@ -465,7 +485,9 @@ Publications on Algorithms Available in NetworKit
     <br>
 
     <li>
-      E. Bergamini, M. Borassi, P. Crescenzi, A. Marino, H. Meyerhenke: Computing Top-k Closeness Centrality Faster in Unweighted Graphs. In <i>Proc. 18th SIAM Workshop on Algorithm
+      E. Bergamini, M. Borassi, P. Crescenzi, A. Marino, H. Meyerhenke: 
+      <b>Computing Top-k Closeness Centrality Faster in Unweighted Graphs</b>. 
+      In <i>Proc. 18th SIAM Workshop on Algorithm
       Engineering & Experiments</i> (ALENEX 2016).
       [<a href="https://arxiv.org/abs/1704.01077">arXiv</a>]
        [<a href="http://epubs.siam.org/doi/abs/10.1137/1.9781611974317.6">DOI:  10.1137/1.9781611974317.6</a>]
@@ -488,7 +510,9 @@ Publications on Algorithms Available in NetworKit
     <br>
 
     <li>
-      M. von Looz, R. Prutkin and H. Meyerhenke: Fast Generation of Complex Networks with Underlying Hyperbolic Geometry. In <i>Proc. 26th International Symposium on
+      M. von Looz, R. Prutkin and H. Meyerhenke: 
+      <b>Fast Generation of Complex Networks with Underlying Hyperbolic Geometry</b>. 
+      In <i>Proc. 26th International Symposium on
       Algorithms and Computation</i> (ISAAC 2015). Code in NetworKit. [<a href="http://arxiv.org/abs/1501.03545">arXiv</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
@@ -509,7 +533,9 @@ Publications on Algorithms Available in NetworKit
     <br>
 
     <li>
-      E. Bergamini and H. Meyerhenke: Fully-dynamic Approximation of Betweenness Centrality. In <i>Proc. 23rd European Symposium on Algorithms</i> (ESA 2015). [<a href="http://arxiv.org/abs/1504.07091">arXiv</a>]
+      E. Bergamini and H. Meyerhenke: 
+      <b>Fully-dynamic Approximation of Betweenness Centrality</b>. 
+      In <i>Proc. 23rd European Symposium on Algorithms</i> (ESA 2015). [<a href="http://arxiv.org/abs/1504.07091">arXiv</a>]
        [<a href="https://link.springer.com/chapter/10.1007/978-3-662-48350-3_14">DOI:  10.1007/978-3-662-48350-3_14</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
@@ -529,7 +555,9 @@ Publications on Algorithms Available in NetworKit
     <br>
 
     <li>
-      E. Bergamini, H. Meyerhenke and  C. Staudt: Approximating Betweenness Centrality in Large Evolving Networks. In <i>Proc. 17th SIAM Workshop on Algorithm Engineering & Experiments</i>
+      E. Bergamini, H. Meyerhenke and  C. Staudt: 
+      <b>Approximating Betweenness Centrality in Large Evolving Networks</b>. 
+      In <i>Proc. 17th SIAM Workshop on Algorithm Engineering & Experiments</i>
       (ALENEX 2015). [<a href="http://arxiv.org/abs/1409.6241">arXiv</a>] [<a href="http://dx.doi.org/10.1137/1.9781611973754.12">DOI: 10.1137/1.9781611973754.12</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
@@ -549,7 +577,9 @@ Publications on Algorithms Available in NetworKit
     <br>
 
     <li>
-      C. Staudt, Y. Marrakchi, H. Meyerhenke: Detecting Communities Around Seed Nodes in Complex Networks. In <i>Proc. First International Workshop on High Performance
+      C. Staudt, Y. Marrakchi, H. Meyerhenke: 
+      <b>Detecting Communities Around Seed Nodes in Complex Networks</b>. 
+      In <i>Proc. First International Workshop on High Performance
       Big Graph Data Management, Analysis, and Mining</i>, co-located with the <i>IEEE BigData 2014 conference</i>.
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
@@ -568,7 +598,9 @@ Publications on Algorithms Available in NetworKit
     <br>
 
     <li>
-      C. Staudt and H. Meyerhenke: Engineering Parallel Algorithms for Community Detection in Massive Networks. Accepted by <i>IEEE Transactions on Parallel and
+      C. Staudt and H. Meyerhenke: 
+      <b>Engineering Parallel Algorithms for Community Detection in Massive Networks</b>. 
+      Accepted by <i>IEEE Transactions on Parallel and
       Distributed Systems</i> (TPDS). [<a href="http://arxiv.org/abs/1304.4453">arXiv</a>]
       [<a href="http://dx.doi.org/10.1109/TPDS.2015.2390633">DOI: 10.1109/TPDS.2015.2390633</a>] &#169; 2015 IEEE
         <button type="button" class="btn-link collapsed"></button>
@@ -592,7 +624,9 @@ Publications on Algorithms Available in NetworKit
     <br>
 
     <li>
-      C. Staudt and H. Meyerhenke: Engineering High-Performance Community Detection Heuristics for Massive Graphs. In: <i>Proceedings of the 2013 International Conference on
+      C. Staudt and H. Meyerhenke: 
+      <b>Engineering High-Performance Community Detection Heuristics for Massive Graphs</b>. 
+      In: <i>Proceedings of the 2013 International Conference on
       Parallel Processing</i>. [<a href="http://arxiv.org/abs/1304.4453">updated and extended version on arXiv</a>,
       <a href="https://networkit.github.io/data/uploads/publications/sm2013ehpcdh.bib">bibtex</a>]
         <button type="button" class="btn-link collapsed"></button>
@@ -613,7 +647,9 @@ Publications on Algorithms Available in NetworKit
     <br>
 
     <li>
-      C. Staudt, M. Hamann, I. Safro, A. Gutfraind and H. Meyerhenke: Generating Scaled Replicas of Real-World Complex Networks. In: <i>Proceedings of the 5th International Workshop on Complex Networks and their Applications</i> [<a href="https://arxiv.org/abs/1609.02121">arXiv</a>]
+      C. Staudt, M. Hamann, I. Safro, A. Gutfraind and H. Meyerhenke: 
+      <b>Generating Scaled Replicas of Real-World Complex Networks</b>. 
+      In: <i>Proceedings of the 5th International Workshop on Complex Networks and their Applications</i> [<a href="https://arxiv.org/abs/1609.02121">arXiv</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
         <b>Abstract</b> Research on generative models plays a central role in the emerging field of network science, studying how statistical patterns found in real networks can be generated by formal rules. During the last two decades, a variety of models has been proposed with an ultimate goal of achieving comprehensive realism for the generated networks. In this study, we (a) introduce a new generator, termed ReCoN; (b) explore how models can be fitted to an original network to produce a structurally similar replica, and (c) aim for producing much larger networks than the original exemplar. In a comparative experimental study, we find ReCoN often superior to many other state-of-the-art network generation methods. Our design yields a scalable and effective tool for replicating a given network while preserving important properties at both micro- and macroscopic scales and (optionally) scaling the replica by orders of magnitude in size. We recommend ReCoN as a general practical method for creating realistic test data for the engineering of computational methods on networks, verification, and simulation studies. We provide scalable open-source implementations of most studied methods, including ReCoN.
@@ -632,8 +668,9 @@ Publications Using NetworKit (notable examples)
 
   <ul>
     <li>
-       Z. Su, J. Kurths and H. Meyerhenke: . Cham: 
-      Published in <i>Algorithms for Big Data: DFG Priority Program 1736</i> issue 2023, 134-151. [<a href="https://link.springer.com/chapter/10.1007/978-3-031-21534-6_7">Springer Nature</a>]
+      Z. Su, J. Kurths and H. Meyerhenke: 
+      <b>Skeleton-Based Clustering by Quasi-Threshold Editing</b>. 
+      In <i>Algorithms for Big Data: DFG Priority Program 1736</i> issue 2023, 134-151. [<a href="https://link.springer.com/chapter/10.1007/978-3-031-21534-6_7">Springer Nature</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
          <b>Abstract</b> We consider the problem of transforming a given graph into a quasi-threshold graph using a minimum number of edge additions and deletions. Building on the previously proposed heuristic Quasi-Threshold Mover (QTM), we present improvements both in terms of running time and quality. We propose a novel, linear-time algorithm that solves the inclusion-minimal variant of this problem, i.e., a set of edge edits such that no subset of them also transforms the given graph into a quasi-threshold graph. In an extensive experimental evaluation, we apply these algorithms to a large set of graphs from different applications and find that they lead QTM to find solutions with fewer edits. Although the inclusion-minimal algorithm needs significantly more edits on its own, it outperforms the initialization heuristic previously proposed for QTM. 
@@ -643,8 +680,9 @@ Publications Using NetworKit (notable examples)
     <br>
 
     <li>
-       U. Brandes, M. Hamann, L. Häuser and D. Wagner: Skeleton-Based Clustering by Quasi-Threshold
-      Published in <i>Proceedings of ASONAM 2022</i>. [<a href="https://arxiv.org/abs/2301.03032">Link</a>] to arXiv pre-print.
+      U. Brandes, M. Hamann, L. Häuser and D. Wagner: 
+      <b>Network Sparsification via Degree- and Subgraph-based Edge Sampling</b>. 
+      In <i>Proceedings of ASONAM 2022</i>. [<a href="https://arxiv.org/abs/2301.03032">Link</a>] to arXiv pre-print.
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
          <b>Abstract</b> Network (or graph) sparsification compresses a graph by removing inessential edges. By reducing the data volume, it accelerates or even facilitates many downstream analyses. Still, the accuracy of many sparsification methods, with filtering-based edge sampling being the most typical one, heavily relies on an appropriate definition of edge importance. Instead, we propose a different perspective with a generalized local-property-based sampling method, which preserves (scaled) local node characteristics. Apart from degrees, these local node characteristics we use are the expected (scaled) number of wedges and triangles a node belongs to. Through such a preservation, main complex structural properties are preserved implicitly. We adapt a game-theoretic framework from uncertain graph sampling by including a threshold for faster convergence (at least 4 times faster empirically) to approximate solutions. Extensive experimental studies on functional climate networks show the effectiveness of this method in preserving macroscopic to mesoscopic and microscopic network structural properties. 
@@ -654,8 +692,9 @@ Publications Using NetworKit (notable examples)
     <br>
 
     <li>
-       E. Angriman, F. Brandt-Tumescheit, L. Franke, A. van der Grinten and H. Meyerhenke: Interactive Visualization of Protein RINs using NetworKit in the Cloud
-      Published in <i>Proceedings of IPDPSW 2022</i>. [<a href="https://ieeexplore.ieee.org/document/9835218">IEEE</a>]
+      E. Angriman, F. Brandt-Tumescheit, L. Franke, A. van der Grinten and H. Meyerhenke: 
+      <b>Interactive Visualization of Protein RINs using NetworKit in the Cloud</b>. 
+      In <i>Proceedings of IPDPSW 2022</i>. [<a href="https://ieeexplore.ieee.org/document/9835218">IEEE</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
          <b>Abstract</b> Network analysis has been applied in diverse application domains. We consider an application from protein dynamics, specifically residue interaction networks (RINs). While numerous RIN visualization tools exist, there are no solutions that are both easily programmable and as fast as optimized network analysis toolkits. In this work, we use NetworKit - an established package for network analysis - to build a cloud-based environment that enables domain scientists to run their visualization and analysis workflows on large compute servers, without requiring extensive programming and/or system administration knowledge. To demonstrate the versatility of this approach, we use it to build a custom Jupyter-based widget for RIN visualization. In contrast to existing RIN visualization approaches, our widget can easily be customized through simple modifications of Python code, while both supporting a comprehensive feature set and providing near real-time speed. Due to its integration into Jupyter notebooks, our widget can easily interact with other popular packages of the Python ecosystem to build custom analysis pipelines (e.g., pipelines that feed RIN data into downstream machine learning tasks).
@@ -666,8 +705,9 @@ Publications Using NetworKit (notable examples)
 
 
     <li>
-       S. Valentini, F. Gandolfi, M. Carolo, D. Dalfovo, L. Pozza and A. Romanel:  Polympact: exploring functional relations among common human genetic variants.
-      Published in <i>Nucleic Acids Research</i> vol 50, Issue 3, 22 February 2022, Pages 1335–1350. [<a href="https://academic.oup.com/nar/article/50/3/1335/6513575">Oxford Academic</a>]
+      S. Valentini, F. Gandolfi, M. Carolo, D. Dalfovo, L. Pozza and A. Romanel:  
+      <b>Polympact: exploring functional relations among common human genetic variants</b>. 
+      In <i>Nucleic Acids Research</i> vol 50, Issue 3, 22 February 2022, Pages 1335–1350. [<a href="https://academic.oup.com/nar/article/50/3/1335/6513575">Oxford Academic</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
          <b>Abstract</b> In the last years, many studies were able to identify associations between common genetic variants and complex diseases. However, the mechanistic biological links explaining these associations are still mostly unknown. Common variants are usually associated with a relatively small effect size, suggesting that interactions among multiple variants might be a major genetic component of complex diseases. Hence, elucidating the presence of functional relations among variants may be fundamental to identify putative variants interactions. To this aim, we developed Polympact, a web-based resource that allows to explore functional relations among human common variants by exploiting variants functional element landscape, their impact on transcription factor binding motifs, and their effect on transcript levels of protein-coding genes. Polympact characterizes over 18 million common variants and allows to explore putative relations by combining clustering analysis and innovative similarity and interaction network models. The properties of the network models were studied and the utility of Polympact was demonstrated by analysing the rich sets of Breast Cancer and Alzheimer's GWAS variants. We identified relations among multiple variants, suggesting putative interactions. Polympact is freely available at bcglab.cibio.unitn.it/polympact.
@@ -677,8 +717,9 @@ Publications Using NetworKit (notable examples)
     <br>
 
     <li>
-      J. Kreutel, S. Martus, E. Thomalla and D. Zimmer:  Die Germanistik der Germanistik.
-      Published in <i>Internationales Archiv für Sozialgeschichte der deutschen Literatur</i> issue 44, vol. 2, 2019. [<a href="https://www.degruyter.com/view/journals/iasl/44/2/article-p302.xml">De Gruyter</a>]
+      J. Kreutel, S. Martus, E. Thomalla and D. Zimmer: 
+      <b>Die Germanistik der Germanistik</b>. 
+      In <i>Internationales Archiv für Sozialgeschichte der deutschen Literatur</i> issue 44, vol. 2, 2019. [<a href="https://www.degruyter.com/view/journals/iasl/44/2/article-p302.xml">De Gruyter</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
          <b>Abstract</b> The article examines the history and structure of the international bibliographical journal (internationales Referatenorgan) Germanistik from 1960 to 2009. By combining qualitative archival research and quantitative data analysis, it seeks to explore how the journal simultaneously took into account political, economic, and academic expectations; how it stimulated scholarly working practices; and how it contributed to the formation of networks within the heterogeneous field of German Studies.
@@ -688,7 +729,8 @@ Publications Using NetworKit (notable examples)
     <br>
 
     <li>
-      R. Glantz, H. Meyerhenke:  Many-to-many Correspondences between Partitions: Introducing a Cut-based Approach.
+      R. Glantz, H. Meyerhenke: 
+      <b>Many-to-many Correspondences between Partitions: Introducing a Cut-based Approach</b>. 
       To appear in <i>Proc. 18th SIAM Intl. Conf. on Data Mining</i> (SDM 2018). [<a href="https://arxiv.org/abs/1603.04788">arXiv</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
@@ -703,7 +745,8 @@ Publications Using NetworKit (notable examples)
     <br>
 
     <li>
-      M. Wegner, O. Taubert, A. Schug, H. Meyerhenke: Maxent-stress Optimization of 3D Biomolecular Models.
+      M. Wegner, O. Taubert, A. Schug, H. Meyerhenke: 
+      <b>Maxent-stress Optimization of 3D Biomolecular Models</b>. 
       In <i>Proc. 25th European Symposium on Algorithms</i> (ESA 2017). [<a href="https://arxiv.org/abs/1706.06805">arXiv</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
@@ -716,7 +759,8 @@ Publications Using NetworKit (notable examples)
     <br>
 
     <li>
-      M. Lozano, C. García-Martínez, F. J. Rodríguez, H. M. Trujillo: Optimizing network attacks by artificial bee colony.
+      M. Lozano, C. García-Martínez, F. J. Rodríguez, H. M. Trujillo: 
+      <b>Optimizing network attacks by artificial bee colony</b>. 
       In <i>Information Sciences, Volume 377</i>, pp. 30-50, January 2017.
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
@@ -731,7 +775,8 @@ Publications Using NetworKit (notable examples)
     <br>
 
     <li>
-      M. Riondato, E. Upfal: ABRA: Approximating Betweenness Centrality in Static and Dynamic Graphs with Rademacher Averages.
+      M. Riondato, E. Upfal: 
+      <b>ABRA: Approximating Betweenness Centrality in Static and Dynamic Graphs with Rademacher Averages</b>. 
       In <i>Proc. 22nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining</i> (KDD 2016), August 2016. [<a href="http://arxiv.org/abs/1602.05866">arXiv</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
@@ -745,7 +790,9 @@ Publications Using NetworKit (notable examples)
     <br>
 
     <li>
-      M. von Looz, M. Wolter, C. Jacob, H. Meyerhenke: Better partitions of protein graphs for subsystem quantum chemistry. In <i>Proc. 15th Intl. Symp. on Experimental
+      M. von Looz, M. Wolter, C. Jacob, H. Meyerhenke: 
+      <b>Better partitions of protein graphs for subsystem quantum chemistry</b>. 
+      In <i>Proc. 15th Intl. Symp. on Experimental
       Algorithms</i> (SEA 2016), June 2016.
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
@@ -765,7 +812,9 @@ Publications Using NetworKit (notable examples)
     <br>
 
     <li>
-      P. Crescenzi, G. D’Angelo, L. Severini, Y. Velaj: Greedily Improving Our Own Centrality in A Network. In <i>Proc. 14th Intl. Symp. on Experimental Algorithms</i> (SEA 2015).
+      P. Crescenzi, G. D’Angelo, L. Severini, Y. Velaj: 
+      <b>Greedily Improving Our Own Centrality in A Network</b>. 
+      In <i>Proc. 14th Intl. Symp. on Experimental Algorithms</i> (SEA 2015).
        LNCS 9125, pp. 43-55. Springer International Publishing, 2015.
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
@@ -780,7 +829,9 @@ Publications Using NetworKit (notable examples)
     <br>
 
     <li>
-      D. Hoske, D. Lukarski, H. Meyerhenke, M. Wegner: Is Nearly-linear the same in Theory and Practice? A Case Study with a Combinatorial Laplacian Solver. In <i>Proc. 14th Intl.
+      D. Hoske, D. Lukarski, H. Meyerhenke, M. Wegner: 
+      <b>Is Nearly-linear the same in Theory and Practice? A Case Study with a Combinatorial Laplacian Solver</b>. 
+      In <i>Proc. 14th Intl.
       Symp. on Experimental Algorithms</i> (SEA 2015). LNCS 9125, pp. 205-218. Springer International Publishing, 2015. [<a href="http://arxiv.org/abs/1502.07888">arXiv</a>]
         <button type="button" class="btn-link collapsed"></button>
         <div class="collapse">
