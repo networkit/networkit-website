@@ -18,6 +18,43 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+Dec 20, 2023: **NetworKit 11.0 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:underline:`New features`:
+    - The :code:`graphio` module now supports guessing the file format of a given graph. :code:`nk.graphio.guessFileFormat` either returns a supported graph format from the list (see: https://networkit.github.io/dev-docs/python_api/graphio.html#networkit.graphio.Format) or an :code:`IOError`. This functionality is used now, if a graph is read by :code:`graphio.readGraph` without giving the file format. See the corresponding IO-notebook for more information about the usage.
+    - The graph datastructure now supports :code:`EdgeAttributes`. These can be attached/removed/edited similarly to node attributes via Python and C++.
+    - Refactored :code:`Matrices` from the :code:`algebraic` module. This includes rewriting certain functions and adding new functionality. For :code:`CSRMatrix``: functions for iterating over all elements of the matrix, including zeros. For :code:`DenseMatrix``: functions to compute the adjacency, Laplacian, and incidence matrix of a graph and a diagonal matrix. For :code:`DynamcMatrix``: functions to iterate over the (non-zero) elements. In this way, all matrix classes offer the same set of APIs.
+    - A graph can now be constructed from several numpy/scipy data types, including :code:`scipy.sparse.coo_matrix`. The new function is available via :code:`nk.GraphFromCoo`. See the corresponding graph-notebook for more information about the usage.
+    - The new constructor uses :code:`graph.addEdges` underneath, which is also now available via the Python interface. Based on several numpy/scipy data sources, multiple edges can be added. This method has increased performance with respect to manually creating the graph and adding edges in a loop. 
+    - The :code:`plot` module in Python was completely rewritten, since most of its functionality was outdated. In addition a notebook was added, reflecting the changes.
+
+
+:underline:`New algorithms (distance)`:
+    - Dynamic 2-Hop Landmark Labeling based on https://dl.acm.org/doi/10.1145/3299901. The current implementation is only partially dynamic, since only edge insertions are supported.
+
+:underline:`Further changes and improvements`:
+    - Python 3.12 is now fully supported.
+    - :code:`compactEdges()` is now marked as deprecated, since there can not be any holes for missing edges in the data structure anymore. Accordingly :code: `removeEdge` now contains optional parameters (:code:`maintainSortedEdges` and :code:`maintainCompactEdgeIDs`) for maintaining ordering of edges / correct indexes of edge ids while removal. These parameters are normally only necessary for dynamic and more advanced use-cases. See the documentation and corresponding notebooks for more information.
+    - Several deprecated functions are removed entirely or are now integrated in different modules with release 11.0. Some smaller or outdated helper modules like :code:`stopwatch` are also removed without replacements. This concerns mostly the Python interface. 
+    - Supported compiler now include GCC 12.3 and Clang 16.0. Note that compiler older than five years are not officially supported anymore (no changes with respect to release 10.1 of NetworKit).
+    - The running time of :code:`HyperbolicGenerator` is improved slightly by using an algorithm, which generates sequences of sorted random numbers.
+    - Functions :code:`RandomEdgeScore::score`, :code:`RandomNodeEdgeScore::score` and :code:`Sfigality::maximum` are now implemented.
+    - A new notebook was added, describing the usage of dynamic algorithms in NetworKit. It is available via github and via the documentation page.
+
+
+:underline:`Notable Bug-Fixes`:
+    - Fixed a bug in :code:`DGSWriter`, where node restoration events were not correctly written to files.
+    - Fixed functions :code:`communicationGraph` and :code:`weightedDegreeWithCluster` from :code:`GraphClusteringTools` to return correct data types (directed/weighted).
+    - Subtraction of two :code:`DenseMatrix` now works correctly.
+    - Fixed the previously broken :code:`community.SpectralPartitioner`.
+    - :code:`community.kCoreCommunityDetection` gives now correct results.
+    - Fixed a heap corruption bug due to missing parameters in the Python interface of :code:`KadabraBetweenness`.
+    - Fixed a bug in :code:`BiconnectedComponents`, where the result of the algorithm was incorrect after a node got deleted from the graph data structure.
+
+|
+|
+
 Mar 23, 2023: **NetworKit 10.1 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
