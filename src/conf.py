@@ -52,7 +52,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'NetworKit'
-copyright = u'2018 Humboldt-Universität zu Berlin - Department of Computer Science - Modeling and Analysis of Complex Systems and contributors'
+copyright = u'2024 Humboldt-Universität zu Berlin - Department of Computer Science - Modeling and Analysis of Complex Systems and contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
