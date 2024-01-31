@@ -29,8 +29,8 @@ Jan 30, 2024: **NetworKit 11.0 released**
     - The graph datastructure now supports :code:`EdgeAttributes`. These can be attached/removed/edited similarly to node attributes via Python and
       C++.
     - Refactored :code:`Matrices` from the :code:`algebraic` module. This includes rewriting certain functions and adding new functionality. For
-      :code:`CSRMatrix``: functions for iterating over all elements of the matrix, including zeros. For :code:`DenseMatrix``: functions to compute the
-      adjacency, Laplacian, and incidence matrix of a graph and a diagonal matrix. For :code:`DynamcMatrix``: functions to iterate over the (non-zero)
+      :code:`CSRMatrix`: functions for iterating over all elements of the matrix, including zeros. For :code:`DenseMatrix`: functions to compute the
+      adjacency, Laplacian, and incidence matrix of a graph and a diagonal matrix. For :code:`DynamcMatrix`: functions to iterate over the (non-zero)
       elements. In this way, all matrix classes offer the same set of APIs.
     - A graph can now be constructed from several numpy/scipy data types, including :code:`scipy.sparse.coo_matrix`. The new function is available via
       :code:`nk.GraphFromCoo`. See the corresponding graph-notebook for more information about the usage.
