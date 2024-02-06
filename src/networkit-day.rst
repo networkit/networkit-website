@@ -17,6 +17,14 @@ In the following you can get information about future and past NetworKit Day Eve
 .. raw:: latex html
 
   <br><br>
+  <h1>NetworKit Day 2024</h1>
+  <p><strong>NetworKit Day 2022</strong> is taking place on <strong>April 9th, 2024</strong> online via Zoom, tentative time slot: 1pm to 6pm CET. The program is still t.b.a.</p>
+
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse3">Event Details</button><br><div id="collapse3" class="collapse in">
+  </div>
+
+
+  <br><br>
   <h1>NetworKit Day 2022</h1>
   <p><strong>NetworKit Day 2022</strong> is taking place on <strong>March 3rd, 2022</strong> online via Zoom.</p>
 
