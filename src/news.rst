@@ -18,6 +18,19 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+
+Feb 06, 2024: **Save the Date: NetworKit Day 2024**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We are happy to announce a new NetworKit Day. The event will take place on April, 9th 2024 - starting at 1 p.m. and ending at 6 p.m CET. Details
+concerning the program schedule will be shared at a later date.
+
+Best Wishes!
+
+|
+|
+
+
 Jan 30, 2024: **NetworKit 11.0 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
