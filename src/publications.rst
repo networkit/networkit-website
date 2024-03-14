@@ -668,6 +668,19 @@ Publications Using NetworKit (notable examples)
 
   <ul>
     <li>
+      J. Adamczyk, W. Czech:
+      <b>Strengthening Structural Baselines for Graph Classification Using Local Topological Profile</b>.
+      In <i>Mikyška, J., de Mulatier, C., Paszynski, M., Krzhizhanovskaya, V.V., Dongarra, J.J., Sloot, P.M. (eds) Computational Science – ICCS 2023. ICCS 2023. Lecture Notes in Computer Science, vol 10476. Springer, Cham.</i> [<a href="https://link.springer.com/chapter/10.1007/978-3-031-36027-5_47">Springer</a>]
+        <button type="button" class="btn-link collapsed"></button>
+        <div class="collapse">
+         <b>Abstract</b> 
+          We present the analysis of the topological graph descriptor Local Degree Profile (LDP), which forms a widely used structural baseline for graph classification. Our study focuses on model evaluation in the context of the recently developed fair evaluation framework, which defines rigorous routines for model selection and evaluation for graph classification, ensuring reproducibility and comparability of the results. Based on the obtained insights, we propose a new baseline algorithm called Local Topological Profile (LTP), which extends LDP by using additional centrality measures and local vertex descriptors. The new approach provides the results outperforming or very close to the latest GNNs for all datasets used. Specifically, state-of-the-art results were obtained for 4 out of 9 benchmark datasets. We also consider computational aspects of LDP-based feature extraction and model construction to propose practical improvements affecting execution speed and scalability. This allows for handling modern, large datasets and extends the portfolio of benchmarks used in graph representation learning. As the outcome of our work, we obtained LTP as a simple to understand, fast and scalable, still robust baseline, capable of outcompeting modern graph classification models such as Graph Isomorphism Network (GIN). We provide open-source implementation at <a href="https://github.com/j-adamczyk/LTP">GitHub</a>. 
+        </div>
+    </li>
+
+    <br>
+
+    <li>
       Z. Su, J. Kurths and H. Meyerhenke: 
       <b>Skeleton-Based Clustering by Quasi-Threshold Editing</b>. 
       In <i>Algorithms for Big Data: DFG Priority Program 1736</i> issue 2023, 134-151. [<a href="https://link.springer.com/chapter/10.1007/978-3-031-21534-6_7">Springer Nature</a>]
