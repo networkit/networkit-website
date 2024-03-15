@@ -18,7 +18,7 @@ In the following you can get information about future and past NetworKit Day Eve
 
   <br><br>
   <h1>NetworKit Day 2024</h1>
-  <p><strong>NetworKit Day 2022</strong> is taking place on <strong>April 9th, 2024</strong> online via Zoom, tentative time slot: 2pm to 6pm CET. The program is still t.b.a.</p>
+  <p><strong>NetworKit Day 2024</strong> is taking place on <strong>April 9th, 2024</strong> online via Zoom, tentative time slot: 2pm to 6pm CET. The program is still t.b.a.</p>
 
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse4">Event Details</button><br><div id="collapse4" class="collapse in">
     <p><br>This event is about interacting with the community. We share our latest updates, 
