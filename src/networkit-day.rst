@@ -18,9 +18,32 @@ In the following you can get information about future and past NetworKit Day Eve
 
   <br><br>
   <h1>NetworKit Day 2024</h1>
-  <p><strong>NetworKit Day 2022</strong> is taking place on <strong>April 9th, 2024</strong> online via Zoom, tentative time slot: 1pm to 6pm CET. The program is still t.b.a.</p>
+  <p><strong>NetworKit Day 2022</strong> is taking place on <strong>April 9th, 2024</strong> online via Zoom, tentative time slot: 2pm to 6pm CET. The program is still t.b.a.</p>
 
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse4">Event Details</button><br><div id="collapse4" class="collapse in">
+    <p><br>This event is about interacting with the community. We share our latest updates, 
+      give insights for new users and also offer two workshops: one for beginners and one for advanced users. 
+      If you want to attend one or more workshops, better be prepared with a notebook and a modern webbrowser 
+      (although it is only for convenience, not a requirement). We also intend to discuss future development 
+      directions and receive feedback on the current status of NetworKit.</p>
+    <h2>Preliminary program (all times in CET)</h2><br>
+    <ul>
+      <li>2:00pm - 1:20pm : Welcome and introduction (Henning Meyerhenke, HU Berlin)</li>
+      <li>2:20pm - 2:30pm : History and Numbers (Fabian Brandt-Tumescheit, HU Berlin)</li>
+      <li>2:30pm - 3:00pm : Invited talk by Jonathan Donges (Potsdam Institute for Climate Impact Research)</li>
+    </ul>
+    <h3>COFFEE BREAK</h3>
+    <ul>
+      <li>3:15pm - 3:30pm : What is new in NetworKit? (Fabian Brandt-Tumescheit, HU Berlin)</li>
+      <li>3:30pm - 4:00pm : Workshop I: Introduction for Beginners</li>
+      <li>4:00pm - 4:30pm : Invited talk by Kathrin Hanauer: Engineering Dynamic Graph Algorithms (University of Vienna)</li>
+    </ul>
+    <h3>COFFEE BREAK</h3>
+    <ul>
+      <li>4:45pm - 5:15pm : Workshop II: Introduction for advanced user/developers</li>
+      <li>5:15pm - 5:50pm : Community Discussion / Panel (Henning Meyerhenke)</li>
+      <li>5:50pm - 5:55pm : Wrap-up (Henning Meyerhenke)</li>
+    </ul>
   </div>
 
 
