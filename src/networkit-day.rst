@@ -30,13 +30,13 @@ In the following you can get information about future and past NetworKit Day Eve
     <ul>
       <li>2:00pm - 2:20pm : Welcome and introduction (Henning Meyerhenke, HU Berlin)</li>
       <li>2:20pm - 2:30pm : History and Numbers (Fabian Brandt-Tumescheit, HU Berlin)</li>
-      <li>2:30pm - 3:00pm : Invited talk by Jonathan Donges (Potsdam Institute for Climate Impact Research)</li>
+      <li>2:30pm - 3:00pm : Invited talk by Jonathan Donges (Potsdam Institute for Climate Impact Research) about "pyunicorn 0.7.0: Unified functional network and nonlinear time series analysis for complex systems science"</li>
     </ul>
     <h3>COFFEE BREAK</h3>
     <ul>
       <li>3:15pm - 3:30pm : What is new in NetworKit? (Fabian Brandt-Tumescheit, HU Berlin)</li>
       <li>3:30pm - 4:00pm : Workshop I: Introduction for Beginners</li>
-      <li>4:00pm - 4:30pm : Invited talk by Kathrin Hanauer (University of Vienna): Engineering Dynamic Graph Algorithms</li>
+      <li>4:00pm - 4:30pm : Invited talk by Kathrin Hanauer (University of Vienna): Engineering Dynamic Graph Algorithms about "Engineering Dynamic Graph Algorithms"</li>
     </ul>
     <h3>COFFEE BREAK</h3>
     <ul>
