@@ -19,6 +19,35 @@ News
 ---------------------------------
 
 
+Mar 15, 2024: **NetworKit Day 2024**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+As already announced - we are looking forward to a new NetworKit Day in 2024,
+taking place on April 9th from 2 p.m. to 6 p.m. (CET) online via Zoom.
+Registration is mandatory (to receive the Zoom link), but free of charge.
+
+This event is - like the previous ones - about interacting with the community.
+We share our latest updates, provide insights for new users and also offer two
+short tutorials: one for beginners and one for advanced users. We also intend
+to discuss future development directions and receive feedback on the current
+status of NetworKit.
+
+We are also pleased to feature two invited guest talks by Jonathan Donges
+(Potsdam Institute for Climate Impact Research) and Kathrin Hanauer
+(University of Vienna).
+
+The program of the event can be found on the event subpage:
+https://networkit.github.io/networkit-day.html
+
+Link for registration:
+https://www.eventbrite.de/e/networkit-day-2024-nd24-tickets-825016084317
+
+Looking forward to seeing you on April 9th!
+
+|
+|
+
+
 Feb 06, 2024: **Save the Date: NetworKit Day 2024**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
