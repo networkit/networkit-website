@@ -23,7 +23,7 @@ Mar 15, 2024: **NetworKit Day 2024**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As already announced - we are looking forward to a new NetworKit Day in 2024,
-taking place on April 9th from 2 p.m. to 6 p.m. (CET) online via Zoom.
+taking place on April 9th from 2 p.m. to 6 p.m. (CEST) online via Zoom.
 Registration is mandatory (to receive the Zoom link), but free of charge.
 
 This event is - like the previous ones - about interacting with the community.
