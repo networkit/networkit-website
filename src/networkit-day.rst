@@ -36,7 +36,7 @@ In the following you can get information about future and past NetworKit Day Eve
     <ul>
       <li>3:15pm - 3:30pm : What is new in NetworKit? (Fabian Brandt-Tumescheit, HU Berlin)</li>
       <li>3:30pm - 4:00pm : Workshop I: Introduction for Beginners</li>
-      <li>4:00pm - 4:30pm : Invited talk by Kathrin Hanauer (University of Vienna): Engineering Dynamic Graph Algorithms about "Engineering Dynamic Graph Algorithms"</li>
+      <li>4:00pm - 4:30pm : Invited talk by Kathrin Hanauer (University of Vienna) about "Engineering Dynamic Graph Algorithms"</li>
     </ul>
     <h3>COFFEE BREAK</h3>
     <ul>
