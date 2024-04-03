@@ -18,7 +18,7 @@ In the following you can get information about future and past NetworKit Day Eve
 
   <br><br>
   <h1>NetworKit Day 2024</h1>
-  <p><strong>NetworKit Day 2024</strong> is taking place on <strong>April 9th, 2024</strong> online via Zoom, tentative time slot: 2pm to 6pm CET. The program is still t.b.a.</p>
+  <p><strong>NetworKit Day 2024</strong> is taking place on <strong>April 9th, 2024</strong> online via Zoom, tentative time slot: 2pm to 6pm CEST. </p>
 
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse4">Event Details</button><br><div id="collapse4" class="collapse in">
     <p><br>This event is about interacting with the community. We share our latest updates, 
@@ -26,7 +26,7 @@ In the following you can get information about future and past NetworKit Day Eve
       If you want to attend one or more workshops, better be prepared with a notebook and a modern webbrowser 
       (although it is only for convenience, not a requirement). We also intend to discuss future development 
       directions and receive feedback on the current status of NetworKit.</p>
-    <h2>Preliminary program (all times in CET)</h2><br>
+    <h2>Program (all times in CEST)</h2><br>
     <ul>
       <li>2:00pm - 2:20pm : Welcome and introduction (Henning Meyerhenke, HU Berlin)</li>
       <li>2:20pm - 2:30pm : History and Numbers (Fabian Brandt-Tumescheit, HU Berlin)</li>
