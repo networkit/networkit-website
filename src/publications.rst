@@ -668,6 +668,18 @@ Publications Using NetworKit (notable examples)
 
   <ul>
     <li>
+      L. Berner and H. Meyerhenke: 
+      <b>Introducing Total Harmonic Resistance for Graph Robustness under Edge Deletions</b>. 
+      In <i>Proceedings of ECML PKDD 2024</i>. [<a href="https://arxiv.org/abs/2407.11521">Link</a>] to arXiv pre-print.
+        <button type="button" class="btn-link collapsed"></button>
+        <div class="collapse">
+         <b>Abstract</b> Assessing and improving the robustness of a graph G are critical steps in network design and analysis. To this end, we consider the optimisation problem of removing k edges from G such that the resulting graph has minimal robustness, simulating attacks or failures. In this paper, we propose total harmonic resistance as a new robustness measure for this purpose - and compare it to the recently proposed forest index [Zhu et al., IEEE Trans. Inf. Forensics and Security, 2023]. Both measures are related to the established total effective resistance measure, but their advantage is that they can handle disconnected graphs. This is also important for originally connected graphs due to the removal of the k edges. To compare our measure with the forest index, we first investigate exact solutions for small examples. The best k edges to select when optimizing for the forest index lie at the periphery. Our proposed measure, in turn, prioritizes more central edges, which should be beneficial for most applications. Furthermore, we adapt a generic greedy algorithm to our optimization problem with the total harmonic resistance. With this algorithm, we perform a case study on the Berlin road network and also apply the algorithm to established benchmark graphs. The results are similar as for the small example graphs above and indicate the higher suitability of the new measure. 
+       </div>
+    </li>
+
+    <br>
+    
+    <li>
       J. Adamczyk, W. Czech:
       <b>Strengthening Structural Baselines for Graph Classification Using Local Topological Profile</b>.
       In <i>Mikyška, J., de Mulatier, C., Paszynski, M., Krzhizhanovskaya, V.V., Dongarra, J.J., Sloot, P.M. (eds) Computational Science – ICCS 2023. ICCS 2023. Lecture Notes in Computer Science, vol 10476. Springer, Cham.</i> [<a href="https://link.springer.com/chapter/10.1007/978-3-031-36027-5_47">Springer</a>]
