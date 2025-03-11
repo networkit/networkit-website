@@ -18,6 +18,48 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+Mar 10, 2025: **NetworKit 11.1 released**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:underline:`New features`:
+    - New RB-Matrix and Graph reader. It is available via :code:`nk.graphio.RBGraphReader` or :code:`nk.readGraph(path,format=nk.graphio.Format.RB)` (`#1264 <https://github.com/networkit/networkit/pull/1264>`_).
+    - The MatrixMarket reader is now available in C++ and Python (`#1236 <https://github.com/networkit/networkit/pull/1236>`_, `#1262 <https://github.com/networkit/networkit/pull/1262/>`_)
+    - Add new function :code:`isBipartite`, which checks whether a given undirected graph is bipartite. Currently only implemented in C++ (`#1304 <https://github.com/networkit/networkit/pull/1304>`_).
+    - :code:`nk.graphtools.topologicalSort` now has an additional parameter :code:`nodeIdMap`, supplying a map of node ids, if the nodes in the graph are non-contiuous (`#1241 <https://github.com/networkit/networkit/pull/1241/>`_).
+    - Refactored the existing implementation of the Barabasi-Albert graph generator, leading to a significant speedup (`#1175 <https://github.com/networkit/networkit/pull/1175>`_) for multicore systems due to parallelization. The new implementation is based on "Scalable generation of scale-free graphs" by Sanders and Schulz.
+    - A similar treatment was done for RMat-Generator, the Configuration Model and the Chung-Lu Model (`#1164 <https://github.com/networkit/networkit/pull/1164>`_, `#1186 <https://github.com/networkit/networkit/pull/1186>`_, `#1177 <https://github.com/networkit/networkit/pull/1177>`_)
+    - LAMG-solver now supports multiple connected components in parallel (`#1212 <https://github.com/networkit/networkit/pull/1212>`_).
+    - The :code:`vizbridges` module now also supports the visualization of edge attributes (`#1230 <https://github.com/networkit/networkit/pull/1230>`_).
+    - :code:`DynBetweennessOneNode` (in module :code:`centrality`) now also supports weighted graphs (`#1245 <https://github.com/networkit/networkit/pull/1245>`_).
+
+
+:underline:`New algorithms`:
+    - Add `Left-Right Planarity Test <https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=7963e9feffe1c9362eb1a69010a5139d1da3661e>`_ algorithm by U. Brandes, which is used to determine whether a given graph is planar. This algorithm is available in C++ in the new :code:`planarity` module. Thanks for `@Schwarf <https://github.com/Schwarf>`_ for the contribution.
+    - Add b-Suitor algorithm both in a static version based on `Efficient Approx. Algorithms for weighted b-Matching <https://www.osti.gov/servlets/purl/1418504>`_ by Khan et al. and a edge dynamic version based on `A Fully-dynamic Approximation Algorithm for Maximum Weight b-Matchings in Graphs <https://arxiv.org/abs/2410.09965>`_ by Brandt-Tumescheit et al. Both algorithms are available in C++ and Python in the :code:`matching` module.
+
+
+:underline:`Further changes and improvements`:
+    - Python 3.13 and Numpy 2.X is fully supported, Python versions :code:`<3.10` is not supported anymore. This means, that wheels will only be available for 3.10 or higher.
+    - The oldest supported compiler are now GCC 10, LLVM 10. This enables the usage of C++20 features in the code base.
+    - Refactor CI pipeline (github actions) in order to detect memory leaks. As a result several minor possible leaks have been resolved (`#1283 <https://github.com/networkit/networkit/pull/1283>`_).
+    - As shown by Sahu et. al in "GVE-Leiden: Fast Leiden Algorithm for Community Detection in Shared Memory Setting" the current implementation of :code:`ParallelLeiden` might create a small fraction of disconnected communities. This behaviour is now documented and will be fixed in a future update.
+    - Building NetworKit via :code:`setup.py` does not anymore detect compatible compilers. This is now done in CMake directly, making the building process more robust.
+
+
+:underline:`Notable Bug-Fixes`:
+    - Fix attribute assignment from another attribute :code:`attr[i] = attr[j]` and general copy instructions (`#1279 <https://github.com/networkit/networkit/pull/1279>`_, `#1251 <https://github.com/networkit/networkit/pull/1251>`_).
+    - Fix edge attributes indexing on dynamic graphs (edge removal, insertion) (`#1257 <https://github.com/networkit/networkit/pull/1257>`_, `#1299 <https://github.com/networkit/networkit/pull/1257>`_).
+    - Fixed a bug in :code:`SignalHandler`, which led to inconsistent behavior when interrupting parallel code (`#1301 <https://github.com/networkit/networkit/pull/1301>`_).
+    - Fix :code:`RMatGenerator` for instances where the number of nodes exceeded the limit of :code:`uint32_t` (`#1268 <https://github.com/networkit/networkit/pull/1268>`_).
+    - Fix the product of two :code:`DynamicMatrix` instances (`#1252 <https://github.com/networkit/networkit/pull/1252>`_).
+    - Fix a problem in :code:`DynDijkstra`, whereby the shortest path itself was not created properly (`#1240 <https://github.com/networkit/networkit/pull/1240>`_).
+    - :code:`addEdge` now correctly adds missing nodes on dynamic graphs with id holes (`#1232 <https://github.com/networkit/networkit/pull/1232>`_).
+    - :code:`networkit.community.OverlappingNMIDistance` is working again (`#1229 <https://github.com/networkit/networkit/pull/1229>`_).
+    - :code:`networkit.generators.PowerlawDegreeSequence` is working again (`#1196 <https://github.com/networkit/networkit/pull/1196>`_).
+
+|
+|
+
 
 Mar 15, 2024: **NetworKit Day 2024**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
