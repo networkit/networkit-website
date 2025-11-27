@@ -26,9 +26,9 @@ Nov 03, 2025: **NetworKit 11.2 released**
 
 
 :underline:`New algorithms`:
-    - Successive Shortest Path (SSP) algorithm for solving the Minimum-Cost Flow problem. The algorithm is currently only available in C++ via :code:`NetworKit::SuccessiveShortestPathMinCostFlow`. Thanks to Andreas Schwarf (@Schwarf) for the contribution.
-    - Dinic's blocking-flow algorithm for calculating maximum flow in directed, weighted graphs. The algorithm is currently only available in C++ via :code:`NetworKit::Dinic`. Thanks to Andreas Schwarf (@Schwarf) for the contribution.
-    - Floyd-Warshall algorithm for computing all-pairs shortest paths in a weighted graph. The algorithm is currently only available in C++ via :code:`NetworKit::FloydWarshall`. Thanks to Andreas Schwarf (@Schwarf) for the contribution.
+    - Successive Shortest Path (SSP) algorithm for solving the Minimum-Cost Flow problem. The algorithm is currently only available in C++ via :code:`NetworKit::SuccessiveShortestPathMinCostFlow`. Thanks to Andreas Scharf (@Schwarf) for the contribution.
+    - Dinic's blocking-flow algorithm for calculating maximum flow in directed, weighted graphs. The algorithm is currently only available in C++ via :code:`NetworKit::Dinic`. Thanks to Andreas Scharf (@Schwarf) for the contribution.
+    - Floyd-Warshall algorithm for computing all-pairs shortest paths in a weighted graph. The algorithm is currently only available in C++ via :code:`NetworKit::FloydWarshall`. Thanks to Andreas Scharf (@Schwarf) for the contribution.
 
 
 :underline:`Further changes and improvements`:
