@@ -18,6 +18,34 @@ News
 :hidden:`HiddenBiggerHeadingFont`
 ---------------------------------
 
+Sep 01, 2026: **NetworKit Day 2026 - November 10th**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We are happy to announce a new NetworKit Day. The event takes place on
+November 10th, 2026 from 2:30 p.m. to 5:30 p.m. (CET) online via Zoom.
+Registration is mandatory (to receive the Zoom link), but free of charge.
+
+This event is - like the previous ones - about interacting with the community.
+We share our latest updates, provide insights for new users and also offer two
+parallel workshops: one for beginners and one for advanced users. We also
+intend to discuss future development directions and receive feedback on the
+current status of NetworKit.
+
+We are also pleased to feature an invited talk by Dr. Lutz Oettershagen
+(University of Liverpool).
+
+The program of the event can be found on the event subpage:
+https://networkit.github.io/networkit-day.html
+
+Link for registration:
+https://www.eventbrite.com/e/networkit-day-2026-nd26-tickets-1999387749581
+
+Looking forward to seeing you on November 10th!
+
+|
+|
+
+
 Nov 03, 2025: **NetworKit 11.2 released**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
