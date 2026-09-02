@@ -26,13 +26,19 @@ In the following you can get information about future and past NetworKit Day Eve
       If you want to attend one or more workshops, better be prepared with a notebook and a modern webbrowser 
       (although it is only for convenience, not a requirement). We also intend to discuss future development 
       directions and receive feedback on the current status of NetworKit.</p>
-    <p>You can register for the event (free of charge) here: <a href="https://www.eventbrite.com/e/networkit-day-2026-nd26-tickets-1999387749581">https://www.eventbrite.com/e/networkit-day-2026-nd26-tickets-1999387749581</a></p>
+    <p>NetworKit Day is our recurring community meeting, previously held in 2017, 2020, 2022 and 2024.
+      ND26 addresses three groups: people who already use NetworKit and want to see what has changed,
+      people who consider it for a new project, and people who want to help build it. Prior experience
+      with the toolkit is not required. The beginner workshop starts from scratch and shows how to run
+      analyses in Jupyter notebooks.</p>
+    <p>You can register for the event (free of charge) here: <a href="https://www.eventbrite.com/e/networkit-day-2026-nd26-tickets-1999387749581">https://www.eventbrite.com/e/networkit-day-2026-nd26-tickets-1999387749581</a><br>
+      The registration deadline is November 8th, 2026 (Anywhere on Earth).</p>
     <h2>Program (all times in CET)</h2><br>
     <ul>
       <li>2:30pm - 2:50pm : Welcome, motivation, introduction round (Henning Meyerhenke, KIT)</li>
       <li>2:50pm - 3:00pm : NetworKit in 2026: history and numbers (Mikhail Kirilin, KIT)</li>
       <li>3:00pm - 3:10pm : What's new since ND24 - the shortlist (Fabian Brandt-Tumescheit, HU Berlin)</li>
-      <li>3:10pm - 3:45pm : Invited talk by Dr. Lutz Oettershagen (University of Liverpool) about "TBA"</li>
+      <li>3:10pm - 3:45pm : Invited talk by Lutz Oettershagen (University of Liverpool) about "Beyond Static Graphs: Algorithms for Temporal Network Analysis"</li>
     </ul>
     <h3>COFFEE BREAK</h3>
     <ul>
@@ -41,7 +47,7 @@ In the following you can get information about future and past NetworKit Day Eve
         <li>Workshop I: for Beginners (Mikhail Kirilin, KIT)</li>
         <li>Workshop II: for Pros (Fabian Brandt-Tumescheit, HU Berlin)</li>
       </ul>
-      <li>4:40pm - 5:10pm : Community Discussion / Panel (Henning Meyerhenke, KIT)</li>
+      <li>4:40pm - 5:10pm : Community Discussion / Panel, e.g. feature requests (Henning Meyerhenke, KIT)</li>
       <li>5:10pm - 5:20pm : How to become a contributor (Mikhail Kirilin, KIT)</li>
       <li>5:20pm - 5:30pm : Wrap-up (Henning Meyerhenke, KIT)</li>
     </ul>

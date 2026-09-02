@@ -25,19 +25,27 @@ We are happy to announce a new NetworKit Day. The event takes place on
 November 10th, 2026 from 2:30 p.m. to 5:30 p.m. (CET) online via Zoom.
 Registration is mandatory (to receive the Zoom link), but free of charge.
 
+NetworKit Day is our recurring community meeting, with previous editions in
+2017, 2020, 2022 and 2024. ND26 addresses three groups: people who already use
+NetworKit and want to see what has changed, people who consider it for a new
+project, and people who want to help build it. Prior experience with the
+toolkit is not required.
+
 This event is - like the previous ones - about interacting with the community.
 We share our latest updates, provide insights for new users and also offer two
-parallel workshops: one for beginners and one for advanced users. We also
-intend to discuss future development directions and receive feedback on the
-current status of NetworKit.
+parallel workshops: one for beginners and one for advanced users. The beginner
+workshop starts from scratch and shows how to run analyses in Jupyter
+notebooks. We also intend to discuss future development directions and receive
+feedback on the current status of NetworKit, for example feature requests.
 
-We are also pleased to feature an invited talk by Dr. Lutz Oettershagen
-(University of Liverpool).
+We are also pleased to feature an invited talk by Lutz Oettershagen
+(University of Liverpool) on "Beyond Static Graphs: Algorithms for Temporal
+Network Analysis".
 
 The program of the event can be found on the event subpage:
 https://networkit.github.io/networkit-day.html
 
-Link for registration:
+Link for registration (deadline: November 8th, 2026, Anywhere on Earth):
 https://www.eventbrite.com/e/networkit-day-2026-nd26-tickets-1999387749581
 
 Looking forward to seeing you on November 10th!
