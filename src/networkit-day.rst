@@ -39,6 +39,17 @@ In the following you can get information about future and past NetworKit Day Eve
       <li>2:50pm - 3:00pm : NetworKit in 2026: history and numbers (Mikhail Kirilin, KIT)</li>
       <li>3:00pm - 3:10pm : What's new since ND24 - the shortlist (Fabian Brandt-Tumescheit, HU Berlin)</li>
       <li>3:10pm - 3:45pm : Invited talk by Lutz Oettershagen (University of Liverpool) about "Beyond Static Graphs: Algorithms for Temporal Network Analysis"</li>
+      <ul>
+        <li><u>Abstract:</u> Many real-world networks are inherently temporal: interactions occur at specific times,
+        connections appear and disappear, and the order of events can fundamentally determine what is reachable,
+        influential, or structurally important. Such evolving systems can be modeled using temporal networks, where
+        interactions are associated with times and paths must respect the resulting temporal order. Temporal network
+        analysis therefore calls for algorithmic approaches that go beyond those developed for static graphs. This talk
+        explores some of the key ideas and computational challenges that arise when time becomes an integral part of the
+        network model, and presents algorithmic techniques for extracting and understanding structure in evolving networks.
+        The focus will be on how temporal information changes the way network problems are formulated and solved, as well
+        as on the challenges of designing methods that remain efficient and scalable on large data sets.</li>
+      </ul>
     </ul>
     <h3>COFFEE BREAK</h3>
     <ul>
